@@ -69,7 +69,7 @@ export default {
   WEEK_AGO: 'Hace {count, plural, = 1 {1 semana} otras {# semanas}}',
   WEEK_TIME: '{cuenta, plural, = 1 {1 semana} otras {# semanas}}',
   DAY_AGO: '{count, plural, = 1 {1 day} other {# days}} ago',
-  DAY_TIME: '{cuenta, plural, = 1 {1 día} otro {# días}}',
+  DAY_TIME: '{count, plural, =1 {1 día} other {# días}}',
   HOUR_AGO: '{count, plural, = 1 {1 hour} other {# hours}} ago',
   HOUR_TIME: '{count, plural, = 1 {1 hour} other {# hours}}',
   MINUTE_AGO: 'Hace {count, plural, = 1 {1 minuto} otro {# minutes}} hace',
