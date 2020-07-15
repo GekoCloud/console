@@ -18,7 +18,7 @@
 
 export default {
   CONFIGMAP_CREATE_DESC: 'Un ConfigMap es un objeto utilizado para almacenar variables de configuración comunes, lo que permite la gestión unificada de variables de entorno para diferentes módulos en un sistema distribuido.',
-  CONFIGMAP_DESC: 'Un ConfigMap a menudo se usa para almacenar la información de configuración necesaria para las cargas de trabajo. Muchas aplicaciones leerán la información de los archivos de configuración, los parámetros de la línea de comandos o las variables de entorno.',
+  CONFIGMAP_DESC: 'Un ConfigMap a menudo se usa para almacenar la información de configuración necesaria para cargas de trabajo. Muchas aplicaciones leerán la información de archivos de configuración, de parámetros de la línea de comandos o de variables de entorno.',
   CONFIGMAPS_BASEINFO_DESC: '',
   CONFIGMAP_SETTINGS_DESC: '',
 
