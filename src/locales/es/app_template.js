@@ -17,6 +17,15 @@
  */
 
 export default {
+  'App README': 'App README',
+  'Configuration Files': 'Configuration Files',
+  'Deploy Successfully': 'Deploy Successfully',
+  'Edit by YAML': 'Edit by YAML',
+  'The app has no chart file.': 'The app has no chart file.',
+  'The app has no documentation.': 'The app has no documentation.',
+  'The version has no documentation.': 'The version has no documentation.',
+  'Update Successfully': 'Update Successfully',
+
   APP_TEMPLATE_DESCRIPTION_TITLE: 'Implementar aplicaciones empaquetadas',
   APP_TEMPLATE_DESCRIPTION_ARTICLE: 'KubeSphere visualiza plantillas de aplicaciones y proporciona funciones de implementación y administración, lo que permite a los usuarios implementar aplicaciones rápidamente con un solo clic en función de las plantillas de la aplicación.',
   TOTAL_APP_REPOS: 'Total de {num} repositorios de aplicaciones',

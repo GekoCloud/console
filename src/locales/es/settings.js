@@ -17,6 +17,16 @@
  */
 
 export default {
+  Configure: 'Configure',
+  'Current third-party login configurations':
+    'Current third-party login configurations',
+  'not configured': 'not configured',
+  'Please input client id': 'Please input client id',
+  'Please input server address': 'Please input server address',
+  'Protocol Type': 'Protocol Type',
+  'Server Address': 'Server Address',
+  'Third-party Login': 'Third-party Login',
+  
   THIRD_PARTY_LOGIN_DESC: 'Cuando se utiliza un servicio de terceros para iniciar sesión, los usuarios deben ingresar información relacionada. Después de eso, se creará un usuario local que está asociado con el usuario para el inicio de sesión seguro en el entorno.',
   THIRD_PARTY_LOGIN_Q: '¿Qué terceros son compatibles para iniciar sesión?',
   THIRD_PARTY_LOGIN_A: 'LDAP, AD, OAuth y Github OAuth son compatibles.',

@@ -17,6 +17,32 @@
  */
 
 export default {
+  'App Id': 'App Id',
+  'App Readme': 'App Readme',
+  'App Store': 'App Store',
+  'App Store Settings': 'App Store Settings',
+  Back: 'Back',
+  Captcha: 'Captcha',
+  Categories: 'Categories',
+  'Change Log': 'Change Log',
+  'Config files': 'Config files',
+  Contact: 'Contact',
+  Developer: 'Developer',
+  Discoveries: 'Discoveries',
+  'Find app': 'Find app',
+  'Install and Deploy': 'Install and Deploy',
+  Introduction: 'Introduction',
+  Keywords: 'Keywords',
+  Latest: 'Latest',
+  'New Apps': 'New Apps',
+  None: 'None',
+  Provider: 'Provider',
+  'Published Date': 'Published Date',
+  Screenshots: 'Screenshots',
+  Uncategorized: 'Uncategorized',
+  'Version Number': 'Version Number',
+  Versions: 'Versions',
+
   TOTAL_CATE_COUNT: '{total} Aplicaciones en total',
   HOME_APP_STORE_DESC: 'La App Store oficial de KubeSphere proporciona características de implementación y administración que permiten a los usuarios implementar aplicaciones rápidamente con un solo clic en base a plantillas de aplicaciones.',
 
