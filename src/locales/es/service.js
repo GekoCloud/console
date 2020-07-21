@@ -130,7 +130,7 @@ export default {
   SERVICE_SIMPLE_DESC:
     'Crear un servicio a partir de un grupo de pods existente',
   DELETE_SERVICE_DESC:
-    'Está a punto de eliminar los servicios {recurso}. ¿Confirma si desea eliminar el recurso asociado?',
+    'Está a punto de eliminar los servicios {resource}. ¿Confirma si desea eliminar el recurso asociado?',
   SERVICE_FROM_CODE:
     'Cree un nuevo servicio desde el repositorio de código fuente',
   SERVICE_FROM_ARTIFACTS: 'Construye un nuevo servicio a través del artefacto',

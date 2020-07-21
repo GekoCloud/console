@@ -190,10 +190,10 @@ export default {
   CIRCUIT_DESC:
     'El corte de circuito es un mecanismo de protección de conexión de microservicio que aborda el efecto de avalancha. Cuando un microservicio de la conexión de abanico no está disponible o el tiempo de respuesta es demasiado largo, el servicio se degradará y la llamada al microservicio del nodo se interrumpirá y la respuesta de error se devolverá rápidamente. Después de detectar que la respuesta del microservicio es normal, se reanudará la conexión.',
   'Last {num} records': 'Últimos {num} registros',
-  'Last {hour} hour': 'Última {hora} hora',
-  'Last {hour} hours': 'Últimas {hora} horas',
-  'Last {day} days': 'Últimos {días} días',
-  WORKLOAD_NAME_EXIST: 'La carga de trabajo {nombre} existe',
+  'Last {hour} hour': 'Última {hour} hora',
+  'Last {hour} hours': 'Últimas {hour} horas',
+  'Last {day} days': 'Últimos {day} días',
+  WORKLOAD_NAME_EXIST: 'La carga de trabajo {name} existe',
   APPLICATION_TYPE_DESC:
     'KubeSphere admite implementaciones de aplicaciones (basadas en Helm) desde App Store, así como Application CRD.',
   HOW_TO_USE_APPLICATION_GOVE_Q: '¿Cómo usar el gobierno de aplicaciones?',

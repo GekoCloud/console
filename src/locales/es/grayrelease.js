@@ -125,11 +125,11 @@ export default {
   MIRROR_POLICY_DESC:
     'Los microservicios nos permiten entregar aplicaciones más rápido sin afectar la estabilidad del negocio. En este sentido, la duplicación del tráfico reduce el riesgo de cambios en el entorno de producción. </br> Con Traffic Mirroring, el tráfico de red en el entorno de producción se puedes copiar en una versión en escala de grises, que sirve como una forma efectiva de probar la nueva versión antes de que se ejecute en el entorno real (con tráfico de usuarios en tiempo real).',
   RATIO_MODIFY_NOTIFY_CONTENT:
-    'Ha ajustado el índice de tráfico objetivo de la versión {versión} a {ratio}%, y puedes continuar ajustando el índice de tráfico objetivo o hacer que surta efecto de inmediato.',
+    'Ha ajustado el índice de tráfico objetivo de la versión {version} a {ratio}%, y puedes continuar ajustando el índice de tráfico objetivo o hacer que surta efecto de inmediato.',
   CANARY_BY_TRAFFIC_DESC:
-    'De acuerdo con la regla proporcional del tráfico, el {ratio}% del tráfico solicitado al componente {componente} se reenvía a la versión en escala de grises {newVersion}.',
+    'De acuerdo con la regla proporcional del tráfico, el {ratio}% del tráfico solicitado al componente {component} se reenvía a la versión en escala de grises {newVersion}.',
   DEPLOY_APP_CONFIRM: '¿Seguro de implementar una aplicación de muestra?',
-  DEPLOY_APP_TIP: 'Implementará la aplicación de muestra {nombre}.',
+  DEPLOY_APP_TIP: 'Implementará la aplicación de muestra {name}.',
   DEPLOY_SAMPLE_NO_INTERNET_ACCESS_TIP:
     'La puerta de enlace para el gobierno de la aplicación no se encuentra en el proyecto actual, por lo que no puedes implementar la aplicación de muestra. Póngase en contacto con el administrador de su proyecto para activarlo en [Configuración avanzada].',
   PREREQUEST_FOR_USE_GRAYRELEASE_Q:

@@ -150,7 +150,7 @@ export default {
     'Ingrese una dirección de correo electrónico para invitar miembros',
   INVITE_MEMBER_CHOOSE_ROLE_TIP: 'Asigne un rol a este miembro',
   DELETE_MEMBER_TIP:
-    '¿Estás seguro de eliminar el miembro <strong>{nombre}</strong> ? El miembro no puedes acceder a este proyecto una vez eliminado.',
+    '¿Estás seguro de eliminar el miembro <strong>{name}</strong> ? El miembro no puedes acceder a este proyecto una vez eliminado.',
   PROJECT_ADMIN_DESC:
     'Puedes especificar un miembro del proyecto como administrador.',
   DEVOPS_ADMIN_DESC:
@@ -165,7 +165,7 @@ export default {
   NO_RELATE_PROJECTS_DESC:
     'Puedes crear o ponerse en contacto con el gerente del proyecto para invitarlo al proyecto a comenzar su trabajo.',
   DELETE_PROJECT_TIP:
-    '¿Está seguro de eliminar el proyecto <strong>{recurso}</strong> ? Después de la eliminación, no podrá recuperarla, y los recursos del proyecto también serán destruidos.',
+    '¿Está seguro de eliminar el proyecto <strong>{resource}</strong> ? Después de la eliminación, no podrá recuperarla, y los recursos del proyecto también serán destruidos.',
   DEFAULT_RESOURCE_UNIT_DESC:
     'El valor de CPU indica el número de núcleos de CPU cuando no tiene unidad. 1 núcleo = 1000m',
   DEFAULT_RESOURCE_ALERT:

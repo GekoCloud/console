@@ -484,10 +484,10 @@ export default {
     'Vaya a la página de detalles de la sucursal para ver más.',
   CRON_DESC:
     'Habría corrido por última vez en {lastTime}; se ejecutará a las {nextTime}',
-  JENKINS_LINS_ERROR: 'tiene un error de sintaxis en la línea {línea}.',
+  JENKINS_LINS_ERROR: 'tiene un error de sintaxis en la línea {line}.',
   WHEN_DELETE_PIEPLINE_DESC:
     'Cuando se elimina una tubería, las tareas en la tubería especificada se activan automáticamente.',
   WHEN_CHRETE_PIEPLINE_DESC:
     'Cuando se crea una nueva tubería, las tareas en la tubería especificada se activan automáticamente.',
-  'Started By {name}': 'Comenzado por {nombre}',
+  'Started By {name}': 'Comenzado por {name}',
 }

@@ -96,9 +96,9 @@ export default {
   'Warm Color': 'Color cálido',
   Interval: 'Intervalo',
   Last: 'Último',
-  TIME_M: '{num, plural, = 1 {1 minuto} otro {# minutos}}',
-  TIME_H: '{num, plural, = 1 {1 hora} otro {# horas}}',
-  TIME_D: '{num, plural, =1 {1 día} other {# días}}',
+  TIME_M: '{num, plural, = 1 {1 minute} other {# minutes}}',
+  TIME_H: '{num, plural, = 1 {1 hour} other {# hours}}',
+  TIME_D: '{num, plural, =1 {1 day} other {# days}}',
   UTILIZATION: 'Utilización',
   RESOURCE_USAGE_TITLE: 'Uso de recursos',
   MONITORING_CLUSTER_DESC:

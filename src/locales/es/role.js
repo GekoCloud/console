@@ -32,7 +32,7 @@ export default {
   'Authorization Settings': 'Configuraciones de autorización',
   'Authorized Actions': 'Acciones autorizadas',
   'Authorized Users': 'Usuarios autorizados',
-  Cluster: 'Racimo',
+  Cluster: 'Cluster',
   'Cluster Members Management': 'Gestión de miembros del clúster',
   'Cluster Members View': 'Vista de miembros del clúster',
   'Cluster Monitoring View': 'Vista de monitoreo de clúster',
@@ -140,7 +140,7 @@ export default {
   ROLE_TYPE_DESC:
     'Los tipos de roles se clasifican en clúster y proyecto, el rol actual está autorizado como el alcance del proyecto.',
   DELETE_ROLE_TIP:
-    '¿Está seguro de eliminar la función <strong>{recurso}</strong> ?',
+    '¿Está seguro de eliminar la función <strong>{resource}</strong> ?',
   ROLE_USERS_TIP:
     'El rol actual tiene <strong>{count}</strong> usuarios autorizados, elimínelos primero。',
   RULE_WORKSPACES: 'Espacios de trabajo',
@@ -179,9 +179,9 @@ export default {
   RULE_APPLICATIONS: 'Aplicaciones',
   RULE_JOBS: 'Trabajos',
   RULE_CRONJOBS: 'CronJobs',
-  RULE_SECRETS: 'Misterios',
+  RULE_SECRETS: 'Secrets',
   RULE_CONFIGMAPS: 'ConfigMaps',
-  RULE_DRAIN: 'Desagüe',
+  RULE_DRAIN: 'Drain',
   RULE_CORDON: 'Cord / Uncord',
   RULE_TAINT: 'Gestión de manchas',
   RULE_DEVOPS: 'Gestión de proyectos DevOps',

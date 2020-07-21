@@ -85,7 +85,7 @@ export default {
   'Please input a monitoring target to find':
     'Por favor, introduce un objetivo de monitorización a encontrar',
   'Please input the threshold': 'Por favor, introduce el umbral',
-  'pod abnormal ratio': 'Relación anormal debajo',
+  'pod abnormal ratio': 'Relación anormal pod',
   'pod utilization rate': 'ratio de utilización de pod',
   Receiver: 'Receptor',
   receiver: 'receptor',
@@ -119,8 +119,8 @@ export default {
   load1: 'Promedio de carga de CPU durante 1 minuto',
   load5: 'Promedio de carga de CPU durante 5 minutos',
   load15: 'Promedio de carga de CPU durante 10 minutos',
-  ALERT_TYPE: 'Tipo de alerta}',
-  ALERT_POLICY_TYPE: 'Política de alertas {tipo}',
+  ALERT_TYPE: 'Alerta {type}',
+  ALERT_POLICY_TYPE: 'Política de alertas {type}',
   ALERT_POLICY_DESC: 'Establecer reglas de alerta',
   ALERT_MESSAGE_DESC:
     'Los mensajes de alerta se generan en función de las métricas de monitorización y de las políticas de alerta de carga de trabajo en el proyecto actual. Pueden ayudar a los usuarios a detectar problemas y responder a tiempo.',
@@ -142,7 +142,7 @@ export default {
     'Selecciona el objetivo de monitorización de la política de alertas.',
   'ALERTING-POLICY_ALERTING-RULE_DESC': 'Establecer reglas de alerta',
   'ALERTING-POLICY_NOTIFICATION-RULE_DESC': 'Establecer reglas de notificación',
-  TOTAL_POLICIES: 'Total {num} políticas de alerta',
+  TOTAL_POLICIES: '{num} políticas de alerta en total',
   PERIOD_OPTIONS:
     '{valor, plural, = 1 {1 minuto / período} otro {# minutos / período}}',
   CONSECUTIVE_OPTIONS: '{value} veces consecutivas',

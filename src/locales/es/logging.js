@@ -96,7 +96,7 @@ export default {
     'El servicio incorporado Elasticsearch se usa de manera predeterminada. Puedes cambiarlo para usar un servicio Elasticsearch implementado por tí mismo dentro o fuera del clúster.',
   LOG_COLLECTION_ES_USER_TIPS:
     'Si su elasticsearch tiene la función de autenticación local incorporada en x-pack, configure un nombre de usuario y contraseña.',
-  'Search Log by': 'Buscar registro por {campo}',
+  'Search Log by': 'Buscar registro por {field}',
   'KeyWord Log Query Tip':
     'Ingrese la palabra clave para encontrar el registro. También puedes encontrar el registro de errores por palabras clave como &quot;Error&quot;, &quot;Fail&quot;, &quot;Fatal&quot;, &quot;Exception&quot; y &quot;Warning&quot;.',
   'Project Log Query Tip':
@@ -107,7 +107,7 @@ export default {
     'Puedes ver la información de registro relacionada de acuerdo con el nombre del contenedor.',
   'Pod Log Query Tip':
     'Puedes ver la información de registro relacionada de acuerdo con el nombre del pod.',
-  'Search Events by': 'Buscar eventos por {campo}',
+  'Search Events by': 'Buscar eventos por {field}',
   'Workspace Event Query Tip':
     'Puedes ver información de eventos relacionados de acuerdo con el espacio de trabajo.',
   'Project Event Query Tip':
@@ -126,13 +126,13 @@ export default {
     'Puedes ver información de eventos relacionados de acuerdo con el nombre del pod.',
   TOTAL_LOGS:
     'Un total de <span class={className}>{logs}</span> registros de <br/> Se recogieron <span class={className}>{contenedores}</span> contenedores.',
-  TIME_S: '{Si} s',
+  TIME_S: '{num} s',
   CONTAINER_REAL_TIME_LOGS_UNSUPPORTED_TIPS:
     'El contenedor no admite registros en tiempo real en el estado actual, intente nuevamente más tarde.',
   TOTAL_LOGS_TODAY:
     'Hoy se recolectó un total de <span class={className}>{logs}</span> registros de <span class={className}>{contenedores}</span> contenedores.',
   TOTAL_EVENTS_TODAY:
-    'Hoy se recopilaron un total de <span class={className}>{eventos}</span> eventos.',
+    'Hoy se recopilaron un total de <span class={className}>{events}</span> eventos.',
   NO_EVENTS_TODAY: 'Eventos no encontrados hoy',
   START_REAL_TIME_LOG: 'activar el registro en tiempo real',
   STOP_REAL_TIME_LOG: 'desactivar el registro en tiempo real',
@@ -146,7 +146,7 @@ export default {
   CUSTOM_MONITORING_DASHBOARD: 'Panel de control personalizado',
   SERVICE_BUILT_INTERFACE:
     'la supervisión del servicio se construye captura de datos de interfaz',
-  'Search Auditing by': 'Auditoría de búsqueda por {campo}',
+  'Search Auditing by': 'Auditoría de búsqueda por {field}',
   'Workspace Auditing Query Tip':
     'Puedes ver información de eventos relacionados de acuerdo con el espacio de trabajo.',
   'Project Auditing Query Tip':

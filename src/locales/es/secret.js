@@ -39,8 +39,8 @@ export default {
   Secret: 'Secreto',
   'Secret Name': 'Nombre secreto',
   'Secret Settings': 'Configuraciones secretas',
-  secrets: 'misterios',
-  Secrets: 'Misterios',
+  secrets: 'secrets',
+  Secrets: 'Secrets',
   Unverified: 'Inconfirmado',
   SECRET_DESC:
     'Un secreto es un objeto que contiene una pequeña cantidad de datos confidenciales, como una contraseña, un token o una clave.',
