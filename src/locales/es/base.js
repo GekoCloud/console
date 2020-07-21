@@ -138,8 +138,8 @@ export default {
   'half month ago': 'hace medio mes',
   'Health Checker': 'Verificador de salud',
   'Health Status': 'Estado de salud',
-  Healthy: 'Saludable',
-  healthy: 'saludable',
+  Healthy: 'Healthy',
+  healthy: 'healthy',
   Hidden: 'Oculto',
   History: 'Historia',
   Homepage: 'Página principal',
@@ -180,7 +180,7 @@ export default {
   Monitors: 'Monitores',
   More: 'Más',
   'Most recent start time': 'Hora de inicio más reciente',
-  'Multi-cluster Deployment': 'Implementación de clúster múltiple',
+  'Multi-cluster Deployment': 'Despliegue de multi-cluster',
   Name: 'Nombre',
   name: 'nombre',
   'Name exists': 'Nombre existe',
@@ -201,10 +201,10 @@ export default {
   None: 'Ninguna',
   'Not Enabled': 'No disponible',
   'Not Mount': 'No monte',
-  'Not Running': 'No corras',
-  'Not running yet': 'Aún no se está ejecutando',
-  'Not set': 'No establecido',
-  'Number of events': 'Numero de eventos',
+  'Not Running': 'Detenido',
+  'Not running yet': 'Aún no está en ejecución',
+  'Not set': 'Sin definir',
+  'Number of events': 'Cantidad de eventos',
   'Official Document': 'Documento oficial',
   OK: 'Okay',
   'Operation Account': 'Cuenta de operación',
@@ -240,12 +240,12 @@ export default {
   'Please input name': 'Por favor ingrese el nombre',
   'Please input password': 'Por favor ingrese la contraseña',
   'Please input value': 'Por favor ingrese el valor',
-  'Please select project': 'Por favor seleccione proyecto',
-  'Please select version': 'Por favor seleccione la versión',
-  'Please select workspace': 'Por favor seleccione el espacio de trabajo',
+  'Please select project': 'Por favor selecciona proyecto',
+  'Please select version': 'Por favor selecciona la versión',
+  'Please select workspace': 'Por favor selecciona el espacio de trabajo',
   Pod: 'Debajo',
   'Pod Template': 'Bajo plantilla',
-  Pods: 'Vainas',
+  Pods: 'Pods',
   'Port Settings': 'Configuraciones de puerto',
   Preferences: 'Preferencias',
   Previous: 'Anterior',
@@ -258,8 +258,8 @@ export default {
   ReadAndWrite: 'Lee y escribe',
   ReadOnly: 'Solo lectura',
   Ready: 'Listo',
-  reason: 'razón',
-  Reason: 'Razón',
+  reason: 'motivo',
+  Reason: 'Motivo',
   'Recent Visit': 'Visita reciente',
   Record: 'Grabar',
   Records: 'Registros',
@@ -295,11 +295,11 @@ export default {
     'Tiempo de espera de sesión o esta cuenta se ha iniciado sesión en otro lugar, vuelva a iniciar sesión',
   Setting: 'Ajuste',
   Settings: 'Configuraciones',
-  Size: 'Talla',
+  Size: 'Tamaño',
   Source: 'Fuente',
   'Source IP': 'IP de origen',
-  Stage: 'Etapa',
-  Start: 'comienzo',
+  Stage: 'Stage',
+  Start: 'Inicio',
   'Start Time': 'Hora de inicio',
   Status: 'Estado',
   status: 'estado',
@@ -309,7 +309,7 @@ export default {
   'Storage Device': 'Dispositivo de almacenamiento',
   Strategy: 'Estrategia',
   Subresource: 'Sub-recurso',
-  Succeeded: 'Triunfó',
+  Succeeded: 'Finalizado con éxito',
   Success: 'Éxito',
   Successful: 'Exitoso',
   successful: 'exitoso',
@@ -346,7 +346,7 @@ export default {
   unknown: 'desconocido',
   Unknown: 'Desconocido',
   'Unknown User': 'Usuario desconocido',
-  Unresolved: 'Irresoluto',
+  Unresolved: 'No solucionado',
   Update: 'Actualizar',
   'Updated at': 'Actualizado en',
   'Updated just now': 'Actualizado justo ahora',
@@ -385,9 +385,9 @@ export default {
   DETAILS: 'Detalles',
   NODES: 'Nodos',
   NAME_DESC:
-    'Solo puede contener letras minúsculas, números y guiones (&quot;-&quot;), y debe comenzar con una letra minúscula y terminar con un número o letra minúscula. La longitud máxima de caracteres se establece en 63.',
+    'Solo puedes contener letras minúsculas, números y guiones (&quot;-&quot;), y debe comenzar con una letra minúscula y terminar con un número o letra minúscula. La longitud máxima de caracteres se establece en 63.',
   LONG_NAME_DESC:
-    'Solo puede contener letras minúsculas, números y guiones (&quot;-&quot;), y debe comenzar con una letra minúscula y terminar con un número o letra minúscula. La longitud máxima de caracteres se establece en 253.',
+    'Solo puedes contener letras minúsculas, números y guiones (&quot;-&quot;), y debe comenzar con una letra minúscula y terminar con un número o letra minúscula. La longitud máxima de caracteres se establece en 253.',
   NAME_TOO_LONG: 'La longitud máxima de caracteres se establece en 63.',
   LONG_NAME_TOO_LONG: 'La longitud máxima de caracteres se establece en 253.',
   LONG_DESC_TOO_LONG: 'La longitud máxima de caracteres se establece en 1000.',
@@ -395,30 +395,30 @@ export default {
     'La descripción se agregará al elemento como un comentario y se mostrará en los detalles de la aplicación. La descripción está limitada a 1000 caracteres.',
   SHORT_DESCRIPTION_DESC: 'La descripción está limitada a 1000 caracteres.',
   PROJECT_DESC:
-    'Los proyectos se agruparán por sus recursos, que puede ver y administrar por proyecto.',
+    'Los proyectos se agruparán por sus recursos, que puedes ver y administrar por proyecto.',
   'MULTI-CLUSTER_PROJECT_CREATE_DESC':
-    'Los proyectos se agruparán por sus recursos, que puede ver y administrar por proyecto.',
+    'Los proyectos se agruparán por sus recursos, que puedes ver y administrar por proyecto.',
   DELETE_TITLE: '¿Seguro de eliminar {type}?',
   DELETE_TIP:
-    '¿Está seguro de eliminar el {type} <strong>{resource}</strong> ? {type} no se puede recuperar después de eliminarlo.',
+    '¿Está seguro de eliminar el {type} <strong>{resource}</strong> ? {type} no se puedes recuperar después de eliminarlo.',
   DELETE_CONFIRM_TIP:
     'Ingrese el {tipo} nombre <strong>{recurso}</strong> para asegurarse de comprender los riesgos asociados con la operación.',
   DELETE_APP_RESOURCE_TIP:
-    '<strong>{App}</strong> administra el recurso, lo que puede afectar el uso normal de esta aplicación si se elimina el recurso. Ingrese el {tipo} nombre <strong>{recurso}</strong> para asegurarse de comprender los riesgos asociados con la operación.',
+    '<strong>{App}</strong> administra el recurso, lo que puedes afectar el uso normal de esta aplicación si se elimina el recurso. Ingrese el {tipo} nombre <strong>{recurso}</strong> para asegurarse de comprender los riesgos asociados con la operación.',
   DELETE_CONFIRM_PLACEHOLDER: 'Por favor, ingrese {recurso}',
   DELETE_RESOURCE_TITLE: 'Advertencia',
   DELETE_RESOURCE_TIP:
-    '¿Está seguro de eliminar el recurso <strong>{resource}</strong> ? El recurso no se puede recuperar después de eliminarlo.',
+    '¿Está seguro de eliminar el recurso <strong>{resource}</strong> ? El recurso no se puedes recuperar después de eliminarlo.',
   DESTROY_TITLE: '¿Seguro de destruir?',
   DESTROY_TIP:
     '¿Estás seguro de destruir el {type} <strong>{resource}</strong> ?',
   LABEL_FORMAT_DESC:
-    'La etiqueta tiene un máximo de 63 caracteres para clave y valor, la clave está limitada a 253 caracteres si contiene un nombre de dominio. Solo puede contener letras mayúsculas y minúsculas, números, guiones (&quot;-&quot;), guiones bajos (_) y puntos (.), Y debe comenzar y terminar con un número o letras.',
+    'La etiqueta tiene un máximo de 63 caracteres para clave y valor, la clave está limitada a 253 caracteres si contiene un nombre de dominio. Solo puedes contener letras mayúsculas y minúsculas, números, guiones (&quot;-&quot;), guiones bajos (_) y puntos (.), Y debe comenzar y terminar con un número o letras.',
   add_: 'Añadir',
   REMOVE_MEMBER_TIP:
     '¿Está seguro de eliminar el miembro <strong>{resource}</strong> ?',
   ALIAS_DESC:
-    'El alias puede estar compuesto de cualquier personaje para ayudarlo a distinguir mejor los recursos.',
+    'El alias puedes estar compuesto de cualquier personaje para ayudarlo a distinguir mejor los recursos.',
   NOT_ENABLE: '{feature} no está habilitado',
   NOT_AVAILABLE: 'No disponible {recurso}',
   NO_RESOURCE: 'En {recurso}',
@@ -459,7 +459,7 @@ export default {
     'Nombre no válido (admite letras minúsculas, números y -)',
   CONTENT_NOT_SAVED_TIPS: 'el contenido ha sido modificado pero no guardado',
   SAVE_EDIT_HINTS:
-    'confirme que el contenido modificado es correcto, puede guardar la configuración o cancelar la configuración.',
+    'confirme que el contenido modificado es correcto, puedes guardar la configuración o cancelar la configuración.',
   KS_DESCRIPTION:
     'KubeSphere es un proyecto de código abierto que tiene como objetivo proporcionar una plataforma de contenedores multiempresa de nivel empresarial sobre Kubernetes, la plataforma de orquestación de contenedores convencional actual. Proporciona una interfaz fácil de usar y operaciones de estilo asistente, reduciendo la curva de aprendizaje y el costo operativo de Kubernetes en términos del trabajo diario de desarrollo, prueba y mantenimiento.',
   REPS_ADDRESS: 'GitHub',
@@ -478,9 +478,9 @@ export default {
   'rules text':
     '¿Cómo definir las reglas de recopilación de auditoría operativa?',
   'rules desc':
-    'KubeSphere puede recopilar auditorías de operación de acuerdo con las reglas que establezca. Haga clic para ver cómo definir las reglas.',
+    'KubeSphere puedes recopilar auditorías de operación de acuerdo con las reglas que establezca. Haga clic para ver cómo definir las reglas.',
   EVENT_CREATE_DESC:
-    'Puede cambiar los criterios de búsqueda y buscar nuevamente.',
+    'Puedes cambiar los criterios de búsqueda y buscar nuevamente.',
   KUBECTL_DESC:
     'Una herramienta de línea de comando para controlar el clúster Kubernetes actual',
   TOOLBOX_KUBECTL_DESC:
@@ -515,11 +515,11 @@ export default {
   FILE_OVERSIZED_TIP: '¡El archivo cargado debe ser inferior a 2M!',
   MULTI_CLUSTER_TIP: 'El recurso se implementa en varios grupos.',
   HISTORY_DESC:
-    'Cuando trabaje en múltiples áreas de trabajo o proyectos, su navegador web registrará la última ruta que visitó. Puede verificar su historial con F1, Win + K o Command + K, que le ayuda a cambiar rápidamente entre los recursos a los que accede.',
+    'Cuando trabaje en múltiples áreas de trabajo o proyectos, su navegador web registrará la última ruta que visitó. Puedes verificar su historial con F1, Win + K o Command + K, que le ayuda a cambiar rápidamente entre los recursos a los que accede.',
   NO_HISTORY_TITLE:
     'Su navegador web no ha registrado ningún historial de acceso a clústeres o espacios de trabajo.',
   NO_HISTORY_DESC:
-    'Puede intentar acceder a recursos, como espacios de trabajo, clústeres o proyectos.',
+    'Puedes intentar acceder a recursos, como espacios de trabajo, clústeres o proyectos.',
   USER_GUIDES_DESC: 'La guía de usuario más completa de KubeSphere.',
   DEVELOPER_DESC:
     'Haga una pregunta en la comunidad de desarrolladores para obtener ayuda.',

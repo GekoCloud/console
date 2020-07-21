@@ -36,17 +36,21 @@ export default {
   'Invalid URL': 'URL invalida',
   'Missing access key ID': 'Falta la identificación de la clave de acceso',
   'Missing secret access key': 'Falta clave de acceso secreta',
-  'Please input access key ID and secret access key': 'Ingrese la ID de la clave de acceso y la clave de acceso secreta',
+  'Please input access key ID and secret access key':
+    'Ingrese la ID de la clave de acceso y la clave de acceso secreta',
   'Please input URL': 'Por favor ingrese URL',
   'S3 access denied': 'Acceso S3 denegado',
   Synchronize: 'Sincronizar',
   'Unrecognized URL': 'URL no reconocida',
   Validate: 'Validar',
   'App Repositorys': 'Repositorios de aplicaciones',
-  APP_REPO_URL_DESC: 'La URL ingresada debe validarse antes de agregarse o editarse.',
-  APP_REPOSITORY_CREATE_DESC: 'Puede agregar una fuente de repositorio de aplicaciones de terceros que admita aplicaciones Kubernetes basadas en Helm.',
-  APP_REPO_DESC: 'Puede agregar una fuente de repositorio de aplicaciones de terceros que admita aplicaciones Kubernetes basadas en Helm.',
+  APP_REPO_URL_DESC:
+    'La URL ingresada debe validarse antes de agregarse o editarse.',
+  APP_REPOSITORY_CREATE_DESC:
+    'Puedes agregar una fuente de repositorio de aplicaciones de terceros que admita aplicaciones Kubernetes basadas en Helm.',
+  APP_REPO_DESC:
+    'Puedes agregar una fuente de repositorio de aplicaciones de terceros que admita aplicaciones Kubernetes basadas en Helm.',
   HOW_TO_USE_APP_REPO_Q: '¿Cómo usar un repositorio de aplicaciones?',
-  HOW_TO_USE_APP_REPO_A: 'El repositorio de aplicaciones agregado se puede ver en los proyectos del espacio de trabajo. Al ingresar Aplicación =&gt; Implementar aplicaciones =&gt; Repositorio de aplicaciones, puede encontrar todas las aplicaciones en el repositorio actual e implementarlas.',
-
+  HOW_TO_USE_APP_REPO_A:
+    'El repositorio de aplicaciones agregado se puedes ver en los proyectos del espacio de trabajo. Al ingresar Aplicación =&gt; Implementar aplicaciones =&gt; Repositorio de aplicaciones, puedes encontrar todas las aplicaciones en el repositorio actual e implementarlas.',
 }

@@ -51,9 +51,10 @@ export default {
   Break: 'Rotura',
   'Build Settings': 'Configuración de compilación',
   'Build Trigger': 'Build Trigger',
-  'Can @somebody to help review': '¿Puede @ alguien ayudar a revisar?',
-  'Can send messages by email': 'Puede enviar mensajes por correo electrónico.',
-  'Can send messages in the build': 'Puede enviar mensajes en la compilación',
+  'Can @somebody to help review': '¿Puedes @ alguien ayudar a revisar?',
+  'Can send messages by email':
+    'Puedes enviar mensajes por correo electrónico.',
+  'Can send messages in the build': 'Puedes enviar mensajes en la compilación',
   'Cancelled in review': 'Cancelado en revisión',
   CC: 'CC',
   'Change Current Directory': 'Cambiar directorio actual',
@@ -94,7 +95,7 @@ export default {
   'Days to keep old branches': 'Días para mantener viejas ramas',
   'defaultValue -1 means not discard': 'defaultValue -1 significa no descartar',
   'Delete all resources of the deployment file':
-    'Eliminar todos los recursos del archivo de implementación',
+    'Eliminar todos los recursos del archivo de despliegue',
   'Deploy resources to the Kubernetes cluster':
     'Implementar recursos en el clúster de Kubernetes',
   "Didn't pass": 'No pasó',
@@ -142,7 +143,7 @@ export default {
   'Git Clone Options': 'Opciones de clonación de Git',
   'If not, scan regularly': 'Si no, escanee regularmente',
   'If you check this option, you cannot run multiple builds concurrently.':
-    'Si marca esta opción, no puede ejecutar varias compilaciones simultáneamente.',
+    'Si marca esta opción, no puedes ejecutar varias compilaciones simultáneamente.',
   info: 'informacion',
   input: 'entrada',
   'Inspection results do not affect subsequent tasks':
@@ -161,8 +162,7 @@ export default {
   'key File Variable': 'variable de archivo clave',
   keyFileVariable: 'keyFileVariable',
   'Kubeconfig Variable': 'Kubeconfig Variable',
-  'Kubernetes Namespace for Secret':
-    'Espacio de nombres de Kubernetes para Secret',
+  'Kubernetes Namespace for Secret': 'Namespace de Kubernetes para Secret',
   'Kubernetes Secrets': 'Secretos del gobernador',
   'Last Message': 'Ultimo mensaje',
   Line: 'Línea',
@@ -224,7 +224,7 @@ export default {
   'Please input the credential name.':
     'Por favor ingrese el nombre de la credencial.',
   'Please select a code repository as the code source for the pipeline.':
-    'Seleccione un repositorio de código como fuente de código para la canalización.',
+    'Selecciona un repositorio de código como fuente de código para la canalización.',
   'Press enter for the next': 'Presione enter para el siguiente',
   'Print message': 'Imprimir mensaje',
   'Private key': 'Llave privada',
@@ -259,9 +259,9 @@ export default {
   'Secret Name': 'Nombre secreto',
   secretName: 'secretName',
   secretNamespace: 'secretNamespace',
-  'select a pipeline': 'seleccione una tubería',
+  'select a pipeline': 'selecciona una tubería',
   'Select Code Repository': 'Seleccionar repositorio de código',
-  'Select this repo': 'Seleccione este repositorio',
+  'Select this repo': 'Selecciona este repositorio',
   Sender: 'Remitente',
   sh: 'sh',
   'Shell commands can be executed in the container':
@@ -285,7 +285,7 @@ export default {
   'Started By': 'Empezado por',
   'Stop Job Successfully, Status updated later':
     'Detener el trabajo correctamente, estado actualizado más tarde',
-  'Sub-healthy': 'Sub-saludable',
+  'Sub-healthy': 'Sub-healthy',
   Subject: 'Tema',
   submitter: 'remitente',
   submitterParameter: 'submitterParameter',
@@ -336,7 +336,7 @@ export default {
   withSonarQubeEnv: 'withSonarQubeEnv',
   'Wrong Token': 'Token incorrecto',
   'You can execute shell commands or windows batch commands in the build.':
-    'Puede ejecutar comandos de shell o comandos por lotes de Windows en la compilación.',
+    'Puedes ejecutar comandos de shell o comandos por lotes de Windows en la compilación.',
   'CI/CD_CREATE_DESC': `Pipeline es una colección de complementos 
     que se pueden combinar para lograr una integración continua 
     y una entrega continua. Pipeline DSL nos proporciona un conjunto 
@@ -347,7 +347,7 @@ export default {
   CREDENTIALS_DESC:
     'La credencial es un objeto que contiene algunos datos confidenciales, como nombre de usuario y contraseña, clave SSH y token. Se utiliza para proporcionar autenticación para el proceso de extraer código empujar / extraer imágenes, ejecutar scripts SSH, etc. cuando se está ejecutando una tubería.',
   tips_Parametric_build:
-    'El proceso de compilación parametrizado le permite pasar uno o más parámetros cuando construye. Por ejemplo: puede tener una tubería para publicar software y desea cargar las notas de la versión juntas. Esto se puede hacer agregando parámetros de texto aquí. Cada parámetro tiene un Nombre y un Valor y el valor del Valor depende del tipo de parámetro. Se puede acceder a estos valores en la canalización mediante params.Name o Name. Esto significa que cada parámetro definido aquí debe tener un nombre único. Al parametrizar un proyecto, la compilación se reemplaza por una compilación parametrizada que solicita al usuario que ingrese un valor para cada parámetro definido. Si eligen no ingresar nada, la compilación continúa con el valor predeterminado para cada parámetro. Si la compilación del proyecto se inicia automáticamente, por ejemplo, mediante un disparador temporizado, se disparará con el valor predeterminado del parámetro.',
+    'El proceso de compilación parametrizado le permite pasar uno o más parámetros cuando construye. Por ejemplo: puedes tener una tubería para publicar software y desea cargar las notas de la versión juntas. Esto se puedes hacer agregando parámetros de texto aquí. Cada parámetro tiene un Nombre y un Valor y el valor del Valor depende del tipo de parámetro. Se puedes acceder a estos valores en la canalización mediante params.Name o Name. Esto significa que cada parámetro definido aquí debe tener un nombre único. Al parametrizar un proyecto, la compilación se reemplaza por una compilación parametrizada que solicita al usuario que ingrese un valor para cada parámetro definido. Si eligen no ingresar nada, la compilación continúa con el valor predeterminado para cada parámetro. Si la compilación del proyecto se inicia automáticamente, por ejemplo, mediante un disparador temporizado, se disparará con el valor predeterminado del parámetro.',
   tips_Authentication_token:
     'Habilite esta opción si necesita activar una compilación accediendo a una URL predefinida. Un uso típico de esta función es activar el script de enlace del sistema de administración del código fuente. Debe proporcionar un token de autorización en forma de cadena para que solo la persona con el token de autorización pueda activar la compilación remota.',
   tips_disable_concurrent:
@@ -373,12 +373,12 @@ export default {
   AGENT_TYPE_DESC:
     'La sección del agente especifica dónde se ejecutará toda la canalización o una etapa particular en el entorno de Jenkins, dependiendo de dónde se coloque la parte del agente. Esta parte debe definirse en el nivel superior dentro del bloque de canalización, pero el uso del nivel de etapa es opcional.',
   AUTHENTICATION_TOKEN_DESC:
-    'Utilice la siguiente URL para activar la compilación de forma remota: JENKINS_URL / job / JOB_NAME / build? Token = TOKEN_NAME o / buildWithParameters? Token = TOKEN_NAME Puede elegir agregar &amp; cause = reason para proporcionar el texto que se incluirá en el motivo de compilación del registro.',
+    'Utilice la siguiente URL para activar la compilación de forma remota: JENKINS_URL / job / JOB_NAME / build? Token = TOKEN_NAME o / buildWithParameters? Token = TOKEN_NAME Puedes elegir agregar &amp; cause = reason para proporcionar el texto que se incluirá en el motivo de compilación del registro.',
   ACTIVITY_EMPTY_TIP: 'La tubería actual aún no se está ejecutando',
   PIPELINE_NO_CONFIG:
     'El archivo de configuración relevante no se encontró en la tubería actual',
   NOT_VALID_JENKINS_FILE:
-    'El Jenkinsfile actual no es un Jenkinsfile declarativo estándar y no se puede mostrar gráficamente',
+    'El Jenkinsfile actual no es un Jenkinsfile declarativo estándar y no se puedes mostrar gráficamente',
   PIPELINE_CRONJOB_CRON_DESC: `Cada hora, en la referencia de sintaxis de hora
     <a href="//jenkins.io/doc/book/pipeline/syntax/#cron-syntax" target="_blank">CRON</a>`,
   WEBHOOK_DESC:
@@ -386,7 +386,7 @@ export default {
   TIME_TRIGGER_DESC:
     'Algunos tipos de elementos se volverán a indexar automáticamente cuando reciban un mensaje push externo. Sin embargo, en algunos casos, las notificaciones de mensajes pueden fallar. Esta opción verificará si el índice se ha ejecutado dentro del intervalo de tiempo especificado y, si no, activará el índice.',
   KUBERNETES_DEPLOY_DESC:
-    'Implemente recursos en un clúster de Kubernetes. En un entorno de integración continua o implementación continua, solo aquellos recursos que necesitan actualizarse regularmente deben colocarse en el paso de implementación. Por lo tanto, este paso se utiliza principalmente para procesar la implementación de dichos recursos.',
+    'Implemente recursos en un clúster de Kubernetes. En un entorno de integración continua o despliegue contínuo, solo aquellos recursos que necesitan actualizarse regularmente deben colocarse en el paso de despliegue. Por lo tanto, este paso se utiliza principalmente para procesar el despliegue de dichos recursos.',
   KUBERNETES_DEPLOY_DESC_MORE: `<br />
     <label>Este paso tiene las siguientes características principales:</label>
     <li> Distribución sin kubectl </li>
@@ -399,7 +399,7 @@ export default {
     <li> Desplegar </li>
     <li> Dave Process Set </li>
     <li> Enrutamiento de aplicaciones </li>
-    <li> Espacio de nombres </li>
+    <li> Namespace </li>
     <li> Tarea </li>
     <li> Servicio </li>
     <li> Conjunto de réplica </li>
@@ -412,7 +412,7 @@ export default {
   OPTIONS_PR_PARAMS_3:
     'Se crean dos tuberías cuando se descubre PR. Una canalización utiliza la versión del código fuente de PR en sí Una versión canalizada del código fuente se fusionó con la rama de destino utilizando PR',
   ADD_NEW_CREDENTIAL_DESC:
-    'La obtención del código del repositorio puede requerir credenciales. Seleccione una credencial existente o agregue una nueva.',
+    'La obtención del código del repositorio puedes requerir credenciales. Selecciona una credencial existente o agregue una nueva.',
   PIPELINE_PREPAIR_DESC:
     'El ambiente se está preparando. Habrá una pantalla gráfica más tarde.',
   PARAMS_DESC:
@@ -436,7 +436,7 @@ export default {
   PIPELINE_DESC:
     'La ejecución de la tarea de Pipeline comenzará después de que se complete la inicialización.',
   REVIEW_DESC:
-    'Cuando la tubería se ejecute aquí, esta tarea se suspenderá y usted puede optar por continuar o finalizar después de la revisión.',
+    'Cuando la pipeline se ejecute aquí, esta tarea se suspenderá y podrás optar por continuar o finalizar después de la revisión.',
   INPUT_DESC:
     'Cuando la canalización se ejecuta aquí, la tarea se suspenderá, y el creador y @somebody pueden elegir continuar o finalizar la canalización.',
   INPUT_MESSAGE_DESC:
@@ -450,13 +450,13 @@ export default {
   PIPELINE_QUEUED_DESC:
     'Debe esperar a que el agente se inicie y ejecute la canalización (tenga en cuenta que si el agente no se ha iniciado durante mucho tiempo, verifique la configuración del agente y los recursos del clúster).',
   pipeline_owner:
-    'El propietario del proyecto DevOps, con la máxima autorización del proyecto, puede realizar todas las operaciones.',
+    'El propietario del proyecto DevOps, con la máxima autorización del proyecto, puedes realizar todas las operaciones.',
   pipeline_maintainer:
-    'El responsable del proyecto DevOps puede realizar credenciales y configuración de canalización en el proyecto DevOps',
+    'El responsable del proyecto DevOps puedes realizar credenciales y configuración de canalización en el proyecto DevOps',
   pipeline_developer:
-    'El desarrollador del proyecto DevOps puede activar y ver la tubería',
+    'El desarrollador del proyecto DevOps puedes activar y ver la tubería',
   pipeline_reporter:
-    'El observador del proyecto DevOps solo puede ver los recursos del proyecto',
+    'El observador del proyecto DevOps solo puedes ver los recursos del proyecto',
   LoadPrevData_Desc:
     'Se detectó que esta tubería no se editó correctamente la última vez. ¿Se cargan los últimos datos para continuar editando?',
   PATTERN_PIPELINE_NAME_VALID_NAME_TIP:

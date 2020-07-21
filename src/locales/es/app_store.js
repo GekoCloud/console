@@ -43,6 +43,6 @@ export default {
   'Version Number': 'Número de versión',
   Versions: 'Versiones',
   TOTAL_CATE_COUNT: '{total} Aplicaciones en total',
-  HOME_APP_STORE_DESC: 'La App Store oficial de KubeSphere proporciona características de implementación y administración que permiten a los usuarios implementar aplicaciones rápidamente con un solo clic en base a plantillas de aplicaciones.',
+  HOME_APP_STORE_DESC: 'La App Store oficial de KubeSphere proporciona características de despliegue y administración que permiten a los usuarios desplegar aplicaciones rápidamente con un solo clic en base a plantillas de aplicaciones.',
 
 }

@@ -46,7 +46,7 @@ export default {
   'App Version Types': 'Tipos de Versión de Aplicación',
   'Application Name': 'Nombre de Application',
   'Application Number / Rejection Reason':
-    'Número de Aplicación / Razón de Rechazo',
+    'Número de Aplicación / Motivo de Rechazo',
   'Application Version': 'Versión de Aplicación',
   'Apps Management': 'Gestión de Alicaciones',
   'Base Info': 'Info Base',
@@ -87,12 +87,14 @@ export default {
   Operator: 'Operador',
   'Package problems': 'Problemas de Paquetes',
   'Pass Successfully': 'Pasado Satisfactoriamente',
-  'Platform App Store Management': 'Gestión de la tienda de aplicaciones de la plataforma',
+  'Platform App Store Management':
+    'Gestión de la tienda de aplicaciones de la plataforma',
   'Please input category name': 'Introduce el nombre de categría, por favor',
-  'Please input reject reason': 'Introduce una razón de rechazo, por favor',
+  'Please input reject reason': 'Introduce un motivo de rechazo, por favor',
   'Please select a cluster': 'Selecciona un cluster, por favor',
   'Please select a project': 'Selecciona un proyecto, por favor',
-  'Please select a project to deploy': 'Selecciona un proyecto para desplegar, por favor',
+  'Please select a project to deploy':
+    'Selecciona un proyecto para desplegar, por favor',
   'Please select a workspace': 'Selecciona un espacio de trabajo, por favor',
   'Please select icon': 'Selecciona un icono, por favor',
   'please upload again': 'Vuelve a subirlo, por favor',
@@ -101,7 +103,7 @@ export default {
   'Provider No': 'Proveedor No',
   'Re-upload': 'Re-subir',
   'Recover Successfully': 'Recuperado Satisfactoriamente',
-  'Reject Reason': 'Razón de Rechazo',
+  'Reject Reason': 'Motivo de Rechazo',
   'Reject Successfully': 'Rechazado Satisfactoriamente',
   'Release / Suspended Time': 'Momento de lanzamiento / suspensión',
   'Release Successfully': 'Lanzado Satisfactoriamente',
@@ -116,7 +118,7 @@ export default {
   'Service Provider': 'Proveedor de Servicio',
   'Service Provider Website': 'Sitio Web del Proveedor de Servicio',
   "Service provider's official website address":
-    "Dirección del Sitio Web Oficial del Proveedor de Servicio",
+    'Dirección del Sitio Web Oficial del Proveedor de Servicio',
   'Start Create': 'Empezar a crear',
   'Start edit': 'Empezar a editar',
   'Submit Successfully': 'Enviado Satisfactoriamente',
@@ -141,7 +143,7 @@ export default {
     'Muy útil cuando los usuarios buscan aplicaciones',
   'Website format is error': 'El formato del Sitio Web es erróneo',
 
-  FILE_UPLOAD_MAX: 'El tamaño de fichero no puede exceder 2M.',
+  FILE_UPLOAD_MAX: 'El tamaño de fichero no puedes exceder 2M.',
 
   APP_TEMPLATE_DESC:
     'KubeSphere proporciona una gestión completa del ciclo de vida para las aplicaciones. Puedes subir o crear nuevas plantillas de aplicación y probarlas rápidamente. Además, puedes publicar tus aplicaciones en la Tienda de Aplicaciones para que otros usuarios puedan desplegarlas con un solo click.',
@@ -154,7 +156,8 @@ export default {
   DEVELOP_APP_DESC:
     'Puedes subir Charts de Helm o utilizar la herramienta de orquestación de recursos proporcionada por KubeSphere para desarrollar plantillas de aplicaciones.',
 
-  HOW_PUBLISH_APP_TITLE: 'Cómo publicar aplicaciones en la Tienda de Aplicaciones?',
+  HOW_PUBLISH_APP_TITLE:
+    'Cómo publicar aplicaciones en la Tienda de Aplicaciones?',
   HOW_PUBLISH_APP_DESC:
     'KubeSphere actualmente admite la subida de Charts de Helm a través de plantillas de aplicación dentro del espacio de trabajo, donde puedes enviar tu plantilla para su revisión. Una vez que se apruebe la plantilla, podrás publicarla en la Tienda de Aplicaciones.',
 
@@ -180,11 +183,13 @@ export default {
     'Certifique a los proveedores de servicios y revise las aplicaciones para aprobar o rechazar las aplicaciones que se mostrarán o no en la tienda.',
   REVIEW_CONTENT_DESC:
     'La siguiente información debe ser verdadera y precisa. Las instrucciones clave se deben dar en detalle. Se requiere que los Términos y Condiciones se establezcan claramente.',
-  REJECT_REASON_DESC: 'Complete los motivos de rechazo de la revisión, por favor.',
+  REJECT_REASON_DESC:
+    'Complete los motivos de rechazo de la revisión, por favor.',
 
   APP_CATEGORIES_DESC:
     'Este módulo te permite crear, editar y eliminar categorías; así como clasificar las aplicaciones activas de la Tienda.',
-  APP_CATEGORIES_CREATE_DESC: 'No hay datos de aplicación disponibles para la categoría.',
+  APP_CATEGORIES_CREATE_DESC:
+    'No hay datos de aplicación disponibles para la categoría.',
   ADJUST_CATEGORY_DESC:
     'La clasificación de la aplicación determinará la clasificación de la aplicación en la Tienda de Aplicaciones.',
   DELETE_CATEGORY_WARNING:
@@ -192,12 +197,12 @@ export default {
     ' asocia estas aplicaciones a otras categorías antes de eliminarla',
   DELETE_CATEGORY_DESC: 'Estás seguro de eliminar la categoría [{name}] ?',
   CHOOSE_APP_CATEGORY_DESC:
-  'Elige las categorías de aplicación apropiadas para facilitar a los usuarios encontrar tus aplicaciones más rápido',
+    'Elige las categorías de aplicación apropiadas para facilitar a los usuarios encontrar tus aplicaciones más rápido',
 
   UPLOAD_HELM_TITLE: 'Subir un Chart de Helm empaquetado',
   UPLOAD_HELM_DESC: 'Subir un Chart de Helm existente',
   UPLOAD_HELM_DESCRIPTION:
-  'Subir tu Chart de Helm en el formato de fichero tar.gz o tgz.',
+    'Subir tu Chart de Helm en el formato de fichero tar.gz o tgz.',
 
   EDIT_APP_DESC: 'Configurar la información básica de aplicación.',
   CREATE_APP_DESC:
@@ -216,7 +221,8 @@ export default {
   APP_CATE_All: 'Todas',
   APP_CATE_UNCATEGORIZED: 'Sin categoría',
 
-  ICON_DESC: 'Seleccione un icono para identificar la clasificación, por favor.',
+  ICON_DESC:
+    'Selecciona un icono para identificar la clasificación, por favor.',
 
   MODIFY_VERSION_TIPS:
     'Toda modificación tendrá efecto a después del lanzamiento de la próxima versión',
@@ -235,7 +241,8 @@ export default {
 
   FILE_FORMAT_PACKAGE: 'Los formatos de fichero soportados son tar.gz y tgz',
   FILE_FORMAT_ICON: 'Los formatos de icono soportados son png y svb',
-  FILE_FORMAT_SCREENSHOTS: 'Los formatos de captura de pantalla soportados son png y jpg',
+  FILE_FORMAT_SCREENSHOTS:
+    'Los formatos de captura de pantalla soportados son png y jpg',
   FILE_MAX_PACKAGE: 'El tamaño del paquete de configuración no debe exceder 2M',
   FILE_MAX_ICON: 'El tamaño del icono no debe exceder 20KB',
   FILE_MAX_SCREENSHOTS: 'El tamaño de la imagen no debe exceder 2M',
@@ -245,7 +252,8 @@ export default {
 
   REVIEWS_CREATE_DESC: 'No hay datos relevantes de revisión de aplicaciones',
 
-  NO_DEPLOY_RUNTIME_NOTE: 'El proyecto no tiene un entorno de despliegue disponible',
+  NO_DEPLOY_RUNTIME_NOTE:
+    'El proyecto no tiene un entorno de despliegue disponible',
 
   START_UPLOAD: 'Subir',
 

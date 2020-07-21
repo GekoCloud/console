@@ -17,7 +17,7 @@
  */
 
 export default {
-  'Abnormal Pods': 'Vainas anormales',
+  'Abnormal Pods': 'Pods anormales',
   'APIs Average': 'API promedio',
   'APIServer Monitoring': 'APIServer Monitoring',
   'Application Resources': 'Recursos de solicitud',
@@ -75,7 +75,7 @@ export default {
   'Request Per Second': 'Solicitud por segundo',
   'Resources Usage': 'Uso de recursos',
   'Resources Usage Trend': 'Tendencia de uso de recursos',
-  'Running Pods': 'Vainas de correr',
+  'Running Pods': 'Pods de correr',
   'Running Status': 'Estado de ejecución',
   Scheduler: 'Programador',
   'Scheduler Monitoring': 'Programador de monitoreo',
@@ -154,13 +154,13 @@ export default {
   BASE_LINE_CHART_DESC:
     'Un gráfico de líneas se utiliza principalmente para visualizar una tendencia o un cambio en los datos a lo largo del tiempo. Es muy útil para mostrar una serie de datos continuos bidimensionales, como el tráfico del sitio web o los precios de los productos.',
   STACK_LINE_CHART_DESC:
-    'Un gráfico de área apilada es un tipo especial de gráficos de área que se pueden usar para comparar múltiples variables en un intervalo. Es muy útil cuando hay varias series de datos disponibles, ya que puede analizar la relación de cada grupo con todo el gráfico y mostrar su proporción respectiva.',
+    'Un gráfico de área apilada es un tipo especial de gráficos de área que se pueden usar para comparar múltiples variables en un intervalo. Es muy útil cuando hay varias series de datos disponibles, ya que puedes analizar la relación de cada grupo con todo el gráfico y mostrar su proporción respectiva.',
   BAR_CHART_DESC:
     'Un gráfico de barras es el tipo más común de gráficos. Presenta diferentes datos categóricos con barras horizontales o verticales con alturas o longitudes proporcionales a los valores que representan.',
   BASE_BAR_CHART_DESC:
     'Un eje del gráfico de barras base presenta las categorías que se comparan, mientras que el otro eje representa el valor de cada una.',
   STACK_BAR_CHART_DESC:
-    'Un gráfico de barras apiladas es una extensión de los gráficos de barras. Un gráfico de barras estándar compara puntos de datos individuales entre sí, mientras que en un gráfico de barras apiladas, partes de los datos son adyacentes o apiladas. Se puede usar para presentar la cantidad total de una categoría, así como sus sub-cantidades (proporción). Por lo tanto, es muy útil para examinar las relaciones entre partes.',
+    'Un gráfico de barras apiladas es una extensión de los gráficos de barras. Un gráfico de barras estándar compara puntos de datos individuales entre sí, mientras que en un gráfico de barras apiladas, partes de los datos son adyacentes o apiladas. Se puedes usar para presentar la cantidad total de una categoría, así como sus sub-cantidades (proporción). Por lo tanto, es muy útil para examinar las relaciones entre partes.',
   DISPLAY_FORMAT: 'Formato de visualización',
   FIELD_NAME: 'Nombre del campo',
   COLUMN_NAME: 'Nombre de la columna',
@@ -190,5 +190,5 @@ export default {
   SAVE_TEMPLATE: 'Guardar plantilla',
   THRESHOLD_FILL: 'Configuraciones de umbral',
   THRESHOLD_FILL_DESC:
-    'Puedes establecer un umbral y el estilo se puede cambiar automáticamente una vez que se supera el umbral.',
+    'Puedes establecer un umbral y el estilo se puedes cambiar automáticamente una vez que se supera el umbral.',
 }

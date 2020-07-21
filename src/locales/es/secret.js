@@ -30,7 +30,8 @@ export default {
   'Please input credential': 'Por favor ingrese la credencial',
   'Please input data': 'Por favor ingrese los datos',
   'Please input private key': 'Por favor ingrese la clave privada',
-  'Please input the registry address': 'Por favor ingrese la dirección de registro',
+  'Please input the registry address':
+    'Por favor ingrese la dirección de registro',
   'Private Key': 'Llave privada',
   'Registry Address': 'Dirección de registro',
   'Registry verification failed': 'La verificación del registro falló',
@@ -41,11 +42,13 @@ export default {
   secrets: 'misterios',
   Secrets: 'Misterios',
   Unverified: 'Inconfirmado',
-  SECRET_DESC: 'Un secreto es un objeto que contiene una pequeña cantidad de datos confidenciales, como una contraseña, un token o una clave.',
-  SECRET_CREATE_DESC: 'Un secreto es un objeto que contiene una pequeña cantidad de datos confidenciales, como una contraseña, un token o una clave.',
-  SECRET_TYPE_DESC: 'Puede elegir o personalizar un tipo secreto.',
-  SECRET_NO_CHINESE_CODE_DESC: 'Los caracteres chinos no se pueden incluir en el secreto.',
+  SECRET_DESC:
+    'Un secreto es un objeto que contiene una pequeña cantidad de datos confidenciales, como una contraseña, un token o una clave.',
+  SECRET_CREATE_DESC:
+    'Un secreto es un objeto que contiene una pequeña cantidad de datos confidenciales, como una contraseña, un token o una clave.',
+  SECRET_TYPE_DESC: 'Puedes elegir o personalizar un tipo secreto.',
+  SECRET_NO_CHINESE_CODE_DESC:
+    'Los caracteres chinos no se pueden incluir en el secreto.',
   'DATA-KEY': 'Llave',
   'DATA-VALUE': 'Valor',
-
 }

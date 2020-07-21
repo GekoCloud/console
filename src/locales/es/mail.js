@@ -26,15 +26,21 @@ export default {
   'SMTP Server Address': 'Dirección del servidor SMTP',
   'The sender mail account': 'La cuenta de correo del remitente',
   'Use SSL Secure Connection': 'Usar conexión segura SSL',
-  MAIL_SERVER_DESC: 'Este módulo proporciona servicios de entrega de correo electrónico con configuraciones personalizadas.',
-  EMPTY_MAIL_SERVER: 'Temporalmente no se ha configurado un servidor de correo electrónico. Debe configurar un servidor de correo electrónico para proporcionar servicios de entrega de correo electrónico.',
+  MAIL_SERVER_DESC:
+    'Este módulo proporciona servicios de entrega de correo electrónico con configuraciones personalizadas.',
+  EMPTY_MAIL_SERVER:
+    'Temporalmente no se ha configurado un servidor de correo electrónico. Debe configurar un servidor de correo electrónico para proporcionar servicios de entrega de correo electrónico.',
   TEST_EMAIL_RECIPIENT: 'Prueba de dirección de correo electrónico',
-  TEST_EMAIL_ADDRESS_FORM_DESC: 'La dirección de prueba para recibir correos electrónicos',
+  TEST_EMAIL_ADDRESS_FORM_DESC:
+    'La dirección de prueba para recibir correos electrónicos',
   SENDER_MAIL: 'Dirección de correo electrónico del remitente',
   SENDER_NICKNAME: 'Apodo del remitente',
-  FROM_EMAIL_ADDR_DESC: 'La cuenta de correo electrónico del remitente (en blanco significa que es lo mismo que el valor &quot;Usuario SMTP&quot;)',
-  MAIL_SERVER_CONFIG_NEED_SAVE_TIP: 'La configuración del correo electrónico se ha configurado correctamente, guarde la configuración del servidor.',
-  MAIL_SERVER_CONFIG_INVALID_TIP: 'La configuración de correo electrónico actual no está disponible.',
-  MAIL_SERVER_CONFIG_NEED_VERIFIED_TIP: 'La configuración actual del correo electrónico ha cambiado. Vuelva a enviar un correo electrónico de prueba y guarde la configuración. O también puede descartar su modificación.',
-
+  FROM_EMAIL_ADDR_DESC:
+    'La cuenta de correo electrónico del remitente (en blanco significa que es lo mismo que el valor &quot;Usuario SMTP&quot;)',
+  MAIL_SERVER_CONFIG_NEED_SAVE_TIP:
+    'La configuración del correo electrónico se ha configurado correctamente, guarde la configuración del servidor.',
+  MAIL_SERVER_CONFIG_INVALID_TIP:
+    'La configuración de correo electrónico actual no está disponible.',
+  MAIL_SERVER_CONFIG_NEED_VERIFIED_TIP:
+    'La configuración actual del correo electrónico ha cambiado. Vuelva a enviar un correo electrónico de prueba y guarde la configuración. O también puedes descartar su modificación.',
 }
