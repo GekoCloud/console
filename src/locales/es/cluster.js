@@ -61,12 +61,13 @@ export default {
   'Node Types': 'Tipos de nodos',
   'Nodes Management': 'Gestión de nodos',
   'Not Ready': 'No está listo',
-  'Please input cluster name': 'Por favor ingrese el nombre del clúster',
+  'Please input cluster name': 'Por favor introduce el nombre del clúster',
   'Please input the kubesphere api server address of the cluster':
-    'Ingrese la dirección del servidor de la API de Kubesphere del clúster',
+    'Introduce la dirección del servidor de la API de Kubesphere del clúster',
   'Please select or input a provider':
-    'Por favor selecciona o ingrese un proveedor',
-  'Please select or input a tag': 'Por favor selecciona o ingrese una etiqueta',
+    'Por favor selecciona o introduce un proveedor',
+  'Please select or input a tag':
+    'Por favor selecciona o introduce una etiqueta',
   'Scheduler Scheduling Times': 'Horarios de programación',
   'Scheduling Failed Pods': 'Programar pods fallidas',
   'Select Clusters': 'Seleccionar clústeres',

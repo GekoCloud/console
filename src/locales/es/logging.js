@@ -48,9 +48,10 @@ export default {
   'Passwords must be at least 6 characters long':
     'Las contraseñas deben tener al menos 6 caracteres.',
   'Please enter a filter to search for logs.':
-    'Ingrese un filtro para buscar registros.',
-  'Please input path': 'Por favor ingrese la ruta',
-  'Please input service address': 'Por favor ingrese la dirección del servicio',
+    'Introduce un filtro para buscar registros.',
+  'Please input path': 'Por favor introduce la ruta',
+  'Please input service address':
+    'Por favor introduce la dirección del servicio',
   'Real-Time Data': 'Datos en tiempo real',
   'Recently Configured Updated': 'Actualizado recientemente configurado',
   'Recently Updated': 'Recientemente actualizado',
@@ -86,7 +87,7 @@ export default {
     'El nuevo estado tarda aproximadamente 1 minuto en surtir efecto.',
   LOG_COLLECTION_FLUENTD_USER_TIPS: 'Nombre de usuario para autenticación',
   LOG_COLLECTION_FLUENTD_URL_TIPS:
-    'Ingrese la dirección del Fluentd que recibe el registro.',
+    'Introduce la dirección del Fluentd que recibe el registro.',
   EMPTY_LOG_COLLECTIONS:
     'El recopilador de registros no está configurado temporalmente. Puedes agregar un recopilador de registros para exportar el registro al recopilador de registros externo.',
   LOG_COLLECTION_TIPS:
@@ -98,7 +99,7 @@ export default {
     'Si su elasticsearch tiene la función de autenticación local incorporada en x-pack, configure un nombre de usuario y contraseña.',
   'Search Log by': 'Buscar registro por {field}',
   'KeyWord Log Query Tip':
-    'Ingrese la palabra clave para encontrar el registro. También puedes encontrar el registro de errores por palabras clave como &quot;Error&quot;, &quot;Fail&quot;, &quot;Fatal&quot;, &quot;Exception&quot; y &quot;Warning&quot;.',
+    'Introduce la palabra clave para encontrar el registro. También puedes encontrar el registro de errores por palabras clave como &quot;Error&quot;, &quot;Fail&quot;, &quot;Fatal&quot;, &quot;Exception&quot; y &quot;Warning&quot;.',
   'Project Log Query Tip':
     'Puedes ver la información de registro relacionada de acuerdo con el nombre del proyecto.',
   'Workload Log Query Tip':

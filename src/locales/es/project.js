@@ -52,7 +52,7 @@ export default {
     'Editar solicitud predeterminada de recursos',
   'Empty value means no limit, CPU 1 Core = 1000m':
     'El valor vacío significa que no hay límite, CPU 1 Core = 1000m',
-  'Enter DevOps Project': 'Ingrese al proyecto DevOps',
+  'Enter DevOps Project': 'Introduce al proyecto DevOps',
   'Enter Project': 'Entrar al proyecto',
   FED_HOST_NAMESPACE_TIP: 'FED_HOST_NAMESPACE_TIP',
   'Gateway Info': 'Información de puerta de enlace',
@@ -84,7 +84,7 @@ export default {
     'Sin autorización de gestión de plataforma',
   'Not Assigned': 'No asignado',
   Opened: 'Abrió',
-  'Please input project name': 'Por favor ingrese el nombre del proyecto',
+  'Please input project name': 'Por favor introduce el nombre del proyecto',
   pods: 'pods',
   'Project Info': 'Información del proyecto',
   'Project Manager': 'Gerente de proyecto',
@@ -147,7 +147,7 @@ export default {
   INVITE_MEMBER_DESC_DEVOPS:
     'Puedes invitar a nuevos miembros para que ayuden en su proyecto DevOps.',
   INVITE_MEMBER_SEARCH_PLACEHODLER:
-    'Ingrese una dirección de correo electrónico para invitar miembros',
+    'Introduce una dirección de correo electrónico para invitar miembros',
   INVITE_MEMBER_CHOOSE_ROLE_TIP: 'Asigne un rol a este miembro',
   DELETE_MEMBER_TIP:
     '¿Estás seguro de eliminar el miembro <strong>{name}</strong> ? El miembro no puedes acceder a este proyecto una vez eliminado.',

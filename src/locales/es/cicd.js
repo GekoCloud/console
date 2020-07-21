@@ -219,10 +219,10 @@ export default {
   'pipeline syntax error': 'error de sintaxis de canalización',
   Pipelines: 'Tuberías',
   'Please add at least one step.': 'Por favor agregue al menos un paso.',
-  'Please input images name': 'Por favor ingrese el nombre de las imágenes',
-  'Please input pipeline name': 'Por favor ingrese el nombre de la tubería',
+  'Please input images name': 'Por favor introduce el nombre de las imágenes',
+  'Please input pipeline name': 'Por favor introduce el nombre de la tubería',
   'Please input the credential name.':
-    'Por favor ingrese el nombre de la credencial.',
+    'Por favor introduce el nombre de la credencial.',
   'Please select a code repository as the code source for the pipeline.':
     'Selecciona un repositorio de código como fuente de código para la canalización.',
   'Press enter for the next': 'Presione enter para el siguiente',
@@ -347,7 +347,7 @@ export default {
   CREDENTIALS_DESC:
     'La credencial es un objeto que contiene algunos datos confidenciales, como nombre de usuario y contraseña, clave SSH y token. Se utiliza para proporcionar autenticación para el proceso de extraer código empujar / extraer imágenes, ejecutar scripts SSH, etc. cuando se está ejecutando una tubería.',
   tips_Parametric_build:
-    'El proceso de compilación parametrizado le permite pasar uno o más parámetros cuando construye. Por ejemplo: puedes tener una tubería para publicar software y desea cargar las notas de la versión juntas. Esto se puedes hacer agregando parámetros de texto aquí. Cada parámetro tiene un Nombre y un Valor y el valor del Valor depende del tipo de parámetro. Se puedes acceder a estos valores en la canalización mediante params.Name o Name. Esto significa que cada parámetro definido aquí debe tener un nombre único. Al parametrizar un proyecto, la compilación se reemplaza por una compilación parametrizada que solicita al usuario que ingrese un valor para cada parámetro definido. Si eligen no ingresar nada, la compilación continúa con el valor predeterminado para cada parámetro. Si la compilación del proyecto se inicia automáticamente, por ejemplo, mediante un disparador temporizado, se disparará con el valor predeterminado del parámetro.',
+    'El proceso de compilación parametrizado le permite pasar uno o más parámetros cuando construye. Por ejemplo: puedes tener una tubería para publicar software y desea cargar las notas de la versión juntas. Esto se puedes hacer agregando parámetros de texto aquí. Cada parámetro tiene un Nombre y un Valor y el valor del Valor depende del tipo de parámetro. Se puedes acceder a estos valores en la canalización mediante params.Name o Name. Esto significa que cada parámetro definido aquí debe tener un nombre único. Al parametrizar un proyecto, la compilación se reemplaza por una compilación parametrizada que solicita al usuario que introduce un valor para cada parámetro definido. Si eligen no ingresar nada, la compilación continúa con el valor predeterminado para cada parámetro. Si la compilación del proyecto se inicia automáticamente, por ejemplo, mediante un disparador temporizado, se disparará con el valor predeterminado del parámetro.',
   tips_Authentication_token:
     'Habilite esta opción si necesita activar una compilación accediendo a una URL predefinida. Un uso típico de esta función es activar el script de enlace del sistema de administración del código fuente. Debe proporcionar un token de autorización en forma de cadena para que solo la persona con el token de autorización pueda activar la compilación remota.',
   tips_disable_concurrent:
@@ -362,7 +362,7 @@ export default {
     'Si el número de sucursales alcanzó el número de reservas, se eliminará. (Valor predeterminado -1: eliminará las ramas que se han eliminado)',
   tips_timer_trigger:
     'Este campo sigue la sintaxis cron (ligeramente diferente). Específicamente, cada línea contiene 5 campos separados por tabulaciones o espacios. minutos: los primeros minutos de una hora (0-59) horas: las primeras horas del día (0-23) los días del mes: los primeros días de un mes (1-31) Mes: el primero pocos días de los primeros días (0-12), los primeros días de la semana (0-12) 0 y 7 son domingos.',
-  CICDS_BASEINFO_DESC: 'Ingrese la información básica de la tubería.',
+  CICDS_BASEINFO_DESC: 'Introduce la información básica de la tubería.',
   CICD_ADVANCE_SETTINGS_DESC:
     'Configure una política de comportamiento compleja para la tubería (Opcional).',
   CREDENTIALS_CREATE_DESC: 'Crear credenciales para proyectos DevOps',
@@ -478,8 +478,8 @@ export default {
       Get Token
     </a>`,
   bitbucket_server_ACCESSTOKEN_PLACEHOLDER:
-    'Ingrese la información de su cuenta de Bitbucket.',
-  github_ACCESSTOKEN_PLACEHOLDER: 'Ingrese su token de acceso de GitHub.',
+    'Introduce la información de su cuenta de Bitbucket.',
+  github_ACCESSTOKEN_PLACEHOLDER: 'Introduce su token de acceso de GitHub.',
   PIPELINES_FOOTER_SEE_MORE:
     'Vaya a la página de detalles de la sucursal para ver más.',
   CRON_DESC:

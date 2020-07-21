@@ -110,9 +110,9 @@ export default {
   'Please finish the sub form first':
     'Por favor termine el sub formulario primero',
   'Please input an application name':
-    'Por favor ingrese un nombre de aplicación',
+    'Por favor introduce un nombre de aplicación',
   'Please input component version':
-    'Por favor ingrese la versión del componente',
+    'Por favor introduce la versión del componente',
   'Please save the current form first':
     'Por favor, guarde el formulario actual primero',
   'Please try other query conditions':

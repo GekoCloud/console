@@ -60,7 +60,7 @@ export default {
   'Offline this version': 'Desconectado esta versión',
   'Operating System': 'Sistema operativo',
   'Please input grayscale release version':
-    'Ingrese la versión de lanzamiento en escala de grises',
+    'Introduce la versión de lanzamiento en escala de grises',
   'Please select a grayscale release component':
     'Selecciona un componente de lanzamiento en escala de grises',
   'Policy Config': 'Configuración de política',

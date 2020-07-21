@@ -17,114 +17,109 @@
  */
 
 export default {
-  'Activate App': 'Activate App',
-  'Activate Version': 'Activate Version',
-  Activated: 'Activated',
-  admin: 'admin',
-  'App Information': 'App Information',
-  'App Instances': 'App Instances',
-  'Audit Records': 'Audit Records',
-  business: 'business',
-  'Cancel Review': 'Cancel Review',
-  ceasing: 'ceasing',
-  creating: 'creating',
-  'Delete Version': 'Delete Version',
-  deleting: 'deleting',
-  'Deployed Instances': 'Deployed Instances',
-  'Develop and test guide': 'Develop and test guide',
-  developer: 'developer',
-  Developing: 'Developing',
-  'Download Successfully': 'Download Successfully',
-  Draft: 'Draft',
+  'Activate App': 'Activar aplicación',
+  'Activate Version': 'Activar versión',
+  Activated: 'Activado',
+  admin: 'administración',
+  'App Information': 'Información de la aplicación',
+  'App Instances': 'Instancias de aplicaciones',
+  'Audit Records': 'Registros de auditoria',
+  business: 'negocio',
+  'Cancel Review': 'Cancelar revisión',
+  ceasing: 'cesar',
+  creating: 'creando',
+  'Delete Version': 'Eliminar versión',
+  deleting: 'borrando',
+  'Deployed Instances': 'Instancias desplegadas',
+  'Develop and test guide': 'Desarrollar y probar la guía',
+  developer: 'desarrollador',
+  Developing: 'Desarrollando',
+  'Download Successfully': 'Descargar con éxito',
+  Draft: 'Sequía',
   global_admin: 'global_admin',
-  'in-review': 'in-review',
-  'In-review': 'In-review',
+  'in-review': 'en revisión',
+  'In-review': 'En revisión',
   isv: 'isv',
-  'No version info': 'No version info',
-  Pass: 'Pass',
-  Passed: 'Passed',
-  'Pending-review': 'Pending-review',
-  Published: 'Published',
-  Recall: 'Recall',
-  Recalled: 'Recalled',
-  Reject: 'Reject',
-  Rejected: 'Rejected',
-  Release: 'Release',
-  'Release to Store': 'Release to Store',
-  Review: 'Review',
-  Starting: 'Starting',
-  Stopping: 'Stopping',
-  Submit: 'Submit',
-  'Submit Review': 'Submit Review',
-  Submitted: 'Submitted',
-  'Suspend App': 'Suspend App',
-  'Suspend Version': 'Suspend Version',
-  Suspended: 'Suspended',
-  technical: 'technical',
-  'Test Steps': 'Test Steps',
-  'Version Management': 'Version Management',
-  'Version update info': 'Version update info',
-  Versions: 'Versions',
-  'View in Store': 'View in Store',
-  Working: 'Working',
-  'Wrong version number format': 'Wrong version number format',
-  
+  'No version info': 'Sin información de versión',
+  Pass: 'Pasar',
+  Passed: 'Pasado',
+  'Pending-review': 'Revisión pendiente',
+  Published: 'Publicado',
+  Recall: 'Recordar',
+  Recalled: 'Retirado del mercado',
+  Reject: 'Rechazar',
+  Rejected: 'Rechazado',
+  Release: 'Lanzamiento',
+  'Release to Store': 'Liberar a la tienda',
+  Review: 'revisión',
+  Starting: 'Comenzando',
+  Stopping: 'Parada',
+  Submit: 'Enviar',
+  'Submit Review': 'Enviar opinión',
+  Submitted: 'Presentada',
+  'Suspend App': 'Suspender aplicación',
+  'Suspend Version': 'Suspender versión',
+  Suspended: 'Suspendido',
+  technical: 'técnico',
+  'Test Steps': 'Pasos de prueba',
+  'Version Management': 'Gestión de versiones',
+  'Version update info': 'Información de actualización de versión',
+  Versions: 'Versiones',
+  'View in Store': 'Ver en la tienda',
+  Working: 'Trabajando',
+  'Wrong version number format': 'Formato de número de versión incorrecto',
   VERSION_DELETE_TIP:
-    'Are you sure to delete the version <strong>{name} </strong >?',
+    '¿Está seguro de eliminar la versión <strong>{nombre}</strong> ?',
   VERSION_SUBMIT_TIP:
-    'Are you sure to submit the version <strong>{name}</strong> for audit?',
+    '¿Está seguro de enviar la versión <strong>{nombre}</strong> para auditoría?',
   VERSION_CANCEL_TIP:
-    'Are you sure to cancel the review of version <strong>{name}</strong>?',
+    '¿Está seguro de cancelar la revisión de la versión <strong>{nombre}</strong> ?',
   VERSION_RELEASE_TIP:
-    'Users can view and deploy the version <strong> {name} </strong> in the store when it is released. Are you sure to release it now?',
+    'Los usuarios pueden ver e implementar la versión <strong>{nombre}</strong> en la tienda cuando se lance. ¿Estás seguro de lanzarlo ahora?',
   VERSION_SUSPEND_TIP:
-    'The version <strong>{name}</strong > will not be displayed in the store when it is suspended. Are you sure to suspend it now?',
+    'La versión <strong>{nombre}</strong> no se mostrará en la tienda cuando se suspenda. ¿Estás seguro de suspenderlo ahora?',
   VERSION_RECOVER_TIP:
-    'The version <strong>{name}</strong> will be displayed again in the store. Are you sure to activate it now?',
-
+    'La versión <strong>{nombre}</strong> se mostrará nuevamente en la tienda. ¿Estás seguro de activarlo ahora?',
   APP_SUSPEND_TIP:
-    "The app <strong>{name}</strong> can't be purchased from the store when it is suspended. Are you sure to suspend it now?",
+    'La aplicación <strong>{nombre}</strong> no se puede comprar en la tienda cuando está suspendida. ¿Estás seguro de suspenderlo ahora?',
   APP_RECOVER_TIP:
-    'The app <strong>{name}</strong> and the suspended versions will be displayed again in the store. Are you sure to activate it now?',
-
+    'La aplicación <strong>{nombre}</strong> y las versiones suspendidas se mostrarán nuevamente en la tienda. ¿Estás seguro de activarlo ahora?',
   PACKAGE_FILE_DESC:
-    'Package.json file, which describes the basic information of an application or version, such as the name and version number.',
-  CONFIG_FILE_DESC: 'Application Default Profile',
-  LICENSE_FILE_DESC: 'Protocol in Text Format',
-  LOCALE_ES__FILE_DESC: 'Spanish Translation for the Application Configuration',
-  LOCALE_EN__FILE_DESC: 'English Translation for the Application Configuration',
-  LOCALE_ZH_FILE_DESC: 'Chinese Translation for the Application Configuration',
-
+    'Paquete.json, que describe la información básica de una aplicación o versión, como el nombre y el número de versión.',
+  CONFIG_FILE_DESC: 'Perfil predeterminado de la aplicación',
+  LICENSE_FILE_DESC: 'Protocolo en formato de texto',
+  LOCALE_ES__FILE_DESC:
+    'Traducción al español para la configuración de la aplicación',
+  LOCALE_EN__FILE_DESC:
+    'Traducción al inglés para la configuración de la aplicación',
+  LOCALE_ZH_FILE_DESC:
+    'Traducción al chino para la configuración de la aplicación',
   CHART_FILE_DESC:
-    'Yaml file, used to describe the basic information of' +
-    ' Chart, such as the name and version.',
-  README_FILE_DESC: 'App Introductions and Instructions',
+    'Archivo Yaml, que se utiliza para describir la información básica de Chart, como el nombre y la versión.',
+  README_FILE_DESC: 'Introducción a la aplicación e instrucciones',
   REQUIREMENTS_FILE_DESC:
-    'Description files for storing other Charts currently dependent on Chart',
-  VALUES_FILE_DESC: "Chart's default configuration file",
+    'Archivos de descripción para almacenar otros gráficos que actualmente dependen del gráfico',
+  VALUES_FILE_DESC: 'Archivo de configuración predeterminado del gráfico',
   CHARTS_FILE_DESC:
-    'Place other Charts that Chart currently depends on in this directory',
+    'Coloque otros gráficos de los que depende actualmente el gráfico en este directorio',
   TEMPLATES_FILE_DESC:
-    'Deploy file template directory, fill in the corresponding value in values.yaml, and generate the final kubernetes configuration file',
-  NOTES_FILE_DESC: 'Guide to Use',
-
-  VERSION_SUBMIT_TEST_STEPS:
-    '1. All dependent charts have been submitted <br/>' +
-    '2. Successful static check(helm lint) <br/>' +
-    '3. Successful start-up of applications(helm install) with default values: All pods are running status, and all service services have at least one endpoint < br/>' +
-    '4. There is no security vulnerability in the mirrors used <br/>' +
-    '5. Support upgrade <br/>' +
-    '6. Support custom application configuration <br/>' +
-    "7. Don't use Kubernetes'alpha function <br/>" +
-    '8. Detailed README files are required, including introduction of applications, preconditions and how to customize configuration parameters <br/>',
-
+    'Implemente el directorio de plantilla de archivo, complete el valor correspondiente en values.yaml y genere el archivo de configuración final de kubernetes',
+  NOTES_FILE_DESC: 'Guía de uso',
+  VERSION_SUBMIT_TEST_STEPS: `
+    1. Todos los cuadros dependientes han sido enviados <br/> 
+    2. Verificación estática exitosa (pelusa del timón) <br/> 
+    3. Inicio exitoso de aplicaciones (instalación de timón) con valores predeterminados: todos los pods están ejecutando el estado y todos los servicios de servicio tienen al menos un punto final &lt;br /&gt; 
+    4. No hay vulnerabilidad de seguridad en los espejos utilizados <br/> 
+    5. Actualización de soporte <br/> 
+    6. Admite la configuración de aplicaciones personalizadas <br/> 
+    7. No use la función alfa de Kubernetes <br/> 
+    8. Se requieren archivos README detallados, incluida la introducción de aplicaciones, condiciones previas y cómo personalizar los parámetros de configuración <br/>`,
   VERSION_SUBMIT_NOTE:
-    'Before submitting for review, make sure that your application has passed the following basic functions',
-  VERSION_SUBMIT_DOC: 'Refer to a more comprehensive test manual',
+    'Antes de enviar para su revisión, asegúrese de que su solicitud haya pasado las siguientes funciones básicas',
+  VERSION_SUBMIT_DOC: 'Consulte un manual de prueba más completo',
   VERSION_NUMBER_DESC:
-    'The important identification of the version. It can only contain numbers, decimal points and brackets ("[]"), and must start with a number and contain decimal points.',
+    'La identificación importante de la versión. Solo puede contener números, puntos decimales y corchetes (&quot;[]&quot;), y debe comenzar con un número y contener puntos decimales.',
   VERSION_NUMBER_ERROR_NOTE:
-    'Incorrect version number format. It can only contain numbers, decimal points and brackets ("[]"), and must start with a number and contain decimal points.',
-
-  UPDATE_LOG_DESC: 'Used to describe the details of this update.',
+    'Formato de número de versión incorrecto. Solo puede contener números, puntos decimales y corchetes (&quot;[]&quot;), y debe comenzar con un número y contener puntos decimales.',
+  UPDATE_LOG_DESC: 'Se usa para describir los detalles de esta actualización.',
 }

@@ -31,7 +31,7 @@ export default {
   'Manage Organizations': 'Administrar organizaciones',
   'No Available Cluster': 'No hay clúster disponible',
   'Please input workspace name':
-    'Por favor ingrese el nombre del espacio de trabajo',
+    'Por favor introduce el nombre del espacio de trabajo',
   'Project Number': 'Número de proyecto',
   'Remove from Workspace': 'Eliminar del espacio de trabajo',
   'The current name is not applicable.': 'El nombre actual no es aplicable.',

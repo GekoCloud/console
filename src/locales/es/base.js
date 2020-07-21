@@ -116,7 +116,7 @@ export default {
   Enabled: 'Habilitado',
   'End Time': 'Hora de finalización',
   'Enter query conditions to filter':
-    'Ingrese las condiciones de consulta para filtrar',
+    'Introduce las condiciones de consulta para filtrar',
   'Error Tips': 'Consejos de error',
   event: 'evento',
   'Event metadata': 'Metadatos de eventos',
@@ -233,13 +233,14 @@ export default {
   'Platform URL': 'URL de plataforma',
   'Platform Version': 'Versión de plataforma',
   'Platform-level Access Control': 'Control de acceso a nivel de plataforma',
-  'Please enter a name to find': 'Por favor ingrese un nombre para encontrar',
-  'Please input a keyword to filter': 'Ingrese una palabra clave para filtrar',
-  'Please input a keyword to find': 'Ingrese una palabra clave para buscar',
-  'Please input a name to find': 'Por favor ingrese un nombre para encontrar',
-  'Please input name': 'Por favor ingrese el nombre',
-  'Please input password': 'Por favor ingrese la contraseña',
-  'Please input value': 'Por favor ingrese el valor',
+  'Please enter a name to find': 'Por favor introduce un nombre para encontrar',
+  'Please input a keyword to filter':
+    'Introduce una palabra clave para filtrar',
+  'Please input a keyword to find': 'Introduce una palabra clave para buscar',
+  'Please input a name to find': 'Por favor introduce un nombre para encontrar',
+  'Please input name': 'Por favor introduce el nombre',
+  'Please input password': 'Por favor introduce la contraseña',
+  'Please input value': 'Por favor introduce el valor',
   'Please select project': 'Por favor selecciona proyecto',
   'Please select version': 'Por favor selecciona la versión',
   'Please select workspace': 'Por favor selecciona el espacio de trabajo',
@@ -402,10 +403,10 @@ export default {
   DELETE_TIP:
     '¿Está seguro de eliminar el {type} <strong>{resource}</strong> ? {type} no se puedes recuperar después de eliminarlo.',
   DELETE_CONFIRM_TIP:
-    'Ingrese el {type} nombre <strong>{resource}</strong> para asegurarse de comprender los riesgos asociados con la operación.',
+    'Introduce el {type} nombre <strong>{resource}</strong> para asegurarse de comprender los riesgos asociados con la operación.',
   DELETE_APP_RESOURCE_TIP:
-    '<strong>{App}</strong> administra el recurso, lo que puedes afectar el uso normal de esta aplicación si se elimina el recurso. Ingrese el {type} nombre <strong>{resource}</strong> para asegurarse de comprender los riesgos asociados con la operación.',
-  DELETE_CONFIRM_PLACEHOLDER: 'Por favor, ingrese {resource}',
+    '<strong>{App}</strong> administra el recurso, lo que puedes afectar el uso normal de esta aplicación si se elimina el recurso. Introduce el {type} nombre <strong>{resource}</strong> para asegurarse de comprender los riesgos asociados con la operación.',
+  DELETE_CONFIRM_PLACEHOLDER: 'Por favor, introduce {resource}',
   DELETE_RESOURCE_TITLE: 'Advertencia',
   DELETE_RESOURCE_TIP:
     '¿Está seguro de eliminar el recurso <strong>{resource}</strong> ? El recurso no se puedes recuperar después de eliminarlo.',

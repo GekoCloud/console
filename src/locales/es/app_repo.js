@@ -37,8 +37,8 @@ export default {
   'Missing access key ID': 'Falta la identificación de la clave de acceso',
   'Missing secret access key': 'Falta clave de acceso secreta',
   'Please input access key ID and secret access key':
-    'Ingrese la ID de la clave de acceso y la clave de acceso secreta',
-  'Please input URL': 'Por favor ingrese URL',
+    'Introduce la ID de la clave de acceso y la clave de acceso secreta',
+  'Please input URL': 'Por favor introduce URL',
   'S3 access denied': 'Acceso S3 denegado',
   Synchronize: 'Sincronizar',
   'Unrecognized URL': 'URL no reconocida',

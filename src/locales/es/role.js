@@ -79,7 +79,7 @@ export default {
   'Pipelines Management': 'Manejo de tuberías',
   'Pipelines View': 'Vista de tuberías',
   'Platform Settings Management': 'Gestión de configuración de plataforma',
-  'Please input role name': 'Por favor ingrese el nombre del rol',
+  'Please input role name': 'Por favor introduce el nombre del rol',
   'Please specify role authorization':
     'Por favor, especifique la autorización del rol',
   'Project Details': 'detalles del proyecto',
@@ -133,7 +133,7 @@ export default {
   JOIN_PROJECT_PLACEHOLDER:
     'Invite a los miembros por nombre de usuario o correo electrónico para unirse al proyecto.',
   ROLE_PROJECTS_JOIN_TIP:
-    'Ingrese el nombre de usuario o la dirección de correo electrónico para invitar a los usuarios al proyecto.',
+    'Introduce el nombre de usuario o la dirección de correo electrónico para invitar a los usuarios al proyecto.',
   ROLE_DELETE_TIP:
     'El rol actual ya está vinculado al usuario, intente nuevamente después de desvincularlo.',
   ROLE_NO_AVAILABLE_TIP: 'No hay roles disponibles para el proyecto actual.',
