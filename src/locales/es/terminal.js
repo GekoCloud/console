@@ -17,59 +17,59 @@
  */
 
 export default {
-  connected: 'connected',
-  Copy: 'Copy',
-  'Copy Successfully': 'Copy Successfully',
-  Disconnect: 'Disconnect',
-  disconnected: 'disconnected',
-  'Download File': 'Download File',
-  'Kubeconfig File': 'Kubeconfig File',
-  'KubeSphere Terminal': 'KubeSphere Terminal',
-  'Launch kubectl': 'Launch kubectl',
-  'Put this into': 'Put this into',
+  connected: 'conectado',
+  Copy: 'Copiar',
+  'Copy Successfully': 'Copia con éxito',
+  Disconnect: 'Desconectar',
+  disconnected: 'desconectado',
+  'Download File': 'Descargar archivo',
+  'Kubeconfig File': 'Archivo kubeconfig',
+  'KubeSphere Terminal': 'Terminal KubeSphere',
+  'Launch kubectl': 'Lanzar kubectl',
+  'Put this into': 'Poner esto en',
   
   KUBECONFIG_TIP: `
-    <h2><a id="KubeConfig_Configuration_Method_0"></a>KubeConfig Configuration Method</h2>
-    <p>Please refer to the <a href="https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/" target="_blank">official documentation</a> for more commands.</p>
+    <h2><a id="KubeConfig_Configuration_Method_0"></a>Método de configuración KubeConfig</h2>
+    <p>Por favor, consultar la <a href="https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/" target="_blank">documentación oficial</a> para más comandos.</p>
   `,
   KUBECTL_TIP: `
-    <h2><a id="KubeCtl_Common_Instructions_0"></a>KubeCtl Common Instructions</h2>
-    <p>Please refer to the <a href="https://kubernetes.io/docs/reference/kubectl/overview/" target="_blank">official documentation</a> for more commands.</p>
-    <h3><a id="kubectl_output_format_4"></a>kubectl Output Format</h3>
+    <h2><a id="KubeCtl_Common_Instructions_0"></a>Instrucciones comunes de KubeCtl</h2>
+    <p>Por favor, consultar la <a href="https://kubernetes.io/docs/reference/kubectl/overview/" target="_blank">documentación oficial</a> para más comandos.</p>
+    <h3><a id="kubectl_output_format_4"></a>Formato de salida de kubectl</h3>
     <ul>
-    <li>Show more information about Pod</li>
+    <li>Mostrar más información sobre el pod.</li>
     </ul>
     <p><code>kubectl get pod &lt;pod-name&gt; -o wide</code></p>
     <ul>
-    <li>Display Pod details in yaml format</li>
+    <li>Mostrar detalles del pod en formato yaml</li>
     </ul>
     <p><code>kubectl get pod &lt;pod-name&gt; -o yaml</code></p>
     <h3><a id="kubectl_Operation_14"></a>kubectl Operation</h3>
-    <h4><a id="1_Create_a_resource_object_16"></a>1. Create a resource object</h4>
+    <h4><a id="1_Create_a_resource_object_16"></a>1. Crea un objeto de recurso</h4>
     <ul>
-    <li>Create service and rc one time according to yaml configuration file</li>
+    <li>Crea servicio y rc una vez según la configuración del archivo yaml</li>
     </ul>
     <p><code>kubectl create -f my-service.yaml -f my-rc.yaml</code></p>
     <ul>
-    <li>Create all .yaml, .yml, .json files in the directory</li>
+    <li>Crea todos los archivos .yaml, .yml, .json en el directorio</li>
     </ul>
     <p><code>kubectl create -f &lt;directory&gt;</code></p>
-    <h4><a id="2_View_resource_objects_26"></a>2. View resource objects</h4>
+    <h4><a id="2_View_resource_objects_26"></a>2. Ver los objetos de recurso</h4>
     <ul>
-    <li>View all Pod lists</li>
+    <li>Ver lista de todos los pods</li>
     </ul>
     <p><code>kubectl get pods</code></p>
     <ul>
-    <li>View rc and service list</li>
+    <li>Ver lista de rc y servicios</li>
     </ul>
     <p><code>kubectl get rc,service</code></p>
-    <h4><a id="3_View_resource_details_36"></a>3. View resource details</h4>
+    <h4><a id="3_View_resource_details_36"></a>3. Ver detalles del recurso</h4>
     <ul>
-    <li>Show Node details</li>
+    <li>Mostrar detalles del nodo</li>
     </ul>
     <p><code>kubectl describe nodes &lt;node-name&gt;</code></p>
     <ul>
-    <li>Display Pod details</li>
+    <li>Mostrar detalles del pod</li>
     </ul>
     <p><code>kubectl describe pods/&lt;pod-name&gt;</code></p>
   `,
