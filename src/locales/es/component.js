@@ -17,15 +17,14 @@
  */
 
 export default {
-  'All Components': 'All Components',
-  components: 'components',
-  Components: 'Components',
-  'Installed Components': 'Installed Components',
-  'Instance Count': 'Instance Count',
-  'Not Installed Components': 'Not Installed Components',
-  'Running Status': 'Running Status',
-  'Service Details': 'Service Details',
-
+  'All Components': 'Todos los componentes',
+  components: 'componentes',
+  Components: 'Componentes',
+  'Installed Components': 'Componentes instalados',
+  'Instance Count': 'Recuento de instancias',
+  'Not Installed Components': 'Componentes no instalados',
+  'Running Status': 'Estado de ejecución',
+  'Service Details': 'Detalles del servicio',
   SERVICE_COMPONENTS_DESC: 'Este módulo monitorea el estado de varios componentes del servicio en KubeSphere, Kubernetes, OpenPitrix, etc. Muestra el estado de mantenimiento y el tiempo de ejecución del clúster actual, y ayuda a los usuarios a monitorear el estado del clúster y localizar problemas a tiempo.',
   'KS-ACCOUNT_DESC': 'Proporciona API de administración de usuarios y autorizaciones.',
   'KS-APIGATEWAY_DESC': 'Responsable de procesar solicitudes de servicio y manejar todas las tareas en el proceso de llamada API',

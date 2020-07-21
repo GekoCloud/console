@@ -26,7 +26,7 @@ export default {
   'Sort By node_cpu_utilisation': 'Ordenar por CPU',
   'Sort By node_memory_utilisation': 'Ordenar por memoria',
   'Sort By node_disk_size_utilisation': 'Ordenar por almacenamiento local',
-  'Sort By node_pod_utilisation': 'Ordenar por utilización de pod',
+  'Sort By node_pod_utilisation': 'Ordenar mediante el uso de pod',
   'Sort By node_disk_inode_utilisation': 'Ordenar por inodo Utilización',
   'Sort By node_load1': 'Ordenar por promedio de carga',
   'Sort By namespace_memory_usage_wo_cache': 'Ordenar por uso de memoria',

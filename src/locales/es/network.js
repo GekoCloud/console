@@ -17,17 +17,16 @@
  */
 
 export default {
-  'Add Allowlist': 'Add Allowlist',
-  'Create Network Policy': 'Create Network Policy',
-  Direction: 'Direction',
-  Egress: 'Egress',
-  Ingress: 'Ingress',
-  'Network Isolation': 'Network Isolation',
-  'Network Policies': 'Network Policies',
-  'Network Policy': 'Network Policy',
-  'Traffic Egress': 'Traffic Egress',
-  'Traffic Ingress': 'Traffic Ingress',
-  
+  'Add Allowlist': 'Agregar lista de permitidos',
+  'Create Network Policy': 'Crear política de red',
+  Direction: 'Dirección',
+  Egress: 'Salida',
+  Ingress: 'Ingreso',
+  'Network Isolation': 'Aislamiento de red',
+  'Network Policies': 'Políticas de red',
+  'Network Policy': 'Política de red',
+  'Traffic Egress': 'Egreso de tráfico',
+  'Traffic Ingress': 'Tráfico de entrada',
   'Network Policys': 'Políticas de red',
   NETWORK_POLICY_DESC: 'La configuración de la política de red permite el aislamiento de la red dentro del mismo clúster, lo que significa que se pueden configurar firewalls entre ciertas instancias (Pods).',
   NETWORK_ISOLATION_DESC: 'Al configurar el aislamiento de la red para controlar el tráfico entre Pods dentro del mismo clúster y el tráfico del exterior, las aplicaciones se aíslan y se mejora la seguridad.',

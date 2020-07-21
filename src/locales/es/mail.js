@@ -17,16 +17,15 @@
  */
 
 export default {
-  'Mail Server': 'Mail Server',
-  'Platform Settings': 'Platform Settings',
-  'Send a test email': 'Send a test email',
-  'Sender Email': 'Sender Email',
-  'Server Settings': 'Server Settings',
-  'Server Username': 'Server Username',
-  'SMTP Server Address': 'SMTP Server Address',
-  'The sender mail account': 'The sender mail account',
-  'Use SSL Secure Connection': 'Use SSL Secure Connection',
-  
+  'Mail Server': 'Servidor de correo',
+  'Platform Settings': 'Configuraciones de plataforma',
+  'Send a test email': 'Enviar un correo electrónico de prueba',
+  'Sender Email': 'Correo electrónico del remitente',
+  'Server Settings': 'Configuración del servidor',
+  'Server Username': 'Nombre de usuario del servidor',
+  'SMTP Server Address': 'Dirección del servidor SMTP',
+  'The sender mail account': 'La cuenta de correo del remitente',
+  'Use SSL Secure Connection': 'Usar conexión segura SSL',
   MAIL_SERVER_DESC: 'Este módulo proporciona servicios de entrega de correo electrónico con configuraciones personalizadas.',
   EMPTY_MAIL_SERVER: 'Temporalmente no se ha configurado un servidor de correo electrónico. Debe configurar un servidor de correo electrónico para proporcionar servicios de entrega de correo electrónico.',
   TEST_EMAIL_RECIPIENT: 'Prueba de dirección de correo electrónico',
