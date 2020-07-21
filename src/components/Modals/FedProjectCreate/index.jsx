@@ -18,13 +18,13 @@
 
 import React from 'react'
 import { observer } from 'mobx-react'
-import { get, set, uniqBy } from 'lodash'
+import { get, set, uniqBy, isEmpty } from 'lodash'
 import PropTypes from 'prop-types'
 import { Columns, Column, Select, Input } from '@pitrix/lego-ui'
 import { Modal, Form, TextArea } from 'components/Base'
 import { ArrayInput, ObjectInput } from 'components/Inputs'
 import ClusterTitle from 'components/Clusters/ClusterTitle'
-import { PATTERN_SERVICE_NAME, PATTERN_LENGTH_63 } from 'utils/constants'
+import { PATTERN_SERVICE_NAME } from 'utils/constants'
 
 import { computed } from 'mobx'
 import styles from './index.scss'
@@ -99,7 +99,7 @@ export default class FedProjectCreateModal extends React.Component {
       const resp = await this.store.checkName({ name })
       if (resp.exist) {
         return callback({
-          message: t('Project name exists on host cluster'),
+          message: t('The project name exists on the host cluster.'),
           field: rule.field,
         })
       }
@@ -140,14 +140,20 @@ export default class FedProjectCreateModal extends React.Component {
   }
 
   handleNameChange = () => {
-    if (this.clusterRef.current && this.clusterRef.current.state.error) {
+    if (this.clusterRef && this.clusterRef.current) {
       const name = 'spec.placement.clusters'
-      if (this.formRef && this.formRef.current) {
+      if (
+        this.formRef &&
+        this.formRef.current &&
+        !isEmpty(this.formRef.current.state.errors)
+      ) {
         this.formRef.current.resetValidateResults(name)
       }
-      this.clusterRef.current.validate({
-        [name]: get(this.props.formTemplate, name),
-      })
+      if (this.clusterRef.current.state.error) {
+        this.clusterRef.current.validate({
+          [name]: get(this.props.formTemplate, name),
+        })
+      }
     }
   }
 
@@ -219,13 +225,13 @@ export default class FedProjectCreateModal extends React.Component {
                     pattern: PATTERN_SERVICE_NAME,
                     message: `${t('Invalid name')}, ${t('SERVICE_NAME_DESC')}`,
                   },
-                  { pattern: PATTERN_LENGTH_63, message: t('NAME_TOO_LONG') },
                 ]}
               >
                 <Input
                   name="metadata.name"
-                  autoFocus={true}
                   onChange={this.handleNameChange}
+                  autoFocus={true}
+                  maxLength={63}
                 />
               </Form.Item>
             </Column>
@@ -237,20 +243,6 @@ export default class FedProjectCreateModal extends React.Component {
           </Columns>
           <Columns>
             <Column>
-              <Form.Item
-                label={t('Network Isolation')}
-                desc={t('NETWORK_ISOLATED_DESC')}
-              >
-                <Select
-                  name="metadata.annotations['kubesphere.io/network-isolate']"
-                  options={this.networkOptions}
-                  defaultValue={
-                    globals.config.defaultNetworkIsolation ? 'enabled' : ''
-                  }
-                />
-              </Form.Item>
-            </Column>
-            <Column>
               <Form.Item label={t('Description')} desc={t('DESCRIPTION_DESC')}>
                 <TextArea
                   name="metadata.annotations['kubesphere.io/description']"
@@ -258,6 +250,7 @@ export default class FedProjectCreateModal extends React.Component {
                 />
               </Form.Item>
             </Column>
+            <Column />
           </Columns>
           {this.renderClusters()}
         </div>

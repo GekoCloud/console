@@ -139,10 +139,6 @@ export default class GlobalValue {
   }
 
   checkNavItem(item, callback) {
-    if (item.skipAuth) {
-      return true
-    }
-
     if (item.multiCluster && !globals.app.isMultiCluster) {
       return false
     }
@@ -160,6 +156,10 @@ export default class GlobalValue {
 
     if (item.admin && globals.user.globalrole !== 'platform-admin') {
       return false
+    }
+
+    if (item.skipAuth) {
+      return true
     }
 
     if (!item._children) {
@@ -399,11 +399,14 @@ export default class GlobalValue {
   }
 
   cacheHistory(url, obj) {
-    let histories = safeParseJSON(localStorage.getItem('history-cache'), [])
+    let histories = safeParseJSON(localStorage.getItem('history-cache'), {})
+    histories = histories[globals.user.username] || []
     histories = histories.filter(item => item.url !== url)
     localStorage.setItem(
       'history-cache',
-      JSON.stringify([{ url, ...obj }, ...histories].slice(0, 8))
+      JSON.stringify({
+        [globals.user.username]: [{ url, ...obj }, ...histories].slice(0, 8),
+      })
     )
   }
 }

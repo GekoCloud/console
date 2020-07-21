@@ -451,10 +451,6 @@ export const PATTERN_SERVICE_NAME = /^[a-z]([-a-z0-9]*[a-z0-9])?$/
 export const PATTERN_LABEL = /(([A-Za-z0-9][-A-Za-z0-9_.]*)?[A-Za-z0-9])?/
 export const PATTERN_PASSWORD = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[^]{6,}$/
 export const PATTERN_IMAGE = /^\S+$/
-export const PATTERN_LENGTH_52 = /^.{0,52}$/
-export const PATTERN_LENGTH_63 = /^.{0,63}$/
-export const PATTERN_LENGTH_253 = /^.{0,253}$/
-export const PATTERN_LENGTH_1000 = /^.{0,1000}$/
 export const PATTERN_PORT_NAME = /^[a-z]([-a-z0-9]*[a-z0-9])?$/
 export const PATTERN_COMPONENT_VERSION = /^[a-z0-9]+$/
 export const PATTERN_PIPELINE_NAME = /^[a-zA-Z0-9]([-a-zA-Z0-9_]*)?$/
@@ -832,7 +828,7 @@ export const API_VERSIONS = {
   strategies: 'apis/servicemesh.kubesphere.io/v1alpha2',
   servicepolicies: 'apis/servicemesh.kubesphere.io/v1alpha2',
   horizontalpodautoscalers: 'apis/autoscaling/v2beta2',
-  customresourcedefinitions: 'apis/apiextensions.k8s.io/v1',
+  customresourcedefinitions: 'apis/apiextensions.k8s.io/v1beta1',
   clusters: 'apis/cluster.kubesphere.io/v1alpha1',
   workspaces: 'apis/tenant.kubesphere.io/v1alpha2',
   users: 'apis/iam.kubesphere.io/v1alpha2',

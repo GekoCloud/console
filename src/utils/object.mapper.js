@@ -99,8 +99,7 @@ const WorkspaceMapper = item => {
       get(item, 'spec.manager') ||
       getResourceCreator(item),
     clusters,
-    networkIsolation:
-      get(item, 'spec.template.spec.networkIsolation') === 'true',
+    networkIsolation: get(item, 'spec.template.spec.networkIsolation'),
     overrides,
     clusterTemplates,
     _originData: getOriginData(item),
@@ -1044,7 +1043,7 @@ const ClusterMapper = item => {
     nodeCount: get(item, 'status.nodeCount'),
     kubernetesVersion: get(item, 'status.kubernetesVersion'),
     labels: get(item, 'metadata.labels'),
-    group: get(item, 'metadata.labels["cluster.kubesphere.io/group"]'),
+    group: get(item, 'metadata.labels["cluster.kubesphere.io/group"]', ''),
     isReady: globals.app.isMultiCluster
       ? get(conditions, 'Ready.status') === 'True'
       : true,

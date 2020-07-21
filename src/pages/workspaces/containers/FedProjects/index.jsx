@@ -105,10 +105,31 @@ export default class Projects extends React.Component {
     ]
   }
 
-  getCheckboxProps = record => ({
-    disabled: record.deletionTime,
-    name: record.name,
-  })
+  get tableActions() {
+    const { name, trigger, getData, tableProps } = this.props
+    return {
+      ...tableProps.tableActions,
+      selectActions: [
+        {
+          key: 'delete',
+          type: 'danger',
+          text: t('Delete'),
+          action: 'delete',
+          onClick: () =>
+            trigger('federated.project.delete.batch', {
+              type: t(name),
+              success: getData,
+              rowKey: 'name',
+              ...this.props.match.params,
+            }),
+        },
+      ],
+      getCheckboxProps: record => ({
+        disabled: record.deletionTime,
+        name: record.name,
+      }),
+    }
+  }
 
   getColumns = () => {
     return [
@@ -134,7 +155,6 @@ export default class Projects extends React.Component {
         title: t('Status'),
         dataIndex: 'status',
         isHideable: true,
-        search: true,
         render: status => <Status type={status} name={t(status)} flicker />,
       },
       {
@@ -182,12 +202,12 @@ export default class Projects extends React.Component {
         />
         <Table
           {...tableProps}
+          tableActions={this.tableActions}
           itemActions={this.itemActions}
           columns={this.getColumns()}
           onCreate={this.showCreate}
           searchType="name"
           clusters={this.clusters}
-          getCheckboxProps={this.getCheckboxProps}
         />
       </ListPage>
     )

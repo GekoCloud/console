@@ -23,7 +23,7 @@ import PropTypes from 'prop-types'
 import { Columns, Column, Select, Input } from '@pitrix/lego-ui'
 import { Modal, Form, TextArea } from 'components/Base'
 import ClusterTitle from 'components/Clusters/ClusterTitle'
-import { PATTERN_SERVICE_NAME, PATTERN_LENGTH_63 } from 'utils/constants'
+import { PATTERN_SERVICE_NAME } from 'utils/constants'
 
 import WorkspaceStore from 'stores/workspace'
 
@@ -128,17 +128,19 @@ export default class ProjectCreateModal extends React.Component {
   }
 
   handleNameChange = () => {
-    if (
-      this.clusterRef &&
-      this.clusterRef.current &&
-      this.clusterRef.current.state.error
-    ) {
-      if (this.formRef && this.formRef.current) {
+    if (this.clusterRef && this.clusterRef.current) {
+      if (
+        this.formRef &&
+        this.formRef.current &&
+        !isEmpty(this.formRef.current.state.errors)
+      ) {
         this.formRef.current.resetValidateResults('cluster')
       }
-      this.clusterRef.current.validate({
-        cluster: get(this.props.formTemplate, 'cluster'),
-      })
+      if (this.clusterRef.current.state.error) {
+        this.clusterRef.current.validate({
+          cluster: get(this.props.formTemplate, 'cluster'),
+        })
+      }
     }
   }
 
@@ -216,7 +218,6 @@ export default class ProjectCreateModal extends React.Component {
                     pattern: PATTERN_SERVICE_NAME,
                     message: `${t('Invalid name')}, ${t('SERVICE_NAME_DESC')}`,
                   },
-                  { pattern: PATTERN_LENGTH_63, message: t('NAME_TOO_LONG') },
                   {
                     validator: hideCluster ? this.nameValidator : null,
                   },
@@ -224,8 +225,9 @@ export default class ProjectCreateModal extends React.Component {
               >
                 <Input
                   name="metadata.name"
-                  autoFocus={true}
                   onChange={this.handleNameChange}
+                  autoFocus={true}
+                  maxLength={63}
                 />
               </Form.Item>
             </Column>
@@ -237,20 +239,6 @@ export default class ProjectCreateModal extends React.Component {
           </Columns>
           <Columns>
             <Column>
-              <Form.Item
-                label={t('Network Isolation')}
-                desc={t('NETWORK_ISOLATED_DESC')}
-              >
-                <Select
-                  name="metadata.annotations['kubesphere.io/network-isolate']"
-                  options={this.networkOptions}
-                  defaultValue={
-                    globals.config.defaultNetworkIsolation ? 'enabled' : ''
-                  }
-                />
-              </Form.Item>
-            </Column>
-            <Column>
               <Form.Item label={t('Description')} desc={t('DESCRIPTION_DESC')}>
                 <TextArea
                   name="metadata.annotations['kubesphere.io/description']"
@@ -258,6 +246,7 @@ export default class ProjectCreateModal extends React.Component {
                 />
               </Form.Item>
             </Column>
+            <Column />
           </Columns>
           {!hideCluster && this.renderClusters()}
         </div>
