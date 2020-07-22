@@ -19,23 +19,23 @@
 export default {
   'Add App Repository': 'Agregar repositorio de aplicaciones',
   'Add Repo': 'Agregar repositorio',
-  'App Repos': 'Aplicación de descanso',
+  'App Repos': 'Repositorios de aplicaciones',
   'App Repository': 'Repositorio de aplicaciones',
   'App Repository Name': 'Nombre del repositorio de aplicaciones',
   'Edit App Repository': 'Editar repositorio de aplicaciones',
   'HTTP access denied': 'Acceso HTTP denegado',
-  'Index Repo': 'Index Repo',
+  'Index Repo': 'Indexar repositorio',
   'Invalid format of credential': 'Formato de credencial no válido',
   'Invalid format of URL': 'Formato de URL no válido',
   'Invalid HTTP Scheme': 'Esquema HTTP no válido',
   'Invalid HTTPS Scheme': 'Esquema HTTPS no válido',
-  'Invalid Providers': 'Proveedores inválidos',
+  'Invalid Providers': 'Proveedores no válidos',
   'Invalid Repo URL': 'URL de repositorio no válida',
-  'Invalid S3 Scheme': 'Esquema S3 inválido',
-  'Invalid type': 'Tipo inválido',
-  'Invalid URL': 'URL invalida',
-  'Missing access key ID': 'Falta la identificación de la clave de acceso',
-  'Missing secret access key': 'Falta clave de acceso secreta',
+  'Invalid S3 Scheme': 'Esquema S3 no válido',
+  'Invalid type': 'Tipo no válido',
+  'Invalid URL': 'URL no válida',
+  'Missing access key ID': 'Falta la ID de la clave de acceso',
+  'Missing secret access key': 'Falta la clave de acceso secreta',
   'Please input access key ID and secret access key':
     'Introduce la ID de la clave de acceso y la clave de acceso secreta',
   'Please input URL': 'Por favor introduce URL',
@@ -45,12 +45,12 @@ export default {
   Validate: 'Validar',
   'App Repositorys': 'Repositorios de aplicaciones',
   APP_REPO_URL_DESC:
-    'La URL ingresada debe validarse antes de agregarse o editarse.',
+    'La URL introducida debe validarse antes de agregarse o editarse.',
   APP_REPOSITORY_CREATE_DESC:
-    'Puedes agregar una fuente de repositorio de aplicaciones de terceros que admita aplicaciones Kubernetes basadas en Helm.',
+    'Puedes agregar un repositorio de aplicaciones de terceros que admita aplicaciones Kubernetes basadas en Helm.',
   APP_REPO_DESC:
-    'Puedes agregar una fuente de repositorio de aplicaciones de terceros que admita aplicaciones Kubernetes basadas en Helm.',
+    'Puedes agregar un repositorio de aplicaciones de terceros que admita aplicaciones Kubernetes basadas en Helm.',
   HOW_TO_USE_APP_REPO_Q: '¿Cómo usar un repositorio de aplicaciones?',
   HOW_TO_USE_APP_REPO_A:
-    'El repositorio de aplicaciones agregado se puedes ver en los proyectos del espacio de trabajo. Al ingresar Aplicación =&gt; Implementar aplicaciones =&gt; Repositorio de aplicaciones, puedes encontrar todas las aplicaciones en el repositorio actual e implementarlas.',
+    'El repositorio de aplicaciones agregado se puede ver en los proyectos del espacio de trabajo. Al ir a Aplicación => Desplegar aplicaciones => Repositorio de aplicaciones, puedes encontrar todas las aplicaciones en el actual repositorio e implementarlas.',
 }
