@@ -18,7 +18,7 @@
 
 export default {
   'Mail Server': 'Servidor de correo',
-  'Platform Settings': 'Configuraciones de plataforma',
+  'Platform Settings': 'Configuración de la plataforma',
   'Send a test email': 'Enviar un correo electrónico de prueba',
   'Sender Email': 'Correo electrónico del remitente',
   'Server Settings': 'Configuración del servidor',
@@ -29,18 +29,19 @@ export default {
   MAIL_SERVER_DESC:
     'Este módulo proporciona servicios de entrega de correo electrónico con configuraciones personalizadas.',
   EMPTY_MAIL_SERVER:
-    'Temporalmente no se ha configurado un servidor de correo electrónico. Debe configurar un servidor de correo electrónico para proporcionar servicios de entrega de correo electrónico.',
-  TEST_EMAIL_RECIPIENT: 'Prueba de dirección de correo electrónico',
+    'Por el momento no se ha configurado un servidor de correo electrónico. Debe configurar un servidor de correo para disponer de servicios de envío de correo electrónico.',
+  TEST_EMAIL_TITLE: '[KubeSphere] Correo electrónico de prueba',
+  TEST_EMAIL_RECIPIENT: 'Dirección de correo electrónico de prueba',
   TEST_EMAIL_ADDRESS_FORM_DESC:
     'La dirección de prueba para recibir correos electrónicos',
   SENDER_MAIL: 'Dirección de correo electrónico del remitente',
   SENDER_NICKNAME: 'Apodo del remitente',
   FROM_EMAIL_ADDR_DESC:
-    'La cuenta de correo electrónico del remitente (en blanco significa que es lo mismo que el valor &quot;Usuario SMTP&quot;)',
+    'La cuenta de correo electrónico del remitente (en blanco significa que es lo mismo que el valor "Usuario SMTP")',
   MAIL_SERVER_CONFIG_NEED_SAVE_TIP:
-    'La configuración del correo electrónico se ha configurado correctamente, guarde la configuración del servidor.',
+    'La configuración del correo electrónico se ha realizado correctamente, guarda la configuración del servidor.',
   MAIL_SERVER_CONFIG_INVALID_TIP:
-    'La configuración de correo electrónico actual no está disponible.',
+    'La actual configuración de correo electrónico no está disponible.',
   MAIL_SERVER_CONFIG_NEED_VERIFIED_TIP:
-    'La configuración actual del correo electrónico ha cambiado. Vuelva a enviar un correo electrónico de prueba y guarde la configuración. O también puedes descartar su modificación.',
+    'La actual configuración del correo electrónico ha cambiado. Vuelve a enviar un correo electrónico de prueba y guarda la configuración. O también puedes descartar su modificación.',
 }
