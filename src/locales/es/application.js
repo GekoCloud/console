@@ -180,7 +180,7 @@ export default {
   SERVICE_DEPLOYMENT: 'Servicio sin estado (Deployment)',
   SERVICE_STATEFULSET: 'Servicio con estado (StatefulSet)',
   CONNECTION_POOL_TIP:
-    'Crea un número fijo de objetos de conexión para la aplicación y guárdalos en el grupo para su reutilización. El grupo existente estará disponible para cada acceso, y cada objetos de conexión volverá al grupo después de su uso.',
+    'Crea un número fijo de objetos de conexión para la aplicación y guárdalos en el grupo para su reutilización. El grupo existente estará disponible para cada acceso, y cada objeto de conexión volverá al grupo después de su uso.',
   APP_GOVERNANCE_DESC:
     'Si la gestión de aplicación está habilitada, el contenedor Istio-proxy se inyectará como SideCar en cada componente. <a href="https://istio.io/docs/setup/kubernetes/additional-setup/sidecar-injection/" target="_blank">LEER MAS</a>',
   POD_ISOLATION_RATIO_DESC:
