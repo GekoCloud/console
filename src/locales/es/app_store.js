@@ -18,19 +18,19 @@
 
 export default {
   'App Id': 'ID de la aplicación',
-  'App Readme': 'Léame de la aplicación',
+  'App Readme': 'LEEME (README) de la aplicación',
   'App Store': 'Tienda de aplicaciones',
   'App Store Settings': 'Configuración de la tienda de aplicaciones',
-  Back: 'Espalda',
+  Back: 'Atrás',
   Captcha: 'Captcha',
-  Categories: 'Categorias',
+  Categories: 'Categorías',
   'Change Log': 'Cambiar registro',
-  'Config files': 'Archivos de configuración',
+  'Config files': 'Ficheros de configuración',
   Contact: 'Contacto',
   Developer: 'Desarrollador',
   Discoveries: 'Descubrimientos',
   'Find app': 'Encuentra la aplicación',
-  'Install and Deploy': 'Instalar e implementar',
+  'Install and Deploy': 'Instalar y desplegar',
   Introduction: 'Introducción',
   Keywords: 'Palabras clave',
   Latest: 'Último',
@@ -43,6 +43,6 @@ export default {
   'Version Number': 'Número de versión',
   Versions: 'Versiones',
   TOTAL_CATE_COUNT: '{total} Aplicaciones en total',
-  HOME_APP_STORE_DESC: 'La App Store oficial de KubeSphere proporciona características de despliegue y administración que permiten a los usuarios desplegar aplicaciones rápidamente con un solo clic en base a plantillas de aplicaciones.',
+  HOME_APP_STORE_DESC: 'La App Store oficial de KubeSphere proporciona características de despliegue y administración que permiten a los usuarios desplegar aplicaciones rápidamente con un solo click en base a plantillas de aplicaciones.',
 
 }
