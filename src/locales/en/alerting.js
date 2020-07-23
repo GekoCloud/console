@@ -116,9 +116,11 @@ export default {
   'Unavailable statefulset replicas ratio':
     'Unavailable statefulset replicas ratio',
   'View Details': 'View Details',
+
   load1: 'CPU load average 1 minute',
   load5: 'CPU load average 5 minute',
   load15: 'CPU load average 15 minute',
+
   ALERT_TYPE: '{type} Alert',
   ALERT_POLICY_TYPE: '{type} Alerting Policy',
   ALERT_POLICY_DESC: 'Set alert rules',
