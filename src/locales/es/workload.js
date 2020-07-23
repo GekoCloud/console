@@ -363,7 +363,7 @@ export default {
   WORKLOAD_REASON_REPLICASETCREATEERROR:
     'WORKLOAD_REASON_REPLICASETCREATEERROR',
   WORKLOAD_REASON_REPLICASETUPDATED: 'WORKLOAD_REASON_REPLICASETUPDATED',
-  Workloads: 'Workload',
+  Workloads: 'Cargas de trabajo',
   'You can allow Pod replicas to run on specified nodes.':
     'Puede permitir que las réplicas de Pod se ejecuten en nodos específicos.',
   WORKLOAD_DESC:
