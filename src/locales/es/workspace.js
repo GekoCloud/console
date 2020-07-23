@@ -24,14 +24,14 @@ export default {
   'Created Projects': 'Proyectos creados',
   'Delete Workspace': 'Eliminar espacio de trabajo',
   'DevOps Project Number': 'Número de proyecto DevOps',
-  'Edit Quota': 'Que editar',
+  'Edit Quota': 'Editar quota',
   'Edit Workspace Role': 'Editar rol del espacio de trabajo',
   'Invite members to the workspace': 'Invitar miembros al espacio de trabajo',
   'Involved Projects': 'Proyectos involucrados',
   'Manage Organizations': 'Administrar organizaciones',
-  'No Available Cluster': 'No hay clúster disponible',
+  'No Available Cluster': 'Clúster no disponible',
   'Please input workspace name':
-    'Por favor introduce el nombre del espacio de trabajo',
+    'Introduce el nombre del espacio de trabajo',
   'Project Number': 'Número de proyecto',
   'Remove from Workspace': 'Eliminar del espacio de trabajo',
   'The current name is not applicable.': 'El nombre actual no es aplicable.',
@@ -39,24 +39,24 @@ export default {
   Workspace: 'Espacio de trabajo',
   'Workspace Info': 'Información del espacio de trabajo',
   'Workspace Logo': 'Logotipo del espacio de trabajo',
-  'Workspace Manager': 'Gerente de espacio de trabajo',
+  'Workspace Manager': 'Gestor del espacio de trabajo',
   'Workspace Members': 'Miembros del espacio de trabajo',
   'Workspace Name': 'Nombre del espacio de trabajo',
-  'Workspace name exists': 'El nombre del espacio de trabajo existe',
+  'Workspace name exists': 'El nombre del espacio de trabajo ya existe',
   'Workspace Network Isolation': 'Aislamiento de red de espacio de trabajo',
   'Workspace Role': 'Rol del espacio de trabajo',
   'Workspace Roles': 'Roles del espacio de trabajo',
   'Workspace Settings': 'Configuración del espacio de trabajo',
   Workspaces: 'Espacios de trabajo',
-  'Workspaces Manager': 'Gerente de espacios de trabajo',
+  'Workspaces Manager': 'Gestor de espacios de trabajo',
   WORKSPACE_OVERVIEW_DESC:
     'Workspace proporciona a KubeSphere una plataforma segura, aislada y accesible. Aquí puedes ver el estado de ejecución de los recursos en el espacio de trabajo actual.',
   WORKSPACE_DESC:
-    'Workspace es una unidad lógica para organizar tus proyectos de carga de trabajo / namespaces de Kubernetes, proyectos DevOps, administrar el acceso a recursos y compartir información dentro de tu equipo. Es un lugar de trabajo aislado para tu equipo.',
+    'Los espacios de trabajo son una unidad lógica para organizar tus proyectos de carga de trabajo / namespaces de Kubernetes, proyectos DevOps, administrar el acceso a recursos y compartir información dentro de tu equipo. Es un lugar de trabajo aislado para tu equipo.',
   WORKSPACE_SEARCH_PLACEHOLDER:
     'Introduce el nombre de tu espacio de trabajo para encontrarlo',
   WORKSPACE_CREATE_DESC:
-    'Workspace es una unidad lógica para organizar tus proyectos y proyectos DevOps. El acceso a los recursos y los recursos compartidos del equipo se pueden administrar aquí. Puedes servir como un espacio de trabajo independiente para tu equipo.',
+    'Los esapcios de trabajo son una unidad lógica para organizar tus proyectos y proyectos DevOps. El acceso a los recursos y los recursos compartidos del equipo se pueden administrar aquí. Puede servir como un espacio de trabajo independiente para tu equipo.',
   WORKSPACE_NAME_DESC:
     'Usa un nombre de espacio de trabajo corto, como por ejemplo la abreviatura del nombre de tu empresa.',
   WORKSPACE_LOGO_PLACEHOLDER:
@@ -74,7 +74,7 @@ export default {
     'El rol del espacio de trabajo determina los permisos del rol en el espacio de trabajo actual.',
   SEARCH_WORKSPACE_TIP: 'Introduce el nombre del espacio de trabajo a buscar',
   NO_PUBLIC_CLUSTER_TIP:
-    'No hay clústeres públicos disponibles, solicita permisos de clúster al administrador de la plataforma o al administrador del clúster después de crear el espacio de trabajo',
+    'No hay clústeres públicos disponibles, solicita autorización para clúster al administrador de la plataforma o al administrador del clúster después de crear el espacio de trabajo',
   WORKSPACE_NO_CLUSTER_TIP:
     'Debes ponerte en contacto con el administrador de la plataforma o el administrador del clúster para que valide los derechos de acceso del clúster en el espacio de trabajo.',
   WORKSPACE_BASE_INFO_Q1:
@@ -90,8 +90,8 @@ export default {
   HOW_TO_APPLY_MORE_CLUSTER_A:
     'El administrador de la plataforma y el administrador del clúster operan y mantienen un clúster. Si necesita más clústeres, ponte en contacto con el administrador de tu plataforma o envía una solicitud.',
   DELETE_WORKSPACE_DESC:
-    'El espacio de trabajo no se puedes restaurar después de ser eliminado y los recursos en el espacio de trabajo también se eliminarán.',
-  SURE_TO_DELETE_WORKSPACE: 'Seguro de eliminar el espacio de trabajo',
+    'El espacio de trabajo no se puede restaurar después de ser eliminado y los recursos en el espacio de trabajo también se eliminarán.',
+  SURE_TO_DELETE_WORKSPACE: 'Deseas eliminar el espacio de trabajo?',
   DELETE_WORKSPACE_TIP:
     '¿Estás seguro de eliminar el espacio de trabajo <strong>{resource}</strong> ? No podrás recuperarlo, y los recursos en el espacio de trabajo también se eliminarán.',
 }
