@@ -31,11 +31,11 @@ export default {
   'Delete Version': 'Eliminar versión',
   deleting: 'borrando',
   'Deployed Instances': 'Instancias desplegadas',
-  'Develop and test guide': 'Desarrollar y probar la guía',
+  'Develop and test guide': 'Guía de desarrollar y test',
   developer: 'desarrollador',
   Developing: 'Desarrollando',
-  'Download Successfully': 'Descargar con éxito',
-  Draft: 'Sequía',
+  'Download Successfully': 'Descargado con éxito',
+  Draft: 'Borrador',
   global_admin: 'global_admin',
   'in-review': 'en revisión',
   'In-review': 'En revisión',
@@ -45,18 +45,18 @@ export default {
   Passed: 'Pasado',
   'Pending-review': 'Revisión pendiente',
   Published: 'Publicado',
-  Recall: 'Recordar',
-  Recalled: 'Retirado del mercado',
+  Recall: 'Retirar',
+  Recalled: 'Retirado',
   Reject: 'Rechazar',
   Rejected: 'Rechazado',
   Release: 'Lanzamiento',
-  'Release to Store': 'Liberar a la tienda',
-  Review: 'revisión',
-  Starting: 'Comenzando',
-  Stopping: 'Parada',
+  'Release to Store': 'Lanzar a la tienda',
+  Review: 'Revisión',
+  Starting: 'Empezando',
+  Stopping: 'Parando',
   Submit: 'Enviar',
-  'Submit Review': 'Enviar opinión',
-  Submitted: 'Presentada',
+  'Submit Review': 'Enviar revisión',
+  Submitted: 'Enviada',
   'Suspend App': 'Suspender aplicación',
   'Suspend Version': 'Suspender versión',
   Suspended: 'Suspendido',
@@ -68,24 +68,26 @@ export default {
   'View in Store': 'Ver en la tienda',
   Working: 'Trabajando',
   'Wrong version number format': 'Formato de número de versión incorrecto',
+
   VERSION_DELETE_TIP:
-    '¿Está seguro de eliminar la versión <strong>{nombre}</strong> ?',
+    '¿Está seguro de eliminar la versión <strong>{name}</strong> ?',
   VERSION_SUBMIT_TIP:
-    '¿Está seguro de enviar la versión <strong>{nombre}</strong> para auditoría?',
+    '¿Está seguro de enviar la versión <strong>{name}</strong> para auditoría?',
   VERSION_CANCEL_TIP:
-    '¿Está seguro de cancelar la revisión de la versión <strong>{nombre}</strong> ?',
+    '¿Está seguro de cancelar la revisión de la versión <strong>{name}</strong> ?',
   VERSION_RELEASE_TIP:
-    'Los usuarios pueden ver e implementar la versión <strong>{nombre}</strong> en la tienda cuando se lance. ¿Estás seguro de lanzarlo ahora?',
+    'Los usuarios pueden ver e implementar la versión <strong>{name}</strong> en la tienda cuando se lance. ¿Estás seguro de lanzarlo ahora?',
   VERSION_SUSPEND_TIP:
-    'La versión <strong>{nombre}</strong> no se mostrará en la tienda cuando se suspenda. ¿Estás seguro de suspenderlo ahora?',
+    'La versión <strong>{name}</strong> no se mostrará en la tienda cuando se suspenda. ¿Estás seguro de suspenderlo ahora?',
   VERSION_RECOVER_TIP:
-    'La versión <strong>{nombre}</strong> se mostrará nuevamente en la tienda. ¿Estás seguro de activarlo ahora?',
+    'La versión <strong>{name}</strong> se mostrará nuevamente en la tienda. ¿Estás seguro de activarlo ahora?',
   APP_SUSPEND_TIP:
-    'La aplicación <strong>{nombre}</strong> no se puede comprar en la tienda cuando está suspendida. ¿Estás seguro de suspenderlo ahora?',
+    'La aplicación <strong>{name}</strong> no se puede comprar en la tienda cuando está suspendida. ¿Estás seguro de suspenderlo ahora?',
   APP_RECOVER_TIP:
-    'La aplicación <strong>{nombre}</strong> y las versiones suspendidas se mostrarán nuevamente en la tienda. ¿Estás seguro de activarlo ahora?',
+    'La aplicación <strong>{name}</strong> y las versiones suspendidas se mostrarán nuevamente en la tienda. ¿Estás seguro de activarlo ahora?',
+
   PACKAGE_FILE_DESC:
-    'Paquete.json, que describe la información básica de una aplicación o versión, como el nombre y el número de versión.',
+    'El archivo Package.json, que describe la información básica de una aplicación o versión, como el nombre y el número de versión.',
   CONFIG_FILE_DESC: 'Perfil predeterminado de la aplicación',
   LICENSE_FILE_DESC: 'Protocolo en formato de texto',
   LOCALE_ES__FILE_DESC:
@@ -95,31 +97,40 @@ export default {
   LOCALE_ZH_FILE_DESC:
     'Traducción al chino para la configuración de la aplicación',
   CHART_FILE_DESC:
-    'Archivo Yaml, que se utiliza para describir la información básica de Chart, como el nombre y la versión.',
+    'Archivo yaml, que se utiliza para describir la información básica de Chart, ' +
+    'como el nombre y la versión.',
   README_FILE_DESC: 'Introducción a la aplicación e instrucciones',
   REQUIREMENTS_FILE_DESC:
-    'Archivos de descripción para almacenar otros gráficos que actualmente dependen del gráfico',
-  VALUES_FILE_DESC: 'Archivo de configuración predeterminado del gráfico',
+    'Archivos de descripción para almacenar otros charts que actualmente dependen del chart',
+  VALUES_FILE_DESC: 'Archivo de configuración predeterminado del chart',
   CHARTS_FILE_DESC:
-    'Coloque otros gráficos de los que depende actualmente el gráfico en este directorio',
+    'Coloque otros chartys de los que depende actualmente el chart en este directorio',
   TEMPLATES_FILE_DESC:
-    'Implemente el directorio de plantilla de archivo, complete el valor correspondiente en values.yaml y genere el archivo de configuración final de kubernetes',
+    'Despliega el directorio de plantilla de archivo, completa el valor correspondiente en values.yaml y genera el archivo de configuración final de kubernetes',
   NOTES_FILE_DESC: 'Guía de uso',
   VERSION_SUBMIT_TEST_STEPS: `
-    1. Todos los cuadros dependientes han sido enviados <br/> 
-    2. Verificación estática exitosa (pelusa del timón) <br/> 
-    3. Inicio exitoso de aplicaciones (instalación de timón) con valores predeterminados: todos los pods están ejecutando el estado y todos los servicios de servicio tienen al menos un punto final &lt;br /&gt; 
-    4. No hay vulnerabilidad de seguridad en los espejos utilizados <br/> 
-    5. Actualización de soporte <br/> 
+    1. Todos los charts dependientes han sido enviados <br/> 
+    2. Verificación estática exitosa (helm lint) <br/> 
+    3. Inicio exitoso de aplicaciones (helm install) con valores predeterminados: ' +
+    'todos los pods están en estado de ejecución y todos los servicios de servicio tienen ' +
+    'al menos un endpoint &lt;br /&gt; 
+    4. No hay vulnerabilidad de seguridad en los mirros utilizados <br/> 
+    5. Admite actualización <br/> 
     6. Admite la configuración de aplicaciones personalizadas <br/> 
-    7. No use la función alfa de Kubernetes <br/> 
-    8. Se requieren archivos README detallados, incluida la introducción de aplicaciones, condiciones previas y cómo personalizar los parámetros de configuración <br/>`,
+    7. No usar la función alfa de Kubernetes <br/> 
+    8. Se requieren archivos README detallados, incluida la introducción de aplicaciones, ' +
+    'condiciones previas y cómo personalizar los parámetros de configuración <br/>`,
+
   VERSION_SUBMIT_NOTE:
-    'Antes de enviar para su revisión, asegúrese de que su solicitud haya pasado las siguientes funciones básicas',
+    'Antes de enviar para su revisión, asegúrate de que su aplicación haya pasado ' +
+    'las pruebas básicas mostradas abajo',
   VERSION_SUBMIT_DOC: 'Consulte un manual de prueba más completo',
   VERSION_NUMBER_DESC:
-    'La identificación importante de la versión. Solo puede contener números, puntos decimales y corchetes (&quot;[]&quot;), y debe comenzar con un número y contener puntos decimales.',
+    'La identificación importante de la versión. Solo puede contener números, ' +
+    'puntos decimales y corchetes (&quot;[]&quot;), y debe comenzar con un número ' +
+    'y contener puntos decimales.',
   VERSION_NUMBER_ERROR_NOTE:
-    'Formato de número de versión incorrecto. Solo puede contener números, puntos decimales y corchetes (&quot;[]&quot;), y debe comenzar con un número y contener puntos decimales.',
+    'Formato de número de versión incorrecto. Solo puede contener números, puntos decimales ' +
+    'y corchetes (&quot;[]&quot;), y debe comenzar con un número y contener puntos decimales.',
   UPDATE_LOG_DESC: 'Se usa para describir los detalles de esta actualización.',
 }
