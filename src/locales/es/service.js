@@ -26,11 +26,11 @@ export default {
   'Associated Application': 'Solicitud asociada',
   'Automatically assign Service IP': 'Asigna automáticamente IP de servicio',
   'Commonly included tags in the current workloads':
-    'Etiquetas comúnmente incluidas en las cargas de trabajo actuales',
+    'Etiquetas comúnmente incluidas en las workload actuales',
   'Container Port': 'Puerto de contenedores',
   'Create Service': 'Crear servicio',
   'Create service by specifying workloads':
-    'Crear servicio especificando cargas de trabajo',
+    'Crear servicio especificando workload',
   'Create service by Yaml': 'Crear servicio por Yaml',
   Creating: 'Creando',
   'Creation failed, please delete and try again':
@@ -58,7 +58,7 @@ export default {
   'Please input ExternalName': 'Por favor introduce ExternalName',
   'Please input ports': 'Por favor introduce puertos',
   'Please input selectors that have corresponding workloads':
-    'Introduce los selectores que tienen las cargas de trabajo correspondientes',
+    'Introduce los selectores que tienen las workload correspondientes',
   'Please input service name': 'Por favor introduce el nombre del servicio',
   'Please input valid Selector': 'Por favor introduce un selector válido',
   'Please select a workload': 'Por favor selecciona una carga de trabajo',
@@ -75,7 +75,7 @@ export default {
   services: 'servicios',
   'Simple Service': 'Servicio simple',
   'Specify Workload': 'Especificar carga de trabajo',
-  'Specify Workloads': 'Especificar cargas de trabajo',
+  'Specify Workloads': 'Especificar workload',
   'Stateful Service': 'Servicio con estado',
   'Stateless Service': 'Servicio sin estado',
   'Sure to delete the service(s)?': '¿Seguro para eliminar los servicios?',
@@ -86,9 +86,9 @@ export default {
   'Virtual IP': 'IP virtual',
   SERVICE_EXTERNAL_NAME_DESC:
     'Asigne el servicio al contenido del campo externalName devolviendo un registro CNAME con su valor.',
-  TOTAL_WORKLOAD: '{count} cargas de trabajo en total',
+  TOTAL_WORKLOAD: '{count} workload en total',
   SERVICE_SELECTOR_AFFECT_1: '',
-  SERVICE_SELECTOR_AFFECT_2: 'afectar las cargas de trabajo de {count}',
+  SERVICE_SELECTOR_AFFECT_2: 'afectar las workload de {count}',
   SERVICE_NAME_DESC:
     'Solo puedes contener letras minúsculas, números y guiones (&quot;-&quot;), y debe comenzar con una letra minúscula y terminar con un número o letra minúscula. La longitud máxima de caracteres se establece en 63.',
   SERVICE_DESC:

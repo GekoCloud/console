@@ -191,7 +191,7 @@ export default {
   'No default ports config': 'Sin configuración de puertos predeterminada',
   'No Limit': 'no Limit',
   'No related resources found with the current workload(s)':
-    'No se encontraron recursos relacionados con las cargas de trabajo actuales',
+    'No se encontraron recursos relacionados con las workload actuales',
   'No related resources': 'No hay recursos relacionados.',
   'No Request': 'Ninguna solicitud',
   'Node IP': 'IP de nodo',
@@ -363,7 +363,7 @@ export default {
   WORKLOAD_REASON_REPLICASETCREATEERROR:
     'WORKLOAD_REASON_REPLICASETCREATEERROR',
   WORKLOAD_REASON_REPLICASETUPDATED: 'WORKLOAD_REASON_REPLICASETUPDATED',
-  Workloads: 'Cargas de trabajo',
+  Workloads: 'Workload',
   'You can allow Pod replicas to run on specified nodes.':
     'Puede permitir que las réplicas de Pod se ejecuten en nodos específicos.',
   WORKLOAD_DESC:

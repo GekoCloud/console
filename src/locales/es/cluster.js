@@ -20,7 +20,8 @@ export default {
   'Add Cluster': 'Agregar clúster',
   'Add New Cluster': 'Agregar nuevo clúster',
   'All Projects': 'Todos los proyectos',
-  'Authorize the cluster to workspace': 'Autorizar el clúster en el espacio de trabajo',
+  'Authorize the cluster to workspace':
+    'Autorizar el clúster en el espacio de trabajo',
   Authorized: 'Autorizado',
   'Available Clusters': 'Clusters Disponibles',
   'Choose a provider': 'Elige un proveedor',
@@ -37,7 +38,7 @@ export default {
   'Cluster Visibility': 'Visibilidad de clúster',
   'Connection Method': 'Método de conexión',
   'Copy successfully': 'Copia realizada con éxito',
-  'Custom Resources': 'Recursos personalizados',
+  'Custom Resources': 'Custom Resources',
   'Edit cluster basic information': 'Editar información básica del clúster',
   'Edit Cluster Info': 'Editar información del clúster',
   'Edit Visibility': 'Editar visibilidad',

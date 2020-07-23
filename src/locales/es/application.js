@@ -34,7 +34,7 @@ export default {
   'Application Component': 'Componente de aplicación',
   'Application Components': 'Componentes de la aplicación',
   'Application components combine workloads and services as components in applications':
-    'Los componentes de la aplicación combinan cargas de trabajo y servicios como componentes en las aplicaciones.',
+    'Los componentes de la aplicación combinan workload y servicios como componentes en las aplicaciones.',
   'Application Governance': 'Gestión de aplicación',
   'Application governance is not enabled':
     'La gestión de la aplicación no está habilitado',
@@ -159,7 +159,7 @@ export default {
   'Workload Type': 'Tipo de carga de trabajo',
   TOTAL_APPS: 'Total de {num} aplicaciones',
   APPLICATIONS_DESC:
-    'Una aplicación proporciona a los usuarios funciones comerciales integrales en un solo paquete. Las plantillas de aplicación en KubeSphere se basan en la especificación de empaquetado de Helm. Se entregan a través de un repositorio Helm público o privado unificado. Una aplicación está compuesta por uno o más objetos de Kubernetes, que incluyen cargas de trabajo, servicios e ingress.',
+    'Una aplicación proporciona a los usuarios funciones comerciales integrales en un solo paquete. Las plantillas de aplicación en KubeSphere se basan en la especificación de empaquetado de Helm. Se entregan a través de un repositorio Helm público o privado unificado. Una aplicación está compuesta por uno o más objetos de Kubernetes, que incluyen workload, servicios e ingress.',
   APP_DEPLOYMENT_DESC:
     'La liviana, portátil y autónoma tecnología de empaquetado de software permite que las aplicaciones se ejecuten en casi cualquier lugar de la misma manera.',
   LB_ALG_DESC:
