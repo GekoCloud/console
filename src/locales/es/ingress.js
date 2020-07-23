@@ -17,59 +17,60 @@
  */
 
 export default {
-  'Add Annotation': 'Añadir anotación',
+  'Add Annotation': 'Añadir annotation',
   'Add Path': 'Agregar ruta',
   'Auto Generate': 'Autogenerar',
-  'Click to visit': 'Haga clic para visitar',
+  'Click to visit': 'Haz clic para visitar',
   'Create Route': 'Crear ruta',
-  'Edit Annotations': 'Editar anotaciones',
+  'Edit Annotations': 'Editar annotations',
   'Edit Rules': 'Editar reglas',
-  'Gateway Address': 'Dirección de la entrada',
-  'Gateway IP': 'IP de acceso',
-  'Gateway Type': 'Tipo de puerta de enlace',
+  'Gateway Address': 'Dirección del gateway',
+  'Gateway IP': 'IP del gateway',
+  'Gateway Type': 'Tipo de gateway',
   HostName: 'HostName',
   'Invalid host': 'Host inválido',
   'Invalid paths': 'Rutas inválidas',
   Mode: 'Modo',
   Paths: 'Rutas',
   'Please add at least one routing rule.':
-    'Agregue al menos una regla de enrutamiento.',
-  'Please input Hostname': 'Por favor introduce el nombre de host',
-  'Please select a service': 'Por favor selecciona un servicio',
+    'Agrega al menos una regla de enrutamiento.',
+  'Please input Hostname': 'Introduce el nombre de host',
+  'Please select a service': 'Selecciona un servicio',
   Route: 'Ruta',
   'Route Rules': 'Reglas de ruta',
   Rules: 'Reglas',
   'Set Route Rule': 'Establecer regla de ruta',
   'Specify Domain': 'Especificar dominio',
-  'Unable to access': 'No puedo acceder',
+  'Unable to access': 'No es posible acceder',
   ROUTE_DESC:
     'Una ruta proporciona una forma de agregar servicios, y puede exponer los servicios internos del clúster al exterior a través de una dirección IP accesible desde el exterior.',
   ROUTE_CREATE_DESC:
     'Una ruta proporciona una forma de agregar servicios, y puede exponer los servicios internos del clúster al exterior a través de una dirección IP accesible desde el exterior.',
   ROUTE_ANNOTATION_DESC:
-    'Puede establecer el comportamiento de la ruta agregando anotaciones a la ruta. Consulte <a href="https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/annotations/" target="_blank">Anotaciones</a> para obtener una lista detallada de las anotaciones disponibles.',
+    'Puedes definir el comportamiento de la ruta agregando annotations a la ruta. Consulta <a href="https://kubernetes.github.io/ingress-nginx/user-guide/nginx-configuration/annotations/" target="_blank">Annotations</a> para obtener una lista detallada de las annotations disponibles.',
   RULE_SETTING_MODE_AUTO:
-    'Al configurar el acceso DNS y cambiar el nombre de dominio a {$ hostname} + {$ gateway address} + nip.io, puede acceder al servicio a través de {$ hostname}. {$ Gateway address} .nip.io: {$ NodePort} . <br/> Asegúrese de estar en un entorno de red habilitante para acceder a la dirección de la puerta de enlace.',
+    'Al configurar el acceso DNS y cambiar el nombre de dominio a {$hostname} + {$gateway address} + nip.io, podrás acceder al servicio a través de {$hostname}.{$gateway address} .nip.io:{$NodePort}. <br/>Asegúrate de estar en un entorno de red capaz de acceder a la dirección de la puerta de enlace.',
   RULE_SETTING_MODE_SPECIFY:
-    'Asegúrese de que el nombre de dominio que establezca pueda resolverse en la dirección IP del portal de acceso. <br/> Si se encuentra en un entorno de nube privada, modifique el archivo de host local y luego acceda a él a través de {$ nombre de dominio}: {$ nodo puerto}.',
-  GATEWAY_SERVICE_MESH_STATUS_ON: 'En',
-  GATEWAY_SERVICE_MESH_STATUS_OFF: 'Apagado',
+    'Asegúrate de que el nombre de dominio establecido pueda resolverse en la dirección IP del portal de acceso. <br/>Si se encuentra en un entorno de nube privada, modifica el archivo de host local y luego accede a través de {$domain name}:{$node port}.',
+  GATEWAY_SERVICE_MESH_STATUS_ON: 'Activado',
+  GATEWAY_SERVICE_MESH_STATUS_OFF: 'Desactivado',
   INGRESS_CONTROLLER_NODEPORT_DESC:
-    'Si la puerta de enlace está habilitada, el sistema asignará automáticamente números de puerto de http y https. Las rutas de aplicación pueden acceder a los servicios a través del proxy inverso.',
+    'Si el gateway está habilitado, el sistema asignará automáticamente números de puerto de http y https. Las rutas de aplicación pueden acceder a los servicios a través del proxy inverso.',
   INGRESS_CONTROLLER_LOADBALANCER_DESC:
-    'Para usar QingCloud LoadBalancer como una puerta de enlace de servicio, primero implemente el complemento QingCloud Cloud Controller Manager.',
+    'Para usar un LoadBalancer de QingCloud como gateway, primero implementa el complemento QingCloud Cloud Controller Manager.',
   NO_INTERNET_ACCESS_TIP:
-    'La dirección de la puerta de enlace no se encuentra en el proyecto actual, por lo que no puede establecer la ruta de la aplicación. Póngase en contacto con el administrador de su proyecto para activarlo en <strong>Acceso a Internet</strong> .',
+    'La dirección de gateway no se encuentra en el proyecto actual, por lo que no puede establecer la ruta de la aplicación. Ponte en contacto con el administrador de tu proyecto para activarlo en <strong>Acceso a Internet</strong> .',
   UNABLE_CREATE_ROUTE_TIP:
-    'La dirección de puerta de enlace disponible no se encuentra en el proyecto actual, por lo que no se puede crear la ruta de la aplicación.',
+    'No se puede crear la ruta de la aplicación puesto que la dirección de gateway disponible no se encuentra en el proyecto actual.',
   GATEWAY_APPLICATION_GOVERNANCE_TIP:
-    'No necesita habilitar Application Governance si no utiliza la función de seguimiento. Una vez que Application Governance esté habilitado, verifique si se agrega una anotación como &quot;nginx.ingress.kubernetes.io/service-upstream: true&quot; para la ruta de la aplicación cuando la ruta es inaccesible. Si no, agregue uno.',
+    'Necesitas habilitar Application Governance si deseas utilizar la función de Tracing. Una vez que Application Governance esté habilitado, verifica si se ha agregado una annotation como "nginx.ingress.kubernetes.io/service-upstream: true" para la ruta de la aplicación si la ruta es inaccesible. Si no existe el annotation, agrégalo.',
   UNABLE_TO_ACCESS_TIP:
-    '● Asegúrese de que el nombre de dominio que establezca pueda resolverse en la dirección IP del portal de acceso. <br/> ● Si se encuentra en un entorno de nube privada, modifique el archivo de host local y luego acceda a él a través de {$ nombre de dominio}: {$ nodo puerto}. <br/> ● Al configurar el acceso DNS, modifique el nombre de dominio a {$ hostname} + {$ gateway address} + nip.io, y luego acceda al servicio a través de {$ hostname}. {$ Gateway address} .nip.io: {$ NodePort }. <br/> ● Si el acceso está bloqueado cuando se usa el nombre de dominio, confirme si su nombre de dominio existe y se ha registrado.',
-  PREREQUESTS_FOR_USE_ROUTE_Q: '¿Requisitos previos para usar rutas?',
+    '● Asegúrate de que el nombre de dominio establecido pueda resolverse en la dirección IP del portal de acceso. <br/>Si se encuentra en un entorno de nube privada, modifica el archivo de host local y luego accede a través de {$domain name}:{$node port}. <br/> ● Al configurar el acceso DNS, modifica el nombre de dominio a {$hostname} + {$gateway address} + nip.io, y luego acceda al servicio a través de {$hostname}.{$gateway address} .nip.io:{$NodePort}. <br/> ● Si el acceso está bloqueado cuando se usa el nombre de dominio, confirma si tu nombre de dominio existe y se ha registrado.',
+  PREREQUESTS_FOR_USE_ROUTE_Q:
+    '¿Cuales son los requisitos para poder usar rutas?',
   PREREQUESTS_FOR_USE_ROUTE_A:
     'Para usar la ruta, el administrador debe configurar el acceso a Internet para el proyecto actual.',
-  ACCESS_TYPES_OF_ROUTE_Q: '¿Tipos de acceso que admite la ruta?',
+  ACCESS_TYPES_OF_ROUTE_Q: '¿Qué tipos de acceso admite la ruta?',
   ACCESS_TYPES_OF_ROUTE_A:
-    'Las rutas de KubeSphere admiten nombres de dominio personalizados (HostName) y el método de acceso DNS comodín.',
+    'Las rutas de KubeSphere admiten nombres de dominio personalizados (HostName) y así como wildcards DNS.',
 }
