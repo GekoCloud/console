@@ -32,16 +32,16 @@ export default {
   'Please input private key': 'Por favor introduce la clave privada',
   'Please input the registry address':
     'Por favor introduce la dirección de registro',
-  'Private Key': 'Llave privada',
+  'Private Key': 'Clave privada',
   'Registry Address': 'Dirección de registro',
   'Registry verification failed': 'La verificación del registro falló',
   'Registry verification success': 'Verificación de registro exitosa',
   Secret: 'Secreto',
-  'Secret Name': 'Nombre secreto',
+  'Secret Name': 'Nombre del secreto',
   'Secret Settings': 'Configuraciones secretas',
-  secrets: 'secrets',
-  Secrets: 'Secrets',
-  Unverified: 'Inconfirmado',
+  secrets: 'secretos',
+  Secrets: 'Secretos',
+  Unverified: 'Sin verificar',
   SECRET_DESC:
     'Un secreto es un objeto que contiene una pequeña cantidad de datos confidenciales, como una contraseña, un token o una clave.',
   SECRET_CREATE_DESC:
@@ -49,6 +49,6 @@ export default {
   SECRET_TYPE_DESC: 'Puedes elegir o personalizar un tipo secreto.',
   SECRET_NO_CHINESE_CODE_DESC:
     'Los caracteres chinos no se pueden incluir en el secreto.',
-  'DATA-KEY': 'Llave',
+  'DATA-KEY': 'Clave',
   'DATA-VALUE': 'Valor',
 }
