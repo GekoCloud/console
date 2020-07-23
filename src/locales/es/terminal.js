@@ -27,7 +27,7 @@ export default {
   'KubeSphere Terminal': 'Terminal KubeSphere',
   'Launch kubectl': 'Lanzar kubectl',
   'Put this into': 'Poner esto en',
-  
+
   KUBECONFIG_TIP: `
     <h2><a id="KubeConfig_Configuration_Method_0"></a>Método de configuración KubeConfig</h2>
     <p>Por favor, consultar la <a href="https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/" target="_blank">documentación oficial</a> para más comandos.</p>
@@ -39,11 +39,11 @@ export default {
     <ul>
     <li>Mostrar más información sobre el pod.</li>
     </ul>
-    <p><code>kubectl get pod &lt;pod-name&gt; -o wide</code></p>
+    <p><code>kubectl get pod <pod-name></pod-name> -o wide</code></p>
     <ul>
     <li>Mostrar detalles del pod en formato yaml</li>
     </ul>
-    <p><code>kubectl get pod &lt;pod-name&gt; -o yaml</code></p>
+    <p><code>kubectl get pod <pod-name> -o yaml</code></p>
     <h3><a id="kubectl_Operation_14"></a>kubectl Operation</h3>
     <h4><a id="1_Create_a_resource_object_16"></a>1. Crea un objeto de recurso</h4>
     <ul>
@@ -53,7 +53,7 @@ export default {
     <ul>
     <li>Crea todos los archivos .yaml, .yml, .json en el directorio</li>
     </ul>
-    <p><code>kubectl create -f &lt;directory&gt;</code></p>
+    <p><code>kubectl create -f <directory></code></p>
     <h4><a id="2_View_resource_objects_26"></a>2. Ver los objetos de recurso</h4>
     <ul>
     <li>Ver lista de todos los pods</li>
@@ -67,10 +67,10 @@ export default {
     <ul>
     <li>Mostrar detalles del nodo</li>
     </ul>
-    <p><code>kubectl describe nodes &lt;node-name&gt;</code></p>
+    <p><code>kubectl describe nodes <node-name></code></p>
     <ul>
     <li>Mostrar detalles del pod</li>
     </ul>
-    <p><code>kubectl describe pods/&lt;pod-name&gt;</code></p>
+    <p><code>kubectl describe pods/<pod-name></code></p>
   `,
 }

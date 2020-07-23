@@ -106,7 +106,7 @@ export default {
     'múlti-nodos. <br/> Solo se puede usar un modo al montar.',
   STORAGE_CLASS_DESC:
     'Una StorageClass proporciona una forma para que los administradores configuren ' +
-    'las &quot;clases&quot; de almacenamiento que ofrecen.',
+    'las "clases" de almacenamiento que ofrecen.',
   'STORAGE-CLASSES_BASEINFO_DESC':
     'El tipo de almacenamiento registra la información de configuración de un cierto tipo de almacenamiento proporcionado por el administrador. Antes de crear un tipo específico de volumen de almacenamiento, se debe configurar el tipo de almacenamiento correspondiente.',
   STORAGE_CLASS_SETTING_DESC:
@@ -114,7 +114,7 @@ export default {
   STORAGE_CLASS_SET_DEFAULT_DESC:
     'Una vez establecida la clase de almacenamiento predeterminada, el sistema creará volúmenes de esta clase de forma predeterminada si no se agrega ningún requisito especial. Solo se permite una clase de almacenamiento predeterminada en un clúster de Kubernetes.',
   STORAGECLASSES_BASEINFO_DESC:
-    'Una StorageClass proporciona una forma para que los administradores configuren las &quot;clases&quot; de almacenamiento que ofrecen. Las diferentes clases pueden asignarse a niveles de calidad de servicio o a políticas de respaldo o a políticas arbitrarias determinadas por los administradores del clúster. Debes crear una StorageClass antes de que los usuarios puedan crear un volumen (es decir, PVC) basado en StorageClass.',
+    'Una StorageClass proporciona una forma para que los administradores configuren las "clases" de almacenamiento que ofrecen. Las diferentes clases pueden asignarse a niveles de calidad de servicio o a políticas de respaldo o a políticas arbitrarias determinadas por los administradores del clúster. Debes crear una StorageClass antes de que los usuarios puedan crear un volumen (es decir, PVC) basado en StorageClass.',
   STORAGECLASS_PARAMETER_TIP:
     'Consulte la <a href="{link}" target="_blank">documentación de Kubernetes</a> para más detalles.',
   VOLUME_BASEINFO_TIP:
@@ -162,7 +162,7 @@ export default {
   CEPHRBD_ADMIN_ID_DESC:
     'ID de cliente de Ceph que es capaz de crear imágenes en el pool.',
   CEPHRBD_ADMIN_SECRET_NAME_DESC:
-    'El secreto proporcionado debe tener el tipo &quot;kubernetes.io/rbd&quot;.',
+    'El secreto proporcionado debe tener el tipo "kubernetes.io/rbd".',
   CEPHRBD_ADMIN_SECRET_NAMESPACE_DESC: 'El namespace para adminSecretName',
   CEPHRBD_POOL_DESC: 'Ceph RBD pool',
   CEPHRBD_USERID_DESC:
@@ -171,16 +171,14 @@ export default {
     'El nombre de Ceph Secret para userId para mapear la imagen RBD',
   CEPHRBD_USER_SECRET_NAMESPACE_DESC: 'El namespace para userSecretName',
   CEPHRBD_FS_TYPE_DESC: 'fsType que es compatible con kubernetes.',
-  CEPHRBD_IMAGE_FORMAT_DESC:
-    'Formato de imagen Ceph RBD, &quot;1&quot; o &quot;2&quot;',
+  CEPHRBD_IMAGE_FORMAT_DESC: 'Formato de imagen Ceph RBD, "1" o "2"',
   CEPHRBD_IMAGE_FEATURES_DESC:
     'Este parámetro es opcional y solo debe usarse si configura imageFormat en “2”.',
   DEPENDENT_STORAGE_CLASS_DELETE_TIPS:
     'Compruebe si la clase de almacenamiento está siendo utilizada por otros recursos. Si hay algún recurso dependiente de la clase de almacenamiento, primero debe deshabilitar el recurso.',
   CREATE_VOLUME_BY_STORAGECLASS: 'Crear volumen por clase de almacenamiento',
   CREATE_VOLUME_BY_SNAPSHOT: 'Crear volumen por snapshot',
-  SELECT_SNAPSHOT_TO_CREATE_VOLUME:
-    'Selecciona snapshot para crear volumen.',
+  SELECT_SNAPSHOT_TO_CREATE_VOLUME: 'Selecciona snapshot para crear volumen.',
   VOLUMESNAPSHOT_DESC:
     'Un snapshot de volumen se refiere a una snapshot de un volumen en un punto de tiempo particular. Se puede utilizar para crear nuevos volúmenes (preestablecer los datos del snapshot) o restaurar un volumen existente a su estado anterior (que se muestra en los snapshots).',
   VOLUMESNAPSHOT_CREATE_DESC:

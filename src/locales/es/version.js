@@ -113,7 +113,7 @@ export default {
     2. Verificación estática exitosa (helm lint) <br/> 
     3. Inicio exitoso de aplicaciones (helm install) con valores predeterminados: ' +
     'todos los pods están en estado de ejecución y todos los servicios de servicio tienen ' +
-    'al menos un endpoint &lt;br /&gt; 
+    'al menos un endpoint <br /> 
     4. No hay vulnerabilidad de seguridad en los mirros utilizados <br/> 
     5. Admite actualización <br/> 
     6. Admite la configuración de aplicaciones personalizadas <br/> 
@@ -127,10 +127,10 @@ export default {
   VERSION_SUBMIT_DOC: 'Consulte un manual de prueba más completo',
   VERSION_NUMBER_DESC:
     'La identificación importante de la versión. Solo puede contener números, ' +
-    'puntos decimales y corchetes (&quot;[]&quot;), y debe comenzar con un número ' +
+    'puntos decimales y corchetes ("[]"), y debe comenzar con un número ' +
     'y contener puntos decimales.',
   VERSION_NUMBER_ERROR_NOTE:
     'Formato de número de versión incorrecto. Solo puede contener números, puntos decimales ' +
-    'y corchetes (&quot;[]&quot;), y debe comenzar con un número y contener puntos decimales.',
+    'y corchetes ("[]"), y debe comenzar con un número y contener puntos decimales.',
   UPDATE_LOG_DESC: 'Se usa para describir los detalles de esta actualización.',
 }

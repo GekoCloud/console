@@ -28,12 +28,12 @@ export default {
   'Add Step': 'Agregar paso',
   'All branches': 'Todas las ramas',
   'Alternate options, one per line. The first line will be used as the default option.':
-  'Opciones alternativas, una por línea. La primera línea se usará como la opción predeterminada.',
+    'Opciones alternativas, una por línea. La primera línea se usará como la opción predeterminada.',
   'Any repository containing Jenkinsfile will be built automatically.':
-  'Cualquier repositorio que contenga un Jenkinsfile se construirá automáticamente.',
+    'Cualquier repositorio que contenga un Jenkinsfile se construirá automáticamente.',
   archiveArtifacts: 'archiveArtifacts',
   'Are you sure to close this pipeline Editor ?':
-  '¿Estás seguro de cerrar este editor de pipeline?',
+    '¿Estás seguro de cerrar este editor de pipeline?',
   artifacts: 'artefactos',
   Artifacts: 'Artefactos',
   'Authentication Token': 'Token de autenticación',
@@ -90,31 +90,28 @@ export default {
   credentialsId: 'credenciales',
   critical: 'crítico',
   'Current branch name must match the input value':
-  'El nombre de la rama actual debe coincidir con el valor de entrada',
+    'El nombre de la rama actual debe coincidir con el valor de entrada',
   'Days to Keep Builds': 'Días para mantener las build',
   'Days to keep old branches': 'Días para mantener viejas ramas',
   'defaultValue -1 means not discard': 'defaultValue -1 significa no descartar',
   'Delete all resources of the deployment file':
-  'Eliminar todos los recursos del archivo de despliegue',
+    'Eliminar todos los recursos del archivo de despliegue',
   'Deploy resources to the Kubernetes cluster':
-  'Implementar recursos en el clúster de Kubernetes',
+    'Implementar recursos en el clúster de Kubernetes',
   "Didn't pass": 'No pasó',
   dir: 'directorio',
   Discard: 'Descarte',
   'Discard old branch': 'Descartar ramas anteriores',
   'Discard Old Builds': 'Descartar builds antiguas',
   'Discover Branches': 'Descubrir ramas',
-  'Discover branches from repoitory':
-  'Descubrir ramas desde el repositorio',
+  'Discover branches from repoitory': 'Descubrir ramas desde el repositorio',
   'Discover PR form Forks': 'Descubrir PR desde Forks',
   'Discover PR form Origin': 'Descubrir PR desde Origin',
-  'Discover pull requests from forks':
-  'Descubrir las PR desde forks',
-  'Discover pull requests from origin':
-  'Descubrir las PR desde origin',
+  'Discover pull requests from forks': 'Descubrir las PR desde forks',
+  'Discover pull requests from origin': 'Descubrir las PR desde origin',
   'Display All': 'Mostrar todo',
   'Docker Container Registry Credentials':
-  'credenciales de Docker Container Registry',
+    'credenciales de Docker Container Registry',
   'Docker Registry URL': 'URL del Docker Registry',
   dockerCredentials: 'dockerCredentials',
   'Download Logs': 'Descargar Logs',
@@ -126,39 +123,39 @@ export default {
   'Edit Jenkinsfile': 'Editar Jenkinsfile',
   'Edit Pipeline': 'Editar pipeline',
   'Enable Variable Substitution in Config':
-  'Habilitar la sustitución de variables en la configuración',
+    'Habilitar la sustitución de variables en la configuración',
   enableConfigSubstitution: 'enableConfigSubstitution',
   'Enter an expression': 'Introdir una expresión',
   'Enviroment name': 'Nombre del entorno',
   'Exclude branches that are also filed as PRs':
-  'Excluir las ramas que también se presentan como PRs',
+    'Excluir las ramas que también se presentan como PRs',
   'Executes the code inside the block with a determined time out limit.':
-  'Ejecuta el código dentro del bloque con un límite de tiempo determinado.',
+    'Ejecuta el código dentro del bloque con un límite de tiempo determinado.',
   expression: 'expresión',
   Failure: 'Fallo',
   'For accessing GitHub': 'Para acceder a GitHub',
   'From users with Admin or Write permission':
-  'De usuarios con permiso de administrador o de escritura',
+    'De usuarios con permiso de administrador o de escritura',
   'get token': 'obtener token',
   'Git Clone Options': 'Opciones de clonación de Git',
   'If not, scan regularly': 'Si no, escanee regularmente',
   'If you check this option, you cannot run multiple builds concurrently.':
-  'Si marca esta opción, no podrá ejecutar varias compilaciones simultáneamente.',
+    'Si marca esta opción, no podrá ejecutar varias compilaciones simultáneamente.',
   info: 'informacion',
   input: 'entrada',
   'Inspection results do not affect subsequent tasks':
-  'Los resultados de la inspección no afectan las tareas posteriores.',
+    'Los resultados de la inspección no afectan las tareas posteriores.',
   'instance failed to match at least one schema':
-  'la instancia no ha modido compararse con al menos un esquema',
+    'la instancia no ha modido compararse con al menos un esquema',
   'Internal nested conditions only need to satisfy one':
-  'Las condiciones anidadas solo necesitan cumplir una condición',
+    'Las condiciones anidadas solo necesitan cumplir una condición',
   'Internal nesting conditions must be matched':
-  'Las condiciones internas de anidación deben coincidir',
+    'Las condiciones internas de anidación deben coincidir',
   Issues: 'Problemas',
   'It specifies the default value of the field, allowing the user to save the typed actual value.':
-  'Esto especifica el valor predeterminado del campo, lo que permite al usuario guardar el valor real escrito.',
+    'Esto especifica el valor predeterminado del campo, lo que permite al usuario guardar el valor real escrito.',
   'Jenkinsfile syntax error, message':
-  'Error de sintaxis de Jenkinsfile, mensaje',
+    'Error de sintaxis de Jenkinsfile, mensaje',
   'key File Variable': 'variable de archivo clave',
   keyFileVariable: 'keyFileVariable',
   'Kubeconfig Variable': 'Variable de Kubeconfig',
@@ -169,18 +166,17 @@ export default {
   'Line number': 'Número de línea',
   'Lines of Code': 'Líneas de código',
   'Load credentials into environment variables':
-  'Cargue credenciales en variables de entorno',
+    'Cargue credenciales en variables de entorno',
   'Load the sonarqube configuration provided by Jenkins into the Pipeline.':
-  'Cargue la configuración de sonarqube proporcionada por Jenkins en la Pipeline.',
+    'Cargue la configuración de sonarqube proporcionada por Jenkins en la Pipeline.',
   mail: 'correo',
   major: 'mayor',
-  'Max # of old branches to keep':
-  'Número máximo de ramas viejas a mantener',
+  'Max # of old branches to keep': 'Número máximo de ramas viejas a mantener',
   'Maximum Number of Builds to Keep':
-  'Número máximo de compilaciones para mantener',
+    'Número máximo de compilaciones para mantener',
   minor: 'menor',
   "Missing one or more required properties: 'name'":
-  "Falta una o más propiedades requeridas: 'nombre'",
+    "Falta una o más propiedades requeridas: 'nombre'",
   'Negative prefix': 'Prefijo negativo',
   'No artifacts records': 'No hay registro de artefactos.',
   'No branches found': 'No se encontraron ramas',
@@ -208,9 +204,9 @@ export default {
   passwordVariable: 'Variable de contraseña',
   Pipeline: 'Pipeline',
   'Pipeline clone timeout (in minutes)':
-  'Tiempo de espera de clonación de pipeline agotado (en minutos)',
+    'Tiempo de espera de clonación de pipeline agotado (en minutos)',
   'Pipeline config file not found':
-  'Archivo de configuración de Pipeline no encontrado',
+    'Archivo de configuración de Pipeline no encontrado',
   'Pipeline Configuration': 'Configuración de Pipeline',
   'Pipeline Event Trigger': 'Disparador de eventos de Pipelines',
   'Pipeline initialization': 'Inicialización de Pipeline',
@@ -222,9 +218,9 @@ export default {
   'Please input images name': 'Por favor introduce el nombre de las imágenes',
   'Please input pipeline name': 'Por favor introduce el nombre de la pipeline',
   'Please input the credential name.':
-  'Por favor introduce el nombre de la credencial.',
+    'Por favor introduce el nombre de la credencial.',
   'Please select a code repository as the code source for the pipeline.':
-  'Selecciona un repositorio de código como fuente de código para la pipeline.',
+    'Selecciona un repositorio de código como fuente de código para la pipeline.',
   'Press enter for the next': 'Presione enter para ir al siguiente paso',
   'Print message': 'Imprimir mensaje',
   'Private key': 'Llave privada',
@@ -265,7 +261,7 @@ export default {
   Sender: 'Remitente',
   sh: 'sh',
   'Shell commands can be executed in the container':
-  'Los comandos de shell se pueden ejecutar en el contenedor',
+    'Los comandos de shell se pueden ejecutar en el contenedor',
   'Show Advanced Settings': 'Mostrar configuración avanzada',
   'Show Logs': 'Mostrar logs',
   'Show only the last 10': 'Mostrar solo los últimos 10',
@@ -273,18 +269,18 @@ export default {
   'single Svn': 'Svn único',
   Skipped: 'Omitido',
   'sonar is the default config name.':
-  'sonar es el nombre de configuración predeterminado.',
+    'sonar es el nombre de configuración predeterminado.',
   "Sorry, you don't have the permission to do this.":
-  'Lo sentimos, no tienes permiso para hacer esto.',
+    'Lo sentimos, no tienes permiso para hacer esto.',
   'Specify a container to add nested tasks to execute inside the container':
-  'Especifique un contenedor para agregar tareas anidadas para ejecutar dentro del contenedor',
+    'Especifique un contenedor para agregar tareas anidadas para ejecutar dentro del contenedor',
   'Specify the location of the Jenkinsfile in the source code repository':
-  'Especifique la ubicación del archivo Jenkinsfile en el repositorio de código fuente',
+    'Especifique la ubicación del archivo Jenkinsfile en el repositorio de código fuente',
   'Start the follow-up task after the inspection':
-  'Inicie la tarea de seguimiento después de la inspección.',
+    'Inicie la tarea de seguimiento después de la inspección.',
   'Started By': 'Empezado por',
   'Stop Job Successfully, Status updated later':
-  'Parado de ejecución satisfactorio, se actualizará el estado después',
+    'Parado de ejecución satisfactorio, se actualizará el estado después',
   'Sub-healthy': 'Sub-healthy',
   Subject: 'Tema',
   submitter: 'remitente',
@@ -294,35 +290,35 @@ export default {
   'Test Result': 'Resultado de la prueba',
   'Text Variable': 'Variable de texto',
   'The conditions required to implement the current phase (optional).':
-  'Las condiciones requeridas para implementar la fase actual (opcional).',
+    'Las condiciones requeridas para implementar la fase actual (opcional).',
   "The default value here is the current user's kubeconfig.":
-  'El valor predeterminado aquí es el kubeconfig del usuario actual.',
+    'El valor predeterminado aquí es el kubeconfig del usuario actual.',
   'The environment variable entered before running the pipeline is match the current value.':
-  'La variable de entorno ingresada antes de ejecutar la pipeline coincide con el valor actual.',
+    'La variable de entorno ingresada antes de ejecutar la pipeline coincide con el valor actual.',
   'The label on which to run the Pipeline or individual stage':
-  'La etiqueta en la que se ejecuta la pipeline o la fase individual',
+    'La etiqueta en la que se ejecuta la pipeline o la fase individual',
   'The name of the pipeline. Pipelines in the same project must have different names.':
-  'El nombre de la pipeline. Las pipelines en el mismo proyecto deben tener nombres diferentes.',
+    'El nombre de la pipeline. Las pipelines en el mismo proyecto deben tener nombres diferentes.',
   'This name has been used.': 'Este nombre ha sido usado.',
   'This name has existed.': 'Este nombre ha existido.',
   'Time Used': 'Tiempo utilizado',
   Timeout: 'Se acabó el tiempo',
   timeout: 'se acabó el tiempo',
   'Timeout after no activity in logs for this block':
-  'Tiempo de espera agotado tras inactividad en los logs deregistro de este bloque',
+    'Tiempo de espera agotado tras inactividad en los logs deregistro de este bloque',
   timer: 'temporizador',
   'Token / Password': 'Token / Contraseña',
   'Trigger a Remote Build (for example, using a script)':
-  'Ejecutar una build remota (por ejemplo, usando un script)',
+    'Ejecutar una build remota (por ejemplo, usando un script)',
   'Trusted User': 'Usuario de confianza',
   Unnamed: 'Sin nombre',
   'url is invalid': 'la url no es válida',
   'Use the following URL to remotely triggerworkbench the build':
-  'Utilice la siguiente URL para activar remotamente el triggerworkbench en el build',
+    'Utilice la siguiente URL para activar remotamente el triggerworkbench en el build',
   'User types that can trigger builds':
-  'Tipos de usuarios que pueden desencadenar compilaciones',
+    'Tipos de usuarios que pueden desencadenar compilaciones',
   'username or group name, multiple values ​​used, separated':
-  'nombre de usuario o nombre de grupo, múltiples valores utilizados, separados',
+    'nombre de usuario o nombre de grupo, múltiples valores utilizados, separados',
   'Username Variable': 'Variable Username',
   usernameVariable: 'usernameVariable',
   'Wait for interactive input': 'Espere entrada interactiva',
@@ -336,7 +332,7 @@ export default {
   withSonarQubeEnv: 'withSonarQubeEnv',
   'Wrong Token': 'Token incorrecto',
   'You can execute shell commands or windows batch commands in the build.':
-  'Puedes ejecutar comandos de shell o comandos por lotes de Windows en el build.',
+    'Puedes ejecutar comandos de shell o comandos por lotes de Windows en el build.',
   'CI/CD_CREATE_DESC': `Pipeline es una colección de complementos 
     que se pueden combinar para lograr una integración continua 
     y una entrega continua. Pipeline DSL nos proporciona un conjunto 
@@ -373,7 +369,7 @@ export default {
   AGENT_TYPE_DESC:
     'La sección del agente especifica dónde se ejecutará toda la canalización o una etapa particular en el entorno de Jenkins, dependiendo de dónde se coloque la parte del agente. Esta parte debe definirse en el nivel superior dentro del bloque de canalización, pero el uso del nivel de etapa es opcional.',
   AUTHENTICATION_TOKEN_DESC:
-    'Utilice la siguiente URL para activar la compilación de forma remota: JENKINS_URL / job / JOB_NAME / build? Token = TOKEN_NAME o / buildWithParameters? Token = TOKEN_NAME Puedes elegir agregar &amp; cause = reason para proporcionar el texto que se incluirá en el motivo de compilación del registro.',
+    'Utilice la siguiente URL para activar la compilación de forma remota: JENKINS_URL / job / JOB_NAME / build? Token = TOKEN_NAME o / buildWithParameters? Token = TOKEN_NAME Puedes elegir agregar & cause = reason para proporcionar el texto que se incluirá en el motivo de compilación del registro.',
   ACTIVITY_EMPTY_TIP: 'La pipeline actual aún no se está ejecutando',
   PIPELINE_NO_CONFIG:
     'El archivo de configuración relevante no se encontró en la pipeline actual',
@@ -460,7 +456,7 @@ export default {
   LoadPrevData_Desc:
     'Se detectó que esta pipeline no se editó correctamente la última vez. ¿Se cargan los últimos datos para continuar editando?',
   PATTERN_PIPELINE_NAME_VALID_NAME_TIP:
-    'Nombre no válido (admite letras mayúsculas y minúsculas, números, &#39;_&#39; y &#39;-&#39;)',
+    'Nombre no válido (admite letras mayúsculas y minúsculas, números, "_" y "-")',
   WRONG_GITHUB_TOKEN_DESC: `Token incorrecto 
     <a
       class="float-right"

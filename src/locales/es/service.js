@@ -92,7 +92,7 @@ export default {
   SERVICE_SELECTOR_AFFECT_1: '',
   SERVICE_SELECTOR_AFFECT_2: 'afectar las workload de {count}',
   SERVICE_NAME_DESC:
-    'Solo puede contener letras minúsculas, números y guiones (&quot;-&quot;), y debe comenzar con una letra minúscula y terminar con un número o letra minúscula. La longitud máxima de caracteres se establece en 63.',
+    'Solo puede contener letras minúsculas, números y guiones ("-"), y debe comenzar con una letra minúscula y terminar con un número o letra minúscula. La longitud máxima de caracteres se establece en 63.',
   SERVICE_DESC:
     'Un servicio es una abstracción que define una colección lógica de Pods y una estrategia para acceder a ellos.',
   SERVICE_CREATE_DESC:

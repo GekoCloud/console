@@ -389,7 +389,7 @@ export default {
   CRONJOB_CREATE_DESC:
     'Un CronJob crea trabajos en un horario basado en el tiempo. Por ejemplo, ejecuta un trabajo periódicamente en un horario determinado o solo ejecuta un trabajo una vez en un momento dado.',
   CRONJOB_NAME_DESC:
-    'Solo puede contener letras minúsculas, números y guiones (&quot;-&quot;), y debe comenzar con una letra minúscula y terminar con un número o letra minúscula. La longitud máxima de caracteres se establece en 52.',
+    'Solo puede contener letras minúsculas, números y guiones ("-"), y debe comenzar con una letra minúscula y terminar con un número o letra minúscula. La longitud máxima de caracteres se establece en 52.',
   CRONJOB_NAME_TOO_LONG: 'La longitud máxima de caracteres se establece en 52.',
   REPLICAS_SCALE_NOTIFY_TITLE: '¿Tiene efecto de inmediato?',
   REPLICAS_SCALE_NOTIFY_CONTENT:
@@ -444,9 +444,9 @@ export default {
   PORT_INPUT_DESC:
     'El nombre es obligatorio y no se puede duplicar cuando hay varios puertos,',
   PORT_NAME_DESC:
-    'El nombre del puerto solo puede contener letras minúsculas, números y guiones (&quot;-&quot;), y debe comenzar con una letra minúscula y terminar con un número o letra minúscula. La longitud máxima de caracteres se establece en 63.',
+    'El nombre del puerto solo puede contener letras minúsculas, números y guiones ("-"), y debe comenzar con una letra minúscula y terminar con un número o letra minúscula. La longitud máxima de caracteres se establece en 63.',
   WORKLOAD_PORT_NAME_DESC:
-    'El nombre del puerto solo puede contener letras minúsculas, números y guiones (&quot;-&quot;), y debe comenzar con una letra minúscula y terminar con un número o letra minúscula. La longitud máxima de caracteres se establece en 15.',
+    'El nombre del puerto solo puede contener letras minúsculas, números y guiones ("-"), y debe comenzar con una letra minúscula y terminar con un número o letra minúscula. La longitud máxima de caracteres se establece en 15.',
   DEPLOYMENTS_BASEINFO_DESC:
     'Puede asignar un nombre a la implementación que sea fácil de distinguir cuando la use.',
   DEPLOYMENT_POD_TEMPLATE_DESC:
@@ -554,7 +554,7 @@ export default {
     'Agregue un nuevo volumen desde el valor de ConfigMap.',
   REFFER_SECRET_DESC: 'Agregue un nuevo volumen desde el valor Secreto.',
   MONITORING_ALERT_DESC:
-    'El gráfico de monitoreo actual muestra cinco réplicas como máximo. Puede hacer clic en &quot;Ver todas las réplicas&quot; para ver más gráficos de monitoreo si el número de réplicas supera las cinco.',
+    'El gráfico de monitoreo actual muestra cinco réplicas como máximo. Puede hacer clic en "Ver todas las réplicas" para ver más gráficos de monitoreo si el número de réplicas supera las cinco.',
   RESOURCE_REQUESTS: 'Solicitud',
   RESOURCE_LIMITS: 'Límite',
   CONTAINER_CPU_DESC:
@@ -605,7 +605,7 @@ export default {
   COLLECT_SAVED_LOG_DESC:
     'Ha habilitado la opción de recopilar los registros en el disco. Agregue al menos un volumen y especifique el directorio en el que se encuentra el registro.',
   PROJECT_COLLECT_SAVED_DISABLED_DESC:
-    'Póngase en contacto con el administrador del proyecto para habilitar la recopilación de registros de disco en &quot;Configuración del proyecto =&gt; Configuración avanzada&quot;.',
+    'Póngase en contacto con el administrador del proyecto para habilitar la recopilación de registros de disco en "Configuración del proyecto => Configuración avanzada".',
   COLLECT_FILE_LOG_TIP:
     'Cuando agrega PersistentVolumeClaim （PVC (modo de lectura y escritura), puede recopilar información de registro del PVC. Una vez que esté habilitado, la imagen de pod de archivo, que se puede utilizar para recopilar registros relevantes, se instalará a través de SideCar.',
   ISTIO_PROTOCOL_TIP:

@@ -71,8 +71,8 @@ export default {
     'Tendencias en el número total de eventos en las últimas 12 horas.',
   'Trends in the total number of logs in the last 12 hours':
     'Tendencias en el número total de registros en las últimas 12 horas.',
-  LOG_DATE: 'AAAA / MM / DD HH: mm',
-  EVENT_DATE: 'AAAA / MM / DD 00:00',
+  LOG_DATE: 'DD/MM/YYYY HH:mm',
+  EVENT_DATE: 'DD/MM/YYYY 00:00',
   ES_DESC:
     'Elasticsearch es un motor de búsqueda y análisis distribuido y RESTful.',
   KAFKA_DESC:
@@ -81,7 +81,7 @@ export default {
     'Fluentd es un recopilador de datos de código abierto para la capa de registro unificada.',
   TOTAL_COLLECTIONS: 'Total de {num} recolectores de registros',
   TOOLBOX_SHIFT_TIPS:
-    '👻 Puedes abrir la página en una nueva ventana con &quot;MAYÚS + CLIC IZQUIERDO&quot;.',
+    '👻 Puedes abrir la página en una nueva ventana con "MAYÚS + CLIC IZQUIERDO".',
   LOG_COLLECTION_DESC:
     'El sistema recopilará los registros stdout y stderr de cada contenedor y los enviará a uno o más servicios de destino.',
   LOG_COLLECTION_ENABLE_TIPS:
@@ -100,7 +100,7 @@ export default {
     'Si su elasticsearch tiene la función de autenticación local incorporada en x-pack, configura un nombre de usuario y contraseña.',
   'Search Log by': 'Buscar logs por {field}',
   'KeyWord Log Query Tip':
-    'Introduce la palabra clave para encontrar el log. También puedes encontrar el log de errores por palabras clave como &quot;Error&quot;, &quot;Fail&quot;, &quot;Fatal&quot;, &quot;Exception&quot; y &quot;Warning&quot;.',
+    'Introduce la palabra clave para encontrar el log. También puedes encontrar el log de errores por palabras clave como "Error", "Fail", "Fatal", "Exception" y "Warning".',
   'Project Log Query Tip':
     'Puedes ver la información de log relacionada de acuerdo con el nombre del proyecto.',
   'Workload Log Query Tip':

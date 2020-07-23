@@ -385,9 +385,9 @@ export default {
   DETAILS: 'Detalles',
   NODES: 'Nodos',
   NAME_DESC:
-    'Solo puede contener letras minúsculas, números y guiones (&quot;-&quot;), y debe comenzar con una letra minúscula y terminar con un número o letra minúscula. La longitud máxima de carácteres se establece en 63.',
+    'Solo puede contener letras minúsculas, números y guiones ("-"), y debe comenzar con una letra minúscula y terminar con un número o letra minúscula. La longitud máxima de carácteres se establece en 63.',
   LONG_NAME_DESC:
-    'Solo puede contener letras minúsculas, números y guiones (&quot;-&quot;), y debe comenzar con una letra minúscula y terminar con un número o letra minúscula. La longitud máxima de carácteres se establece en 253.',
+    'Solo puede contener letras minúsculas, números y guiones ("-"), y debe comenzar con una letra minúscula y terminar con un número o letra minúscula. La longitud máxima de carácteres se establece en 253.',
   NAME_TOO_LONG: 'La longitud máxima de carácteres se establece en 63.',
   LONG_NAME_TOO_LONG: 'La longitud máxima de carácteres se establece en 253.',
   DESCRIPTION_DESC:
@@ -411,7 +411,7 @@ export default {
   DESTROY_TIP:
     '¿Estás seguro de que deseas destruir el {type} <strong>{resource}</strong> ?',
   LABEL_FORMAT_DESC:
-    'La label tiene un máximo de 63 carácteres para clave y valor, la clave está limitada a 253 carácteres si contiene un nombre de dominio. Solo puedes contener letras mayúsculas y minúsculas, números, guiones (&quot;-&quot;), guiones bajos (_) y puntos (.), Y debe comenzar y terminar con un número o letras.',
+    'La label tiene un máximo de 63 carácteres para clave y valor, la clave está limitada a 253 carácteres si contiene un nombre de dominio. Solo puedes contener letras mayúsculas y minúsculas, números, guiones ("-"), guiones bajos (_) y puntos (.), Y debe comenzar y terminar con un número o letras.',
   add_: 'Añadir',
   REMOVE_MEMBER_TIP:
     '¿Estás seguro de que deseas eliminar el miembro <strong>{resource}</strong> ?',
