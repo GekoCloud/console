@@ -22,6 +22,8 @@ export default {
   'Add Taint': 'Agregar mancha',
   'Add Type': 'Añadir tipo',
   'All Nodes': 'Todos los nodos',
+  'Allocated CPU': 'CPU reservada',
+  'Allocated Memory': 'Memory reservada',
   Annotations: 'Anotaciones',
   Architecture: 'Arquitectura',
   'Cluster Node': 'Nodo de clúster',

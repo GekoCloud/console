@@ -392,7 +392,7 @@ export default {
     <li> Distribución sin kubectl </li>
     <li> Sustitución variable en Jenkinsfile, es posible la implementación dinámica. </li>
     <li> Soporte para dibujar imágenes acoplables desde repositorios de imágenes privadas </li>
-    <label>Actualmente, este paso admite los siguientes recursos:</label> 
+    <label> Actualmente, este paso admite los siguientes recursos:</label> 
     <br />
     <li> Configuración </li>
     <li> Llave </li>

@@ -272,7 +272,7 @@ export default {
   Reselect: 'Seleccionar de nuevo',
   Reset: 'Reiniciar',
   'Resource List': 'Lista de recursos',
-  Resources: 'Recursos',
+  Resource: 'Recurso',
   Restart: 'Reiniciar',
   Running: 'En ejecución',
   running: 'en ejecución',
@@ -390,10 +390,8 @@ export default {
     'Solo puede contener letras minúsculas, números y guiones (&quot;-&quot;), y debe comenzar con una letra minúscula y terminar con un número o letra minúscula. La longitud máxima de carácteres se establece en 253.',
   NAME_TOO_LONG: 'La longitud máxima de carácteres se establece en 63.',
   LONG_NAME_TOO_LONG: 'La longitud máxima de carácteres se establece en 253.',
-  LONG_DESC_TOO_LONG: 'La longitud máxima de carácteres se establece en 1000.',
   DESCRIPTION_DESC:
     'La descripción se agregará al elemento como un comentario y se mostrará en los detalles de la aplicación. La descripción está limitada a 1000 caracteres.',
-  SHORT_DESCRIPTION_DESC: 'La descripción está limitada a 1000 carácteres.',
   PROJECT_DESC:
     'Los proyectos se agruparán por sus recursos, que puedes ver y administrar por proyecto.',
   'MULTI-CLUSTER_PROJECT_CREATE_DESC':

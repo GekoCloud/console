@@ -153,4 +153,8 @@ export default {
   CLUSTER_VISIBILITY_Q2: '¿Qué es un clúster público?',
   CLUSTER_VISIBILITY_A2:
     'Un clúster público significa que todos los usuarios de la plataforma pueden acceder al clúster, en el que pueden crear y programar recursos.',
+  SELECT_HOST_CLUSTER_WARNING:
+    'Por favor, intenta no crear recursos en el clúster huésped (host) para evitar cargas excesivas, lo que podría llevar a disminuir la estabilidad en todos los clústers.',
+  HOST_CLUSTER_VISIBILITY_WARNING:
+    'Por favor, ten cuidado al autorizar el clúster huésped (host) en el workspace. Si la carga del clúster es demasiado alta, la estabilidad disminuirá en todos los clústers.',
 }

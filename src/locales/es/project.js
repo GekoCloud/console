@@ -212,4 +212,10 @@ export default {
     'No se pueden crear recursos de proyectos de múltiples clústeres en la administración de clústeres, vaya a la página del proyecto de múltiples clústeres para operar.',
   FEDPROJECT_CANNOT_DEPLOY_APP_TIP:
     'No se pueden implementar aplicaciones en proyectos de múltiples clústeres.',
+  MULTI_CLUSER_PROJECT_TIP:
+    'El proyecto multi-cluster actual se ejecuta en distintos clústers. Puedes saltar entre clústers para comprobar los parámetros de este proyecto en cada uno de ellos.',
+  MULTI_CLUSER_RESOURCE_TIP:
+    'El recurso multi-cluster actual se ejecuta en distintos clústers. Puedes saltar entre clústers para comprobar los parámetros de este recurso en cada uno de ellos.',
+  MULTI_CLUSTER_PROJECT_CREATE_DESC:
+    'Un proyecto multi-cluster se ejecuta sobre distintos clústers a la vez, lo que ayuda a que puedas construir un entorno de contenedores para una rápida iteración de aplicaciones y conseguir alta disponibilidad.',
 }

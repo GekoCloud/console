@@ -141,7 +141,7 @@ export default {
   'Version No': 'Version No',
   'Very helpful when users search for apps':
     'Muy útil cuando los usuarios buscan aplicaciones',
-  'Website format is error': 'El formato del Sitio Web es erróneo',
+  'Wrong website format': 'El formato del Sitio Web es erróneo',
 
   FILE_UPLOAD_MAX: 'El tamaño de fichero no puedes exceder 2M.',
 

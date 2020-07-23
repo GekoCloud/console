@@ -24,8 +24,7 @@ export default {
     'Agregar regla de acceso a Internet para la aplicación',
   'Add New Component': 'Agregar nuevo componente',
   'Add Service': 'Agregar servicio',
-  'Add stateful or stateless services':
-    'Agregar servicios con o sin estado',
+  'Add stateful or stateless services': 'Agregar servicios con o sin estado',
   'App Description': 'Descripción de la aplicación',
   'App store deployment': 'Despliegue desde la tienda de aplicaciones',
   'App Template': 'Plantilla de la aplicación',
@@ -117,8 +116,7 @@ export default {
     'Por favor guarda el formulario actual primero',
   'Please try other query conditions':
     'Por favor prueba otras condiciones en la consulta',
-  'Pod isolation ratio (unit: %)':
-    'Relación de aislamiento del Pod (unidad:%)',
+  'Pod isolation ratio (unit: %)': 'Relación de aislamiento del Pod (unidad:%)',
   Process: 'Proceso',
   Receive: 'Recibir',
   Rollback: 'Rollback',
@@ -171,8 +169,6 @@ export default {
   LB_RANDOM: 'RANDOM',
   CLUSTER_NAME_DESC:
     'Solo puede contener letras minúsculas, números y guiones ("-"), y debe comenzar con una letra minúscula y terminar con un número o letra minúscula. La longitud máxima de caracteres se establece en 14.',
-  CLUSTER_ALIAS_DESC:
-    'El alias puede estar compuesto por cualquier carácter, ayudándote a distinguir mejor los recursos.',
   COMPONENT_VERSION_DESC:
     'Para gestión, ayudándote a distinguir entre componentes. Solo puede contener letras minúsculas y números. La longitud máxima de caracteres se establece en 16.',
   APP_WORKLOAD_TYPE_DESC:
@@ -222,4 +218,6 @@ export default {
     'El servicio de tracing depende del módulo de microservicios, el clúster actual no tiene habilitado dicho módulo',
   APPLICATION_SERVICE_DESC:
     'Puedes configurar diferentes componentes de servicio basándote en el tipo de servicio dentro de una aplicación. Tanto los servicios con estado como los sin estado están soportados.',
+  INTERNET_ACCESS_DESC:
+    'Puedes definir las reglas de acceso a internet para la aplicación (Ingress).',
 }
