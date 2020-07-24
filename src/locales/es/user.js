@@ -17,7 +17,7 @@
  */
 
 export default {
-  'A built-in cluster administrator': 'Un administrador de clúster incorporado',
+  'A built-in cluster administrator': 'Un administrador de clúster integrado',
   Accounts: 'Cuentas',
   'Add User': 'Agregar usuario',
   'At least 1 number': 'Al menos 1 número',
@@ -26,13 +26,13 @@ export default {
   'Authorized Projects': 'Proyectos autorizados',
   Avatar: 'Avatar',
   'Avoid using the password that has already been used on other websites or the one that can be easily guessed.':
-    'Evite utilizar la contraseña que ya se ha utilizado en otros sitios web o la que se puedes adivinar fácilmente.',
+    'Evite utilizar la contraseña que ya ha utilizado en otros sitios web o que se pueda adivinar fácilmente.',
   'Change Password': 'Cambia la contraseña',
   'Create User': 'Crear usuario',
   'Current Password': 'contraseña actual',
   'Edit User': 'editar usuario',
   Email: 'Email',
-  'Email exists': 'Existe el email',
+  'Email exists': 'EL email ya existe',
   'Invalid email': 'Email inválido',
   'Invalid user name': 'Nombre de usuario no válido',
   'Last Login Time': 'Última hora de inicio de sesión',
@@ -42,12 +42,12 @@ export default {
   'Password length is at least 6 characters':
     'La longitud de la contraseña es de al menos 6 caracteres.',
   'Password Setting': 'Configuración de contraseña',
-  'Password Strength': 'seguridad de la contraseña',
+  'Password Strength': 'Seguridad de la contraseña',
   'Please input current password': 'Por favor introduce la contraseña actual',
   'Please input email': 'Por favor introduce el correo electrónico',
   'Please input user name': 'Por favor introduce el nombre de usuario',
   'Please repeat the new password': 'Por favor repita la nueva contraseña',
-  'Please select role': 'Por favor selecciona papel',
+  'Please select role': 'Por favor selecciona un rol',
   'Repeat the new password': 'Repite la nueva contraseña',
   'The password entered twice must be the same':
     'La contraseña ingresada dos veces debe ser la misma',
@@ -55,20 +55,20 @@ export default {
   'Unable to delete itself': 'No se puedes eliminar',
   User: 'Usuario',
   'User Management': 'Gestión de usuarios',
-  'User name exists': 'Nombre de usuario existe',
-  Users: 'Los usuarios',
-  users: 'los usuarios',
+  'User name exists': 'El ombre de usuario ya existe',
+  Users: 'Usuarios',
+  users: 'usuarios',
   'You must enter the correct current password to change to a new password.':
-    'Debe ingresar la contraseña actual correcta para cambiar a una nueva contraseña.',
+    'Debe ingresar correctamente la contraseña actual para cambiar a una nueva contraseña.',
   'Your password must meet the following requirements':
     'Su contraseña debe cumplir con los siguientes requisitos',
   user_active: 'Activo',
   USER_ACTIVE: 'Activo',
   USER_PENDING: 'Pendiente',
-  USER_DISABLED: 'Discapacitado',
+  USER_DISABLED: 'Deshabilitado',
   USER_NAME_DESC:
     'El nombre de usuario solo puedes contener letras minúsculas y números.',
-  EMAIL_DESC: '',
+  EMAIL_DESC: 'El responsable del proyecto puede utilizar la dirección de correo electrónico para agregarlo como miembro del proyecto.',
   USER_SETTING_EMAIL_DESC:
     'El correo electrónico se utiliza para iniciar sesión.',
   PASSWORD_DESC:
@@ -84,7 +84,7 @@ export default {
   USER_AVATAR_TIP:
     'El tamaño del avatar debe ser inferior a 120 px X 120 px y debe admitir el formato png, jpg.',
   MEMBER_ROLE_CREATE_DESC:
-    'Los roles de administración de derechos de usuario dependen de la definición, el rol identifica la identidad del usuario, define la relación entre el usuario y puedes acceder a recursos / operaciones. Cuando KubeSphere no cumple con los requisitos de los roles preestablecidos, de acuerdo con la situación real, cree un rol personalizado para un usuario, roles autodefinidos que es la mayor ventaja de la gestión detallada de los recursos de la plataforma, especifique lo que el rol ha especificado autorización de recursos.',
+    'Lo que un usuario está autorizado a hacer depende de la función que define la identidad del usuario, así como de la relación entre el usuario y los recursos que el usuario tiene acceso para ver y manejar. Los usuarios pueden crear roles personalizados cuando el rol preestablecido de KubeSphere no satisface sus necesidades. La mayor ventaja de los roles personalizados es que se pueden configurar para admitir la gestión detallada de los recursos de la plataforma, ya que se pueden autorizar diferentes roles para acceder a diferentes recursos',
   CLUSTER_ROLE_DESC:
     'Este módulo le permite administrar el acceso de los usuarios dentro de un clúster.',
 }

@@ -32,7 +32,7 @@ export default {
   'Disk Utilization': 'Utilización de disco',
   'Inbound Traffic': 'Tráfico entrante',
   'involved project': 'proyecto involucrado',
-  Jobs: 'Trabajos',
+  Jobs: 'Jobs',
   'KubeSphere Running Status': 'Estado de ejecución de KubeSphere',
   'Last login time': 'Última hora de inicio de sesión',
   'Local Storage': 'Almacenamiento local',

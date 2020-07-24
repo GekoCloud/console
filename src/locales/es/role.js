@@ -25,9 +25,8 @@ export default {
   'Alerting Policies View': 'Vista de políticas de alerta',
   'App Templates Management': 'Gestión de plantillas de aplicaciones',
   'App Templates View': 'Vista de plantillas de aplicaciones',
-  'Application Workloads Management':
-    'Gestión de cargas de trabajo de aplicaciones',
-  'Application Workloads View': 'Vista de cargas de trabajo de aplicaciones',
+  'Application Workloads Management': 'Gestión de workload de aplicaciones',
+  'Application Workloads View': 'Vista de workload de aplicaciones',
   'Authorization List': 'Lista de autorizaciones',
   'Authorization Settings': 'Configuración de autorización',
   'Authorized Actions': 'Acciones autorizadas',
@@ -262,9 +261,9 @@ export default {
   CLUSTER_MONITORING_VIEW_DESC:
     'Ver los recursos físicos del clúster y los datos de monitorización de los recursos de la aplicación.',
   APPLICATION_WORKLOADS_VIEW_DESC:
-    'Ver aplicaciones, servicios, cargas de trabajo y tareas en el proyecto.',
+    'Ver aplicaciones, servicios, workload y tareas en el proyecto.',
   APPLICATION_WORKLOADS_MANAGEMENT_DESC:
-    'Crear, editar y eliminar aplicaciones, servicios, cargas de trabajo y tareas en el proyecto.',
+    'Crear, editar y eliminar aplicaciones, servicios, workload y tareas en el proyecto.',
   VOLUMES_VIEW_DESC: 'Ver volúmenes de proyectos',
   VOLUMES_MANAGEMENT_DESC: 'Crear / editar / eliminar volúmenes de proyecto',
   SECRETS_VIEW_DESC: 'Ver secretos del proyecto',

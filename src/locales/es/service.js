@@ -24,38 +24,39 @@ export default {
   'Add Route Rule': 'Agregar regla de ruta',
   'Add Selector': 'Agregar selector',
   'Associated Application': 'Solicitud asociada',
-  'Automatically assign Service IP': 'Asigna automáticamente IP de servicio',
+  'Automatically assign Service IP':
+    'Asigna automáticamente una IP de servicio',
   'Commonly included tags in the current workloads':
     'Etiquetas comúnmente incluidas en las cargas de trabajo actuales',
   'Container Port': 'Puerto de contenedores',
   'Create Service': 'Crear servicio',
   'Create service by specifying workloads':
-    'Crear servicio especificando cargas de trabajo',
+    'Crear servicio especificando carga de trabajo',
   'Create service by Yaml': 'Crear servicio por Yaml',
   Creating: 'Creando',
   'Creation failed, please delete and try again':
-    'Creación fallida, borre e intente nuevamente',
+    'Creación fallida, por favor, elimínela e intente de nuevo',
   'Custom Creation': 'Creacion personalizada',
   'Delete Service': 'Eliminar servicio',
-  'Do not assign Service IP': 'No asigne IP de servicio',
+  'Do not assign Service IP': 'No asignar IP de servicio',
   'Edit Internet Access': 'Editar acceso a Internet',
   'Edit Service': 'Servicio de edición',
-  'Enable Sticky Session': 'Habilitar sesión fija',
+  'Enable Sticky Session': 'Habilitar Sticky Session',
   'External Address': 'Dirección Externa',
   'External Service': 'Servicio externo',
   'Internal access': 'Acceso interno',
   'Invalid port': 'Puerto inválido',
   'Language Type': 'Tipo de idioma',
-  'LoadBalancer IP': 'LoadBalancer IP',
+  'LoadBalancer IP': 'IP del balanceador',
   'Map Services outside the cluster': 'Servicios de mapas fuera del clúster',
   'Maximum Session Sticky Time (s)': 'Tiempo máximo de sesión (s)',
   'No related resources found with current service(s)':
     'No se encontraron recursos relacionados con los servicios actuales',
   'Node Port': 'Puerto de nodo',
-  'Node Port(s)': 'Puerto (s) de nodo',
+  'Node Port(s)': 'Puerto(s) de nodo',
   'Not Associate': 'No asociado',
   'Path is Required': 'La ruta es obligatoria',
-  'Please input ExternalName': 'Por favor introduce ExternalName',
+  'Please input ExternalName': 'Por favor introduce el ExternalName',
   'Please input ports': 'Por favor introduce puertos',
   'Please input selectors that have corresponding workloads':
     'Introduce los selectores que tienen las cargas de trabajo correspondientes',
@@ -76,21 +77,22 @@ export default {
   'Simple Service': 'Servicio simple',
   'Specify Workload': 'Especificar carga de trabajo',
   'Specify Workloads': 'Especificar cargas de trabajo',
-  'Stateful Service': 'Servicio con estado',
-  'Stateless Service': 'Servicio sin estado',
-  'Sure to delete the service(s)?': '¿Seguro para eliminar los servicios?',
-  'Target Port': 'Puerto objetivo',
+  'Stateful Service': 'Stateful Service',
+  'Stateless Service': 'Stateless Service',
+  'Sure to delete the service(s)?':
+    '¿Seguro que quiere eliminar los servicios?',
+  'Target Port': 'Puerto destino',
   'The current selector': 'El selector actual',
   'The maximum session sticky time is 10800s (3 hours).':
-    'El tiempo de permanencia máximo de la sesión es de 10800 s (3 horas).',
+    'El tiempo de máximo de la sesión es de 10800 s (3 horas).',
   'Virtual IP': 'IP virtual',
   SERVICE_EXTERNAL_NAME_DESC:
     'Asigne el servicio al contenido del campo externalName devolviendo un registro CNAME con su valor.',
   TOTAL_WORKLOAD: '{count} cargas de trabajo en total',
   SERVICE_SELECTOR_AFFECT_1: '',
-  SERVICE_SELECTOR_AFFECT_2: 'afectar las cargas de trabajo de {count}',
+  SERVICE_SELECTOR_AFFECT_2: 'afectar las workload de {count}',
   SERVICE_NAME_DESC:
-    'Solo puedes contener letras minúsculas, números y guiones (&quot;-&quot;), y debe comenzar con una letra minúscula y terminar con un número o letra minúscula. La longitud máxima de caracteres se establece en 63.',
+    'Solo puede contener letras minúsculas, números y guiones ("-"), y debe comenzar con una letra minúscula y terminar con un número o letra minúscula. La longitud máxima de caracteres se establece en 63.',
   SERVICE_DESC:
     'Un servicio es una abstracción que define una colección lógica de Pods y una estrategia para acceder a ellos.',
   SERVICE_CREATE_DESC:
@@ -105,18 +107,18 @@ export default {
   VIRTUAL_IP_DESC:
     'Basado en la IP única generada por el clúster. La IP se puedes usar para acceder al servicio dentro del clúster.',
   HEADLESS_SELECTOR_TITLE:
-    'Sin cabeza (selector): acceso directo al servicio a través de la IP del punto final del servicio dentro del clúster',
+    'Sin cabecera (selector): acceso directo al servicio a través de la IP del punto final del servicio dentro del clúster',
   HEADLESS_SELECTOR_DESC:
     'El clúster no creará una IP para el servicio. En cambio, los clientes dentro del clúster acceden directamente a través de sus puntos finales. Por ejemplo, servicios que necesitan distinguir maestro de esclavo.',
   HEADLESS_EXTERNAL_NAME_TITLE:
-    'Sin cabeza (nombre externo): direcciones de mapas fuera del clúster para visitar',
+    'Sin cabecera (nombre externo): direcciones de mapas fuera del clúster para visitar',
   HEADLESS_EXTERNAL_NAME_DESC:
     'Asigne servicios externos a un clúster o proyecto.',
   ACCESS_NONE_TIP: 'Hacer el servicio accesible solo internamente',
   ACCESS_NODEPORT_TIP:
     'Exponga el servicio en la IP de cada nodo en un puerto estático',
   ACCESS_LOADBALANCER_TIP:
-    'Exponga el servicio externamente utilizando el equilibrador de carga del proveedor de la nube',
+    'Exponga el servicio externamente utilizando el balanceador de carga del proveedor en la nube',
   SERVICE_NODE_PORT_DESC:
     'Si su red actual está en la misma red que el nodo del clúster, puedes acceder a ella a través de la dirección IP del clúster + número de puerto del nodo o a través del puerto del nodo IP + nodo.',
   SERVICE_TYPE: 'Puedes crear un servicio sin estado o un servicio con estado.',
@@ -144,7 +146,7 @@ export default {
   SERVICE_TYPE_STATELESSSERVICE: 'Servicio sin estado',
   SERVICE_TYPE_EXTERNALSERVICE: 'Servicio externo',
   STATEFUL_SERVICE_DESC:
-    'Los servicios con estado se usan para administrar aplicaciones con estado, asegurando un despliegue y escala ordenada y elegante. También proporcionan almacenamiento persistente estable e identificadores de red.',
+    'Los servicios con estado o stateful se usan para administrar aplicaciones con estado, asegurando un despliegue y escala ordenada y elegante. También proporcionan almacenamiento persistente estable e identificadores de red.',
   STATELESS_SERVICE_DESC:
     'El servicio más utilizado en servicios de contenedores. Define la plantilla del Pod para controlar el estado del Pod, incluidas las actualizaciones continuas y los retrocesos.',
   SERVISE_SIMPLE_DESC: 'Crea un servicio con Pods existentes.',
